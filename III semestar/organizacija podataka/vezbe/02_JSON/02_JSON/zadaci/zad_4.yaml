@@ -1,0 +1,6 @@
+- !!zad_1.Putanja {brKarata: '25', cena: '554.0752283333178', datum: 10.11.2021.,
+  dolazak: Subotica, id: '2', peron: '10', polazak: Beograd, vremeDolaska: '07:00',
+  vremePolazak: '06:00'}
+- !!zad_1.Putanja {brKarata: '18', cena: '164.05233241125507', datum: 12.11.2021.,
+  dolazak: Subotica, id: '4', peron: '16', polazak: Beograd, vremeDolaska: '07:00',
+  vremePolazak: '06:00'}

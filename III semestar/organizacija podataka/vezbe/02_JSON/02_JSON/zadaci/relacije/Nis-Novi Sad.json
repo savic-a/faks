@@ -1,0 +1,11 @@
+[ {
+  "id" : "16",
+  "polazak" : "Nis",
+  "dolazak" : "Novi Sad",
+  "datum" : "10.11.2021.",
+  "vremePolazak" : "06:00",
+  "vremeDolaska" : "11:00",
+  "peron" : "7",
+  "cena" : "768.4130703639139",
+  "brKarata" : "15"
+} ]

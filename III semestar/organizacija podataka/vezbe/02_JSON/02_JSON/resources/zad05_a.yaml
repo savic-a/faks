@@ -1,0 +1,30 @@
+- !!VezbanjeZaKol.Iznajmljivanje
+    auto:
+        godina: '2010'
+        model: Mercedes
+    broj_dana: -1
+    cena: 6000.0
+    datum_iznajmljivanja: 10.11.2021.
+    datum_vracanja: ''
+    kilometri: -1.0
+    mesto: Novi Sad
+    osoba:
+        ime: Marko
+        maticni_broj: '111'
+        prezime: Markovic
+    sifra: '03'
+- !!VezbanjeZaKol.Iznajmljivanje
+    auto:
+        godina: '2019'
+        model: BMW
+    broj_dana: 10
+    cena: 1000.0
+    datum_iznajmljivanja: 1.11.2021.
+    datum_vracanja: 10.11.2021.
+    kilometri: 30.0
+    mesto: Novi Sad
+    osoba:
+        ime: Janko
+        maticni_broj: '222'
+        prezime: Jankovic
+    sifra: '03'

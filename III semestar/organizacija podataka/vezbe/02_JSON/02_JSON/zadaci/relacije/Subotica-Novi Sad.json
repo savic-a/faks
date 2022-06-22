@@ -1,0 +1,11 @@
+[ {
+  "id" : "30",
+  "polazak" : "Subotica",
+  "dolazak" : "Novi Sad",
+  "datum" : "10.11.2021.",
+  "vremePolazak" : "06:00",
+  "vremeDolaska" : "07:00",
+  "peron" : "13",
+  "cena" : "476.72296803973535",
+  "brKarata" : "42"
+} ]

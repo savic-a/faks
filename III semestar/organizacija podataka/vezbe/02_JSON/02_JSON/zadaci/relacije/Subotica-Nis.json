@@ -1,0 +1,11 @@
+[ {
+  "id" : "31",
+  "polazak" : "Subotica",
+  "dolazak" : "Nis",
+  "datum" : "10.11.2021.",
+  "vremePolazak" : "06:00",
+  "vremeDolaska" : "07:00",
+  "peron" : "6",
+  "cena" : "928.4952206588514",
+  "brKarata" : "40"
+} ]

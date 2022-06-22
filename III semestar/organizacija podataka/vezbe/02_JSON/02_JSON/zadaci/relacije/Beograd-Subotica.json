@@ -1,0 +1,31 @@
+[ {
+  "id" : "2",
+  "polazak" : "Beograd",
+  "dolazak" : "Subotica",
+  "datum" : "10.11.2021.",
+  "vremePolazak" : "06:00",
+  "vremeDolaska" : "07:00",
+  "peron" : "10",
+  "cena" : "554.0752283333178",
+  "brKarata" : "25"
+}, {
+  "id" : "3",
+  "polazak" : "Beograd",
+  "dolazak" : "Subotica",
+  "datum" : "10.11.2021.",
+  "vremePolazak" : "07:00",
+  "vremeDolaska" : "11:00",
+  "peron" : "3",
+  "cena" : "433.4026947104399",
+  "brKarata" : "4"
+}, {
+  "id" : "4",
+  "polazak" : "Beograd",
+  "dolazak" : "Subotica",
+  "datum" : "12.11.2021.",
+  "vremePolazak" : "06:00",
+  "vremeDolaska" : "07:00",
+  "peron" : "16",
+  "cena" : "164.05233241125507",
+  "brKarata" : "18"
+} ]

@@ -1,0 +1,29 @@
+[ {
+  "contryName" : "South Georgia and South Sandwich Islands",
+  "capitalName" : "King Edward Point",
+  "capitalLatitude" : "-54.283333",
+  "capitalLongitude" : "-36.500000",
+  "contryCode" : "GS",
+  "continentName" : "Antarctica"
+}, {
+  "contryName" : "French Southern and Antarctic Lands",
+  "capitalName" : "Port-aux-FranÃ§ais",
+  "capitalLatitude" : "-49.35",
+  "capitalLongitude" : "70.216667",
+  "contryCode" : "TF",
+  "continentName" : "Antarctica"
+}, {
+  "contryName" : "Antarctica",
+  "capitalName" : "N/A",
+  "capitalLatitude" : "0",
+  "capitalLongitude" : "0.000000",
+  "contryCode" : "AQ",
+  "continentName" : "Antarctica"
+}, {
+  "contryName" : "Heard Island and McDonald Islands",
+  "capitalName" : "N/A",
+  "capitalLatitude" : "0",
+  "capitalLongitude" : "0.000000",
+  "contryCode" : "HM",
+  "continentName" : "Antarctica"
+} ]

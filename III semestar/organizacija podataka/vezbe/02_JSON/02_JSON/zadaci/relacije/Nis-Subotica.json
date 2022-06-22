@@ -1,0 +1,41 @@
+[ {
+  "id" : "17",
+  "polazak" : "Nis",
+  "dolazak" : "Subotica",
+  "datum" : "10.11.2021.",
+  "vremePolazak" : "06:00",
+  "vremeDolaska" : "11:00",
+  "peron" : "12",
+  "cena" : "669.8635697912584",
+  "brKarata" : "39"
+}, {
+  "id" : "18",
+  "polazak" : "Nis",
+  "dolazak" : "Subotica",
+  "datum" : "11.11.2021.",
+  "vremePolazak" : "06:00",
+  "vremeDolaska" : "11:00",
+  "peron" : "6",
+  "cena" : "852.5282998741322",
+  "brKarata" : "33"
+}, {
+  "id" : "19",
+  "polazak" : "Nis",
+  "dolazak" : "Subotica",
+  "datum" : "11.11.2021.",
+  "vremePolazak" : "07:00",
+  "vremeDolaska" : "08:00",
+  "peron" : "19",
+  "cena" : "947.2876075550993",
+  "brKarata" : "28"
+}, {
+  "id" : "20",
+  "polazak" : "Nis",
+  "dolazak" : "Subotica",
+  "datum" : "12.11.2021.",
+  "vremePolazak" : "06:00",
+  "vremeDolaska" : "09:00",
+  "peron" : "15",
+  "cena" : "815.6810891567623",
+  "brKarata" : "41"
+} ]

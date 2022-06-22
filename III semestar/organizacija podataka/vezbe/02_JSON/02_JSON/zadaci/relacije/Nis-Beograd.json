@@ -1,0 +1,31 @@
+[ {
+  "id" : "13",
+  "polazak" : "Nis",
+  "dolazak" : "Beograd",
+  "datum" : "10.11.2021.",
+  "vremePolazak" : "06:00",
+  "vremeDolaska" : "10:00",
+  "peron" : "3",
+  "cena" : "600.734028850977",
+  "brKarata" : "26"
+}, {
+  "id" : "14",
+  "polazak" : "Nis",
+  "dolazak" : "Beograd",
+  "datum" : "11.11.2021.",
+  "vremePolazak" : "06:00",
+  "vremeDolaska" : "11:00",
+  "peron" : "5",
+  "cena" : "820.9718048392598",
+  "brKarata" : "13"
+}, {
+  "id" : "15",
+  "polazak" : "Nis",
+  "dolazak" : "Beograd",
+  "datum" : "12.11.2021.",
+  "vremePolazak" : "06:00",
+  "vremeDolaska" : "08:00",
+  "peron" : "14",
+  "cena" : "774.7451418675627",
+  "brKarata" : "13"
+} ]

@@ -1,0 +1,131 @@
+[ {
+  "id" : "30",
+  "polazak" : "Subotica",
+  "dolazak" : "Novi Sad",
+  "datum" : "10.11.2021.",
+  "vremePolazak" : "06:00",
+  "vremeDolaska" : "07:00",
+  "peron" : "13",
+  "cena" : "476.72296803973535",
+  "brKarata" : "42"
+}, {
+  "id" : "13",
+  "polazak" : "Nis",
+  "dolazak" : "Beograd",
+  "datum" : "10.11.2021.",
+  "vremePolazak" : "06:00",
+  "vremeDolaska" : "10:00",
+  "peron" : "3",
+  "cena" : "600.734028850977",
+  "brKarata" : "26"
+}, {
+  "id" : "14",
+  "polazak" : "Nis",
+  "dolazak" : "Beograd",
+  "datum" : "11.11.2021.",
+  "vremePolazak" : "06:00",
+  "vremeDolaska" : "11:00",
+  "peron" : "5",
+  "cena" : "820.9718048392598",
+  "brKarata" : "13"
+}, {
+  "id" : "15",
+  "polazak" : "Nis",
+  "dolazak" : "Beograd",
+  "datum" : "12.11.2021.",
+  "vremePolazak" : "06:00",
+  "vremeDolaska" : "08:00",
+  "peron" : "14",
+  "cena" : "774.7451418675627",
+  "brKarata" : "13"
+}, {
+  "id" : "24",
+  "polazak" : "Zrenjanin",
+  "dolazak" : "Subotica",
+  "datum" : "10.11.2021.",
+  "vremePolazak" : "06:00",
+  "vremeDolaska" : "10:00",
+  "peron" : "18",
+  "cena" : "285.29171863117654",
+  "brKarata" : "35"
+}, {
+  "id" : "25",
+  "polazak" : "Zrenjanin",
+  "dolazak" : "Subotica",
+  "datum" : "10.11.2021.",
+  "vremePolazak" : "07:00",
+  "vremeDolaska" : "09:00",
+  "peron" : "4",
+  "cena" : "126.7126291134184",
+  "brKarata" : "33"
+}, {
+  "id" : "26",
+  "polazak" : "Zrenjanin",
+  "dolazak" : "Subotica",
+  "datum" : "11.11.2021.",
+  "vremePolazak" : "06:00",
+  "vremeDolaska" : "09:00",
+  "peron" : "9",
+  "cena" : "807.9130315690071",
+  "brKarata" : "2"
+}, {
+  "id" : "27",
+  "polazak" : "Zrenjanin",
+  "dolazak" : "Subotica",
+  "datum" : "11.11.2021.",
+  "vremePolazak" : "07:00",
+  "vremeDolaska" : "10:00",
+  "peron" : "12",
+  "cena" : "716.0859779420898",
+  "brKarata" : "22"
+}, {
+  "id" : "17",
+  "polazak" : "Nis",
+  "dolazak" : "Subotica",
+  "datum" : "10.11.2021.",
+  "vremePolazak" : "06:00",
+  "vremeDolaska" : "11:00",
+  "peron" : "12",
+  "cena" : "669.8635697912584",
+  "brKarata" : "39"
+}, {
+  "id" : "18",
+  "polazak" : "Nis",
+  "dolazak" : "Subotica",
+  "datum" : "11.11.2021.",
+  "vremePolazak" : "06:00",
+  "vremeDolaska" : "11:00",
+  "peron" : "6",
+  "cena" : "852.5282998741322",
+  "brKarata" : "33"
+}, {
+  "id" : "19",
+  "polazak" : "Nis",
+  "dolazak" : "Subotica",
+  "datum" : "11.11.2021.",
+  "vremePolazak" : "07:00",
+  "vremeDolaska" : "08:00",
+  "peron" : "19",
+  "cena" : "947.2876075550993",
+  "brKarata" : "28"
+}, {
+  "id" : "20",
+  "polazak" : "Nis",
+  "dolazak" : "Subotica",
+  "datum" : "12.11.2021.",
+  "vremePolazak" : "06:00",
+  "vremeDolaska" : "09:00",
+  "peron" : "15",
+  "cena" : "815.6810891567623",
+  "brKarata" : "41"
+}, {
+  "id" : "5",
+  "polazak" : "Novi Sad",
+  "dolazak" : "Beograd",
+  "datum" : "10.11.2021.",
+  "vremePolazak" : "06:00",
+  "vremeDolaska" : "09:00",
+  "peron" : "5",
+  "cena" : "939.8898481332391",
+  "brKarata" : "9"
+} ]

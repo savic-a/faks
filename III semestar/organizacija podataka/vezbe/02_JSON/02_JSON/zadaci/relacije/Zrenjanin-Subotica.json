@@ -1,0 +1,41 @@
+[ {
+  "id" : "24",
+  "polazak" : "Zrenjanin",
+  "dolazak" : "Subotica",
+  "datum" : "10.11.2021.",
+  "vremePolazak" : "06:00",
+  "vremeDolaska" : "10:00",
+  "peron" : "18",
+  "cena" : "285.29171863117654",
+  "brKarata" : "35"
+}, {
+  "id" : "25",
+  "polazak" : "Zrenjanin",
+  "dolazak" : "Subotica",
+  "datum" : "10.11.2021.",
+  "vremePolazak" : "07:00",
+  "vremeDolaska" : "09:00",
+  "peron" : "4",
+  "cena" : "126.7126291134184",
+  "brKarata" : "33"
+}, {
+  "id" : "26",
+  "polazak" : "Zrenjanin",
+  "dolazak" : "Subotica",
+  "datum" : "11.11.2021.",
+  "vremePolazak" : "06:00",
+  "vremeDolaska" : "09:00",
+  "peron" : "9",
+  "cena" : "807.9130315690071",
+  "brKarata" : "2"
+}, {
+  "id" : "27",
+  "polazak" : "Zrenjanin",
+  "dolazak" : "Subotica",
+  "datum" : "11.11.2021.",
+  "vremePolazak" : "07:00",
+  "vremeDolaska" : "10:00",
+  "peron" : "12",
+  "cena" : "716.0859779420898",
+  "brKarata" : "22"
+} ]

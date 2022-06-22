@@ -1,0 +1,103 @@
+[ {
+  "sifra" : "00",
+  "auto" : {
+    "model" : "BMW",
+    "godina" : "2019"
+  },
+  "mesto" : "Novi Sad",
+  "datum_iznajmljivanja" : "10.10.2021.",
+  "datum_vracanja" : "15.10.2021.",
+  "kilometri" : 30.0,
+  "cena" : 1000.0,
+  "broj_dana" : 5,
+  "osoba" : {
+    "ime" : "Marko",
+    "prezime" : "Markovic",
+    "maticni_broj" : "111"
+  }
+}, {
+  "sifra" : "01",
+  "auto" : {
+    "model" : "BMW",
+    "godina" : "2019"
+  },
+  "mesto" : "Novi Sad",
+  "datum_iznajmljivanja" : "20.10.2021.",
+  "datum_vracanja" : "24.10.2021.",
+  "kilometri" : 20.0,
+  "cena" : 1500.0,
+  "broj_dana" : 4,
+  "osoba" : {
+    "ime" : "Janko",
+    "prezime" : "Jankovic",
+    "maticni_broj" : "222"
+  }
+}, {
+  "sifra" : "02",
+  "auto" : {
+    "model" : "Jugo",
+    "godina" : "2000"
+  },
+  "mesto" : "Novi Sad",
+  "datum_iznajmljivanja" : "19.10.2021.",
+  "datum_vracanja" : "23.10.2021.",
+  "kilometri" : 10.0,
+  "cena" : 1800.0,
+  "broj_dana" : 4,
+  "osoba" : {
+    "ime" : "Branko",
+    "prezime" : "Brankovic",
+    "maticni_broj" : "333"
+  }
+}, {
+  "sifra" : "03",
+  "auto" : {
+    "model" : "Mercedes",
+    "godina" : "2010"
+  },
+  "mesto" : "Novi Sad",
+  "datum_iznajmljivanja" : "20.10.2021.",
+  "datum_vracanja" : "21.10.2021.",
+  "kilometri" : 5.0,
+  "cena" : 3000.0,
+  "broj_dana" : 1,
+  "osoba" : {
+    "ime" : "Stanko",
+    "prezime" : "Stankovic",
+    "maticni_broj" : "444"
+  }
+}, {
+  "sifra" : "03",
+  "auto" : {
+    "model" : "Mercedes",
+    "godina" : "2010"
+  },
+  "mesto" : "Novi Sad",
+  "datum_iznajmljivanja" : "10.11.2021.",
+  "datum_vracanja" : "",
+  "kilometri" : -1.0,
+  "cena" : 6000.0,
+  "broj_dana" : -1,
+  "osoba" : {
+    "ime" : "Marko",
+    "prezime" : "Markovic",
+    "maticni_broj" : "111"
+  }
+}, {
+  "sifra" : "03",
+  "auto" : {
+    "model" : "BMW",
+    "godina" : "2019"
+  },
+  "mesto" : "Novi Sad",
+  "datum_iznajmljivanja" : "1.11.2021.",
+  "datum_vracanja" : "10.11.2021.",
+  "kilometri" : 30.0,
+  "cena" : 1000.0,
+  "broj_dana" : 10,
+  "osoba" : {
+    "ime" : "Janko",
+    "prezime" : "Jankovic",
+    "maticni_broj" : "222"
+  }
+} ]

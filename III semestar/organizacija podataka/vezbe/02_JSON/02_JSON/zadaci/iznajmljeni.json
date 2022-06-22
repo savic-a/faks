@@ -1,0 +1,1171 @@
+[ {
+  "id" : "1",
+  "mesto" : "Zrenjanin",
+  "datum" : "13.11.2021.",
+  "vracanjeDatum" : "18.11.2021.",
+  "km" : "989.1081514430055",
+  "cena" : "897.6213387854067",
+  "brDana" : "4",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "2",
+  "mesto" : "Zrenjanin",
+  "datum" : "12.11.2021.",
+  "vracanjeDatum" : "18.11.2021.",
+  "km" : "989.1081514430055",
+  "cena" : "811.1648735813076",
+  "brDana" : "18",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "3",
+  "mesto" : "Zrenjanin",
+  "datum" : "15.11.2021.",
+  "vracanjeDatum" : "20.11.2021.",
+  "km" : "230.0763684547832",
+  "cena" : "707.0223597207431",
+  "brDana" : "2",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+}, {
+  "id" : "4",
+  "mesto" : "Novi Sad",
+  "datum" : "17.11.2021.",
+  "vracanjeDatum" : "22.11.2021.",
+  "km" : "421.2575654182172",
+  "cena" : "881.1599426829107",
+  "brDana" : "12",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "5",
+  "mesto" : "Novi Sad",
+  "datum" : "13.11.2021.",
+  "vracanjeDatum" : "22.11.2021.",
+  "km" : "421.2575654182172",
+  "cena" : "805.2349638225784",
+  "brDana" : "14",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "6",
+  "mesto" : "Novi Sad",
+  "datum" : "17.11.2021.",
+  "vracanjeDatum" : "22.11.2021.",
+  "km" : "421.2575654182172",
+  "cena" : "953.8560477804836",
+  "brDana" : "1",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+}, {
+  "id" : "7",
+  "mesto" : "Beograd",
+  "datum" : "19.11.2021.",
+  "vracanjeDatum" : "22.11.2021.",
+  "km" : "421.2575654182172",
+  "cena" : "527.552191594403",
+  "brDana" : "0",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "8",
+  "mesto" : "Beograd",
+  "datum" : "13.11.2021.",
+  "vracanjeDatum" : "18.11.2021.",
+  "km" : "883.9536231111716",
+  "cena" : "861.4961661798351",
+  "brDana" : "13",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "9",
+  "mesto" : "Beograd",
+  "datum" : "13.11.2021.",
+  "vracanjeDatum" : "18.11.2021.",
+  "km" : "649.4776403164194",
+  "cena" : "486.045589858395",
+  "brDana" : "19",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+}, {
+  "id" : "10",
+  "mesto" : "Subotica",
+  "datum" : "17.11.2021.",
+  "vracanjeDatum" : "18.11.2021.",
+  "km" : "649.4776403164194",
+  "cena" : "164.75294314905497",
+  "brDana" : "10",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "11",
+  "mesto" : "Subotica",
+  "datum" : "17.11.2021.",
+  "vracanjeDatum" : "18.11.2021.",
+  "km" : "649.4776403164194",
+  "cena" : "742.4407725375902",
+  "brDana" : "13",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "12",
+  "mesto" : "Subotica",
+  "datum" : "19.11.2021.",
+  "vracanjeDatum" : "18.11.2021.",
+  "km" : "649.4776403164194",
+  "cena" : "669.1786162728968",
+  "brDana" : "10",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+}, {
+  "id" : "13",
+  "mesto" : "Nis",
+  "datum" : "18.11.2021.",
+  "vracanjeDatum" : "18.11.2021.",
+  "km" : "649.4776403164194",
+  "cena" : "846.3999409853805",
+  "brDana" : "4",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "14",
+  "mesto" : "Nis",
+  "datum" : "12.11.2021.",
+  "vracanjeDatum" : "17.11.2021.",
+  "km" : "340.1683637876356",
+  "cena" : "734.058025978375",
+  "brDana" : "9",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "15",
+  "mesto" : "Nis",
+  "datum" : "12.11.2021.",
+  "vracanjeDatum" : "17.11.2021.",
+  "km" : "340.1683637876356",
+  "cena" : "30.778449272580886",
+  "brDana" : "13",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+}, {
+  "id" : "16",
+  "mesto" : "Kragujevac",
+  "datum" : "17.11.2021.",
+  "vracanjeDatum" : "17.11.2021.",
+  "km" : "340.1683637876356",
+  "cena" : "883.4204153942959",
+  "brDana" : "16",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "17",
+  "mesto" : "Kragujevac",
+  "datum" : "19.11.2021.",
+  "vracanjeDatum" : "24.11.2021.",
+  "km" : "184.0230322237363",
+  "cena" : "335.7847796915349",
+  "brDana" : "11",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "18",
+  "mesto" : "Kragujevac",
+  "datum" : "16.11.2021.",
+  "vracanjeDatum" : "21.11.2021.",
+  "km" : "929.4682418033831",
+  "cena" : "77.48118598641862",
+  "brDana" : "2",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+}, {
+  "id" : "19",
+  "mesto" : "Zrenjanin",
+  "datum" : "14.11.2021.",
+  "vracanjeDatum" : "21.11.2021.",
+  "km" : "929.4682418033831",
+  "cena" : "544.0694922376119",
+  "brDana" : "16",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "20",
+  "mesto" : "Zrenjanin",
+  "datum" : "17.11.2021.",
+  "vracanjeDatum" : "22.11.2021.",
+  "km" : "471.6521140215225",
+  "cena" : "378.6575316152123",
+  "brDana" : "8",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "21",
+  "mesto" : "Zrenjanin",
+  "datum" : "16.11.2021.",
+  "vracanjeDatum" : "22.11.2021.",
+  "km" : "471.6521140215225",
+  "cena" : "898.3756167227884",
+  "brDana" : "15",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+}, {
+  "id" : "22",
+  "mesto" : "Novi Sad",
+  "datum" : "17.11.2021.",
+  "vracanjeDatum" : "22.11.2021.",
+  "km" : "240.54890448858802",
+  "cena" : "504.7393010987803",
+  "brDana" : "6",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "23",
+  "mesto" : "Novi Sad",
+  "datum" : "12.11.2021.",
+  "vracanjeDatum" : "22.11.2021.",
+  "km" : "240.54890448858802",
+  "cena" : "99.42446593267718",
+  "brDana" : "12",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "24",
+  "mesto" : "Novi Sad",
+  "datum" : "13.11.2021.",
+  "vracanjeDatum" : "18.11.2021.",
+  "km" : "229.3687694387998",
+  "cena" : "659.2965200833511",
+  "brDana" : "11",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+}, {
+  "id" : "25",
+  "mesto" : "Beograd",
+  "datum" : "15.11.2021.",
+  "vracanjeDatum" : "18.11.2021.",
+  "km" : "229.3687694387998",
+  "cena" : "478.2780199447032",
+  "brDana" : "16",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "26",
+  "mesto" : "Beograd",
+  "datum" : "14.11.2021.",
+  "vracanjeDatum" : "19.11.2021.",
+  "km" : "334.8608602558817",
+  "cena" : "583.480995571113",
+  "brDana" : "1",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "27",
+  "mesto" : "Beograd",
+  "datum" : "17.11.2021.",
+  "vracanjeDatum" : "22.11.2021.",
+  "km" : "636.3485177860921",
+  "cena" : "312.2813494188841",
+  "brDana" : "12",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+}, {
+  "id" : "28",
+  "mesto" : "Subotica",
+  "datum" : "17.11.2021.",
+  "vracanjeDatum" : "22.11.2021.",
+  "km" : "636.3485177860921",
+  "cena" : "99.43419485709404",
+  "brDana" : "3",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "29",
+  "mesto" : "Subotica",
+  "datum" : "19.11.2021.",
+  "vracanjeDatum" : "22.11.2021.",
+  "km" : "636.3485177860921",
+  "cena" : "245.5199867608897",
+  "brDana" : "6",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "30",
+  "mesto" : "Subotica",
+  "datum" : "15.11.2021.",
+  "vracanjeDatum" : "20.11.2021.",
+  "km" : "922.1743078357003",
+  "cena" : "104.53664989977784",
+  "brDana" : "15",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+}, {
+  "id" : "31",
+  "mesto" : "Nis",
+  "datum" : "15.11.2021.",
+  "vracanjeDatum" : "20.11.2021.",
+  "km" : "922.1743078357003",
+  "cena" : "969.4671930320395",
+  "brDana" : "10",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "32",
+  "mesto" : "Nis",
+  "datum" : "17.11.2021.",
+  "vracanjeDatum" : "22.11.2021.",
+  "km" : "873.7243218997526",
+  "cena" : "144.73901919390798",
+  "brDana" : "19",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "33",
+  "mesto" : "Nis",
+  "datum" : "19.11.2021.",
+  "vracanjeDatum" : "22.11.2021.",
+  "km" : "873.7243218997526",
+  "cena" : "82.7395097810989",
+  "brDana" : "14",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+}, {
+  "id" : "34",
+  "mesto" : "Kragujevac",
+  "datum" : "12.11.2021.",
+  "vracanjeDatum" : "17.11.2021.",
+  "km" : "343.92750437381045",
+  "cena" : "517.7440190340051",
+  "brDana" : "16",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "35",
+  "mesto" : "Kragujevac",
+  "datum" : "14.11.2021.",
+  "vracanjeDatum" : "19.11.2021.",
+  "km" : "725.9359948366754",
+  "cena" : "962.0181284211282",
+  "brDana" : "9",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "36",
+  "mesto" : "Kragujevac",
+  "datum" : "12.11.2021.",
+  "vracanjeDatum" : "17.11.2021.",
+  "km" : "176.34657089950878",
+  "cena" : "262.5619641289705",
+  "brDana" : "7",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+}, {
+  "id" : "37",
+  "mesto" : "Zrenjanin",
+  "datum" : "15.11.2021.",
+  "vracanjeDatum" : "17.11.2021.",
+  "km" : "176.34657089950878",
+  "cena" : "382.187977797688",
+  "brDana" : "4",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "38",
+  "mesto" : "Zrenjanin",
+  "datum" : "15.11.2021.",
+  "vracanjeDatum" : "20.11.2021.",
+  "km" : "125.232380663566",
+  "cena" : "86.50019867513936",
+  "brDana" : "1",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "39",
+  "mesto" : "Zrenjanin",
+  "datum" : "15.11.2021.",
+  "vracanjeDatum" : "20.11.2021.",
+  "km" : "125.232380663566",
+  "cena" : "248.93725177111648",
+  "brDana" : "2",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+}, {
+  "id" : "40",
+  "mesto" : "Novi Sad",
+  "datum" : "16.11.2021.",
+  "vracanjeDatum" : "21.11.2021.",
+  "km" : "246.80198605576052",
+  "cena" : "674.4021119808132",
+  "brDana" : "8",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "41",
+  "mesto" : "Novi Sad",
+  "datum" : "16.11.2021.",
+  "vracanjeDatum" : "21.11.2021.",
+  "km" : "246.80198605576052",
+  "cena" : "803.6724175830639",
+  "brDana" : "14",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "42",
+  "mesto" : "Novi Sad",
+  "datum" : "16.11.2021.",
+  "vracanjeDatum" : "21.11.2021.",
+  "km" : "628.3264440069235",
+  "cena" : "270.671858877745",
+  "brDana" : "15",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+}, {
+  "id" : "43",
+  "mesto" : "Beograd",
+  "datum" : "15.11.2021.",
+  "vracanjeDatum" : "20.11.2021.",
+  "km" : "976.1584026182517",
+  "cena" : "93.52715294241776",
+  "brDana" : "17",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "44",
+  "mesto" : "Beograd",
+  "datum" : "13.11.2021.",
+  "vracanjeDatum" : "20.11.2021.",
+  "km" : "976.1584026182517",
+  "cena" : "308.9543408257052",
+  "brDana" : "19",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "45",
+  "mesto" : "Beograd",
+  "datum" : "17.11.2021.",
+  "vracanjeDatum" : "20.11.2021.",
+  "km" : "976.1584026182517",
+  "cena" : "344.24222233795",
+  "brDana" : "0",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+}, {
+  "id" : "46",
+  "mesto" : "Subotica",
+  "datum" : "14.11.2021.",
+  "vracanjeDatum" : "20.11.2021.",
+  "km" : "976.1584026182517",
+  "cena" : "160.36339055580473",
+  "brDana" : "17",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "47",
+  "mesto" : "Subotica",
+  "datum" : "12.11.2021.",
+  "vracanjeDatum" : "17.11.2021.",
+  "km" : "863.1057355737491",
+  "cena" : "734.3971046470858",
+  "brDana" : "17",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "48",
+  "mesto" : "Subotica",
+  "datum" : "16.11.2021.",
+  "vracanjeDatum" : "21.11.2021.",
+  "km" : "882.139592487051",
+  "cena" : "202.36014881218412",
+  "brDana" : "5",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+}, {
+  "id" : "49",
+  "mesto" : "Nis",
+  "datum" : "17.11.2021.",
+  "vracanjeDatum" : "22.11.2021.",
+  "km" : "75.81633710087088",
+  "cena" : "567.8845780333537",
+  "brDana" : "5",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "50",
+  "mesto" : "Nis",
+  "datum" : "13.11.2021.",
+  "vracanjeDatum" : "18.11.2021.",
+  "km" : "352.19715454171507",
+  "cena" : "784.1736147955991",
+  "brDana" : "8",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "51",
+  "mesto" : "Nis",
+  "datum" : "17.11.2021.",
+  "vracanjeDatum" : "18.11.2021.",
+  "km" : "352.19715454171507",
+  "cena" : "835.2689064889004",
+  "brDana" : "7",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+}, {
+  "id" : "52",
+  "mesto" : "Kragujevac",
+  "datum" : "13.11.2021.",
+  "vracanjeDatum" : "18.11.2021.",
+  "km" : "352.19715454171507",
+  "cena" : "685.9376675275091",
+  "brDana" : "7",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "53",
+  "mesto" : "Kragujevac",
+  "datum" : "12.11.2021.",
+  "vracanjeDatum" : "18.11.2021.",
+  "km" : "352.19715454171507",
+  "cena" : "116.05128456019631",
+  "brDana" : "19",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "54",
+  "mesto" : "Kragujevac",
+  "datum" : "12.11.2021.",
+  "vracanjeDatum" : "18.11.2021.",
+  "km" : "352.19715454171507",
+  "cena" : "674.017494495165",
+  "brDana" : "16",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+}, {
+  "id" : "55",
+  "mesto" : "Zrenjanin",
+  "datum" : "16.11.2021.",
+  "vracanjeDatum" : "18.11.2021.",
+  "km" : "352.19715454171507",
+  "cena" : "459.0079004754156",
+  "brDana" : "11",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "56",
+  "mesto" : "Zrenjanin",
+  "datum" : "15.11.2021.",
+  "vracanjeDatum" : "20.11.2021.",
+  "km" : "983.3571803190714",
+  "cena" : "619.5805971342028",
+  "brDana" : "15",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "57",
+  "mesto" : "Zrenjanin",
+  "datum" : "14.11.2021.",
+  "vracanjeDatum" : "19.11.2021.",
+  "km" : "718.2415681394938",
+  "cena" : "111.99009436388951",
+  "brDana" : "14",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+}, {
+  "id" : "58",
+  "mesto" : "Novi Sad",
+  "datum" : "18.11.2021.",
+  "vracanjeDatum" : "19.11.2021.",
+  "km" : "718.2415681394938",
+  "cena" : "458.2211713781715",
+  "brDana" : "3",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "59",
+  "mesto" : "Novi Sad",
+  "datum" : "17.11.2021.",
+  "vracanjeDatum" : "19.11.2021.",
+  "km" : "718.2415681394938",
+  "cena" : "790.5070917196558",
+  "brDana" : "6",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "60",
+  "mesto" : "Novi Sad",
+  "datum" : "14.11.2021.",
+  "vracanjeDatum" : "19.11.2021.",
+  "km" : "397.6024780361642",
+  "cena" : "967.6192678724223",
+  "brDana" : "15",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+}, {
+  "id" : "61",
+  "mesto" : "Beograd",
+  "datum" : "12.11.2021.",
+  "vracanjeDatum" : "17.11.2021.",
+  "km" : "690.8829342154496",
+  "cena" : "451.449632371821",
+  "brDana" : "15",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "62",
+  "mesto" : "Beograd",
+  "datum" : "19.11.2021.",
+  "vracanjeDatum" : "24.11.2021.",
+  "km" : "481.751446918805",
+  "cena" : "871.902103094052",
+  "brDana" : "15",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "63",
+  "mesto" : "Beograd",
+  "datum" : "14.11.2021.",
+  "vracanjeDatum" : "19.11.2021.",
+  "km" : "667.2665022299691",
+  "cena" : "439.8901954380774",
+  "brDana" : "14",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+}, {
+  "id" : "64",
+  "mesto" : "Subotica",
+  "datum" : "17.11.2021.",
+  "vracanjeDatum" : "22.11.2021.",
+  "km" : "26.692348788310728",
+  "cena" : "232.14803559518882",
+  "brDana" : "13",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "65",
+  "mesto" : "Subotica",
+  "datum" : "19.11.2021.",
+  "vracanjeDatum" : "22.11.2021.",
+  "km" : "26.692348788310728",
+  "cena" : "369.5434506195623",
+  "brDana" : "3",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "66",
+  "mesto" : "Subotica",
+  "datum" : "14.11.2021.",
+  "vracanjeDatum" : "22.11.2021.",
+  "km" : "26.692348788310728",
+  "cena" : "10.90365752482425",
+  "brDana" : "2",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+}, {
+  "id" : "67",
+  "mesto" : "Nis",
+  "datum" : "17.11.2021.",
+  "vracanjeDatum" : "22.11.2021.",
+  "km" : "94.90850782550065",
+  "cena" : "905.5499732532718",
+  "brDana" : "7",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "68",
+  "mesto" : "Nis",
+  "datum" : "16.11.2021.",
+  "vracanjeDatum" : "22.11.2021.",
+  "km" : "94.90850782550065",
+  "cena" : "202.6758345930919",
+  "brDana" : "9",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "69",
+  "mesto" : "Nis",
+  "datum" : "18.11.2021.",
+  "vracanjeDatum" : "23.11.2021.",
+  "km" : "739.2523210555793",
+  "cena" : "238.4471960629435",
+  "brDana" : "13",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+}, {
+  "id" : "70",
+  "mesto" : "Kragujevac",
+  "datum" : "14.11.2021.",
+  "vracanjeDatum" : "23.11.2021.",
+  "km" : "739.2523210555793",
+  "cena" : "398.93126932454595",
+  "brDana" : "5",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "71",
+  "mesto" : "Kragujevac",
+  "datum" : "17.11.2021.",
+  "vracanjeDatum" : "22.11.2021.",
+  "km" : "773.0801784731497",
+  "cena" : "157.11791992721513",
+  "brDana" : "7",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "72",
+  "mesto" : "Kragujevac",
+  "datum" : "15.11.2021.",
+  "vracanjeDatum" : "22.11.2021.",
+  "km" : "773.0801784731497",
+  "cena" : "143.24064637187527",
+  "brDana" : "17",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+}, {
+  "id" : "73",
+  "mesto" : "Zrenjanin",
+  "datum" : "12.11.2021.",
+  "vracanjeDatum" : "17.11.2021.",
+  "km" : "824.2046445578331",
+  "cena" : "988.9491690247261",
+  "brDana" : "6",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "74",
+  "mesto" : "Zrenjanin",
+  "datum" : "13.11.2021.",
+  "vracanjeDatum" : "18.11.2021.",
+  "km" : "627.3459068208784",
+  "cena" : "253.21131181495426",
+  "brDana" : "8",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "75",
+  "mesto" : "Zrenjanin",
+  "datum" : "16.11.2021.",
+  "vracanjeDatum" : "18.11.2021.",
+  "km" : "627.3459068208784",
+  "cena" : "825.6616533354648",
+  "brDana" : "16",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+}, {
+  "id" : "76",
+  "mesto" : "Novi Sad",
+  "datum" : "13.11.2021.",
+  "vracanjeDatum" : "18.11.2021.",
+  "km" : "569.1299100462828",
+  "cena" : "719.0302325981",
+  "brDana" : "11",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "77",
+  "mesto" : "Novi Sad",
+  "datum" : "15.11.2021.",
+  "vracanjeDatum" : "18.11.2021.",
+  "km" : "569.1299100462828",
+  "cena" : "5.118904097015209",
+  "brDana" : "20",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "78",
+  "mesto" : "Novi Sad",
+  "datum" : "15.11.2021.",
+  "vracanjeDatum" : "18.11.2021.",
+  "km" : "569.1299100462828",
+  "cena" : "681.6646399530047",
+  "brDana" : "4",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+}, {
+  "id" : "79",
+  "mesto" : "Beograd",
+  "datum" : "18.11.2021.",
+  "vracanjeDatum" : "23.11.2021.",
+  "km" : "300.8903118054877",
+  "cena" : "33.906546882244925",
+  "brDana" : "10",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "80",
+  "mesto" : "Beograd",
+  "datum" : "19.11.2021.",
+  "vracanjeDatum" : "23.11.2021.",
+  "km" : "300.8903118054877",
+  "cena" : "868.8317253632458",
+  "brDana" : "1",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "81",
+  "mesto" : "Beograd",
+  "datum" : "17.11.2021.",
+  "vracanjeDatum" : "23.11.2021.",
+  "km" : "300.8903118054877",
+  "cena" : "921.0349363121661",
+  "brDana" : "2",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+}, {
+  "id" : "82",
+  "mesto" : "Subotica",
+  "datum" : "16.11.2021.",
+  "vracanjeDatum" : "21.11.2021.",
+  "km" : "682.8777197032471",
+  "cena" : "695.900656512995",
+  "brDana" : "5",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "83",
+  "mesto" : "Subotica",
+  "datum" : "15.11.2021.",
+  "vracanjeDatum" : "21.11.2021.",
+  "km" : "682.8777197032471",
+  "cena" : "332.5760788992379",
+  "brDana" : "3",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "84",
+  "mesto" : "Subotica",
+  "datum" : "18.11.2021.",
+  "vracanjeDatum" : "21.11.2021.",
+  "km" : "682.8777197032471",
+  "cena" : "559.1035562588515",
+  "brDana" : "3",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+}, {
+  "id" : "85",
+  "mesto" : "Nis",
+  "datum" : "17.11.2021.",
+  "vracanjeDatum" : "22.11.2021.",
+  "km" : "710.9332884027098",
+  "cena" : "206.20605653369117",
+  "brDana" : "4",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "86",
+  "mesto" : "Nis",
+  "datum" : "12.11.2021.",
+  "vracanjeDatum" : "17.11.2021.",
+  "km" : "445.08840723592044",
+  "cena" : "84.91424018978955",
+  "brDana" : "1",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "87",
+  "mesto" : "Nis",
+  "datum" : "17.11.2021.",
+  "vracanjeDatum" : "22.11.2021.",
+  "km" : "419.57809765456557",
+  "cena" : "748.4056803607292",
+  "brDana" : "12",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+}, {
+  "id" : "88",
+  "mesto" : "Kragujevac",
+  "datum" : "12.11.2021.",
+  "vracanjeDatum" : "22.11.2021.",
+  "km" : "419.57809765456557",
+  "cena" : "64.32659445354494",
+  "brDana" : "11",
+  "osoba" : {
+    "ime" : "Pera",
+    "prezime" : "Peric",
+    "jmbg" : "1234567891234"
+  }
+}, {
+  "id" : "89",
+  "mesto" : "Kragujevac",
+  "datum" : "13.11.2021.",
+  "vracanjeDatum" : "18.11.2021.",
+  "km" : "984.0145192925962",
+  "cena" : "506.4798918812378",
+  "brDana" : "20",
+  "osoba" : {
+    "ime" : "Zika",
+    "prezime" : "Zikic",
+    "jmbg" : "0103975123556"
+  }
+}, {
+  "id" : "90",
+  "mesto" : "Kragujevac",
+  "datum" : "19.11.2021.",
+  "vracanjeDatum" : "24.11.2021.",
+  "km" : "288.38645121116366",
+  "cena" : "645.3011384401852",
+  "brDana" : "1",
+  "osoba" : {
+    "ime" : "Sima",
+    "prezime" : "Simic",
+    "jmbg" : "0505221546221"
+  }
+} ]

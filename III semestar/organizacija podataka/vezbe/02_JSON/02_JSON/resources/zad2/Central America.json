@@ -1,0 +1,92 @@
+[ {
+  "contryName" : "Belize",
+  "capitalName" : "Belmopan",
+  "capitalLatitude" : "17.25",
+  "capitalLongitude" : "-88.766667",
+  "contryCode" : "BZ",
+  "continentName" : "Central America"
+}, {
+  "contryName" : "Canada",
+  "capitalName" : "Ottawa",
+  "capitalLatitude" : "45.416666666666664",
+  "capitalLongitude" : "-75.700000",
+  "contryCode" : "CA",
+  "continentName" : "Central America"
+}, {
+  "contryName" : "Costa Rica",
+  "capitalName" : "San Jose",
+  "capitalLatitude" : "9.933333333333334",
+  "capitalLongitude" : "-84.083333",
+  "contryCode" : "CR",
+  "continentName" : "Central America"
+}, {
+  "contryName" : "El Salvador",
+  "capitalName" : "San Salvador",
+  "capitalLatitude" : "13.7",
+  "capitalLongitude" : "-89.200000",
+  "contryCode" : "SV",
+  "continentName" : "Central America"
+}, {
+  "contryName" : "Greenland",
+  "capitalName" : "Nuuk",
+  "capitalLatitude" : "64.18333333333334",
+  "capitalLongitude" : "-51.750000",
+  "contryCode" : "GL",
+  "continentName" : "Central America"
+}, {
+  "contryName" : "Guatemala",
+  "capitalName" : "Guatemala City",
+  "capitalLatitude" : "14.616666666666667",
+  "capitalLongitude" : "-90.516667",
+  "contryCode" : "GT",
+  "continentName" : "Central America"
+}, {
+  "contryName" : "Honduras",
+  "capitalName" : "Tegucigalpa",
+  "capitalLatitude" : "14.1",
+  "capitalLongitude" : "-87.216667",
+  "contryCode" : "HN",
+  "continentName" : "Central America"
+}, {
+  "contryName" : "Mexico",
+  "capitalName" : "Mexico City",
+  "capitalLatitude" : "19.433333333333334",
+  "capitalLongitude" : "-99.133333",
+  "contryCode" : "MX",
+  "continentName" : "Central America"
+}, {
+  "contryName" : "Nicaragua",
+  "capitalName" : "Managua",
+  "capitalLatitude" : "12.133333333333333",
+  "capitalLongitude" : "-86.250000",
+  "contryCode" : "NI",
+  "continentName" : "Central America"
+}, {
+  "contryName" : "Panama",
+  "capitalName" : "Panama City",
+  "capitalLatitude" : "8.966666666666667",
+  "capitalLongitude" : "-79.533333",
+  "contryCode" : "PA",
+  "continentName" : "Central America"
+}, {
+  "contryName" : "Saint Pierre and Miquelon",
+  "capitalName" : "Saint-Pierre",
+  "capitalLatitude" : "46.766666666666666",
+  "capitalLongitude" : "-56.183333",
+  "contryCode" : "PM",
+  "continentName" : "Central America"
+}, {
+  "contryName" : "Saint Vincent and the Grenadines",
+  "capitalName" : "Kingstown",
+  "capitalLatitude" : "13.133333333333333",
+  "capitalLongitude" : "-61.216667",
+  "contryCode" : "VC",
+  "continentName" : "Central America"
+}, {
+  "contryName" : "United States",
+  "capitalName" : "Washington D.C.",
+  "capitalLatitude" : "38.883333",
+  "capitalLongitude" : "-77.000000",
+  "contryCode" : "US",
+  "continentName" : "Central America"
+} ]

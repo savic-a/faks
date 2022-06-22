@@ -1,0 +1,101 @@
+[ {
+  "Sifra" : "111",
+  "Polazak" : "Mesto1",
+  "Dolazak" : "Mesto2",
+  "DatumDolaska" : "4.11.2021.",
+  "VremePolaska" : "17:00",
+  "VremeDolaska" : "18:00",
+  "Peron" : null,
+  "Cena" : 400.0,
+  "BrojProdanih" : 10
+}, {
+  "Sifra" : "112",
+  "Polazak" : "Mesto1",
+  "Dolazak" : "Mesto2",
+  "DatumDolaska" : "4.11.2021.",
+  "VremePolaska" : "18:00",
+  "VremeDolaska" : "19:00",
+  "Peron" : null,
+  "Cena" : 400.0,
+  "BrojProdanih" : 20
+}, {
+  "Sifra" : "222",
+  "Polazak" : "Mesto42",
+  "Dolazak" : "Mesto27",
+  "DatumDolaska" : "5.11.2021.",
+  "VremePolaska" : "13:00",
+  "VremeDolaska" : "14:00",
+  "Peron" : null,
+  "Cena" : 400.0,
+  "BrojProdanih" : 10
+}, {
+  "Sifra" : "333",
+  "Polazak" : "Mesto41",
+  "Dolazak" : "Mesto52",
+  "DatumDolaska" : "5.11.2021.",
+  "VremePolaska" : "14:00",
+  "VremeDolaska" : "15:00",
+  "Peron" : null,
+  "Cena" : 400.0,
+  "BrojProdanih" : 30
+}, {
+  "Sifra" : "444",
+  "Polazak" : "Mesto41",
+  "Dolazak" : "Mesto22",
+  "DatumDolaska" : "5.11.2021.",
+  "VremePolaska" : "15:00",
+  "VremeDolaska" : "16:00",
+  "Peron" : null,
+  "Cena" : 500.0,
+  "BrojProdanih" : 5
+}, {
+  "Sifra" : "555",
+  "Polazak" : "Mesto41",
+  "Dolazak" : "Mesto21",
+  "DatumDolaska" : "6.11.2021.",
+  "VremePolaska" : "16:00",
+  "VremeDolaska" : "17:00",
+  "Peron" : null,
+  "Cena" : 500.0,
+  "BrojProdanih" : 8
+}, {
+  "Sifra" : "666",
+  "Polazak" : "Mesto41",
+  "Dolazak" : "Mesto22",
+  "DatumDolaska" : "7.11.2021.",
+  "VremePolaska" : "17:00",
+  "VremeDolaska" : "18:00",
+  "Peron" : null,
+  "Cena" : 400.0,
+  "BrojProdanih" : 9
+}, {
+  "Sifra" : "777",
+  "Polazak" : "Mesto41",
+  "Dolazak" : "Mesto32",
+  "DatumDolaska" : "8.11.2021.",
+  "VremePolaska" : "18:00",
+  "VremeDolaska" : "19:00",
+  "Peron" : null,
+  "Cena" : 500.0,
+  "BrojProdanih" : 9
+}, {
+  "Sifra" : "888",
+  "Polazak" : "Mesto41",
+  "Dolazak" : "Mesto24",
+  "DatumDolaska" : "8.11.2021.",
+  "VremePolaska" : "19:00",
+  "VremeDolaska" : "20:00",
+  "Peron" : null,
+  "Cena" : 400.0,
+  "BrojProdanih" : 10
+}, {
+  "Sifra" : "999",
+  "Polazak" : "Mesto41",
+  "Dolazak" : "Mesto52",
+  "DatumDolaska" : "9.11.2021.",
+  "VremePolaska" : "20:00",
+  "VremeDolaska" : "21:00",
+  "Peron" : null,
+  "Cena" : 500.0,
+  "BrojProdanih" : 8
+} ]

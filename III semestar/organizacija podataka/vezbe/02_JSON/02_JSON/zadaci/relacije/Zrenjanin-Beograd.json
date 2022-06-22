@@ -1,0 +1,21 @@
+[ {
+  "id" : "21",
+  "polazak" : "Zrenjanin",
+  "dolazak" : "Beograd",
+  "datum" : "10.11.2021.",
+  "vremePolazak" : "06:00",
+  "vremeDolaska" : "08:00",
+  "peron" : "7",
+  "cena" : "778.7137470417777",
+  "brKarata" : "14"
+}, {
+  "id" : "22",
+  "polazak" : "Zrenjanin",
+  "dolazak" : "Beograd",
+  "datum" : "11.11.2021.",
+  "vremePolazak" : "06:00",
+  "vremeDolaska" : "07:00",
+  "peron" : "8",
+  "cena" : "272.82416682331456",
+  "brKarata" : "21"
+} ]

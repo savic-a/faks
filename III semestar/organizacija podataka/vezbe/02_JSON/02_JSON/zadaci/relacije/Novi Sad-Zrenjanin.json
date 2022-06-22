@@ -1,0 +1,31 @@
+[ {
+  "id" : "8",
+  "polazak" : "Novi Sad",
+  "dolazak" : "Zrenjanin",
+  "datum" : "10.11.2021.",
+  "vremePolazak" : "06:00",
+  "vremeDolaska" : "10:00",
+  "peron" : "10",
+  "cena" : "344.3776245901223",
+  "brKarata" : "32"
+}, {
+  "id" : "9",
+  "polazak" : "Novi Sad",
+  "dolazak" : "Zrenjanin",
+  "datum" : "10.11.2021.",
+  "vremePolazak" : "07:00",
+  "vremeDolaska" : "10:00",
+  "peron" : "18",
+  "cena" : "617.8222305206725",
+  "brKarata" : "37"
+}, {
+  "id" : "10",
+  "polazak" : "Novi Sad",
+  "dolazak" : "Zrenjanin",
+  "datum" : "11.11.2021.",
+  "vremePolazak" : "06:00",
+  "vremeDolaska" : "11:00",
+  "peron" : "3",
+  "cena" : "281.887214155767",
+  "brKarata" : "24"
+} ]

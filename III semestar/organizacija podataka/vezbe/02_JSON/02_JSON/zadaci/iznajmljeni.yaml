@@ -1,0 +1,810 @@
+- !!zad_5.Auto
+  brDana: '4'
+  cena: '897.6213387854067'
+  datum: 13.11.2021.
+  id: '1'
+  km: '989.1081514430055'
+  mesto: Zrenjanin
+  osoba: &id001 {ime: Pera, jmbg: '1234567891234', prezime: Peric}
+  vracanjeDatum: 18.11.2021.
+- !!zad_5.Auto
+  brDana: '18'
+  cena: '811.1648735813076'
+  datum: 12.11.2021.
+  id: '2'
+  km: '989.1081514430055'
+  mesto: Zrenjanin
+  osoba: &id002 {ime: Zika, jmbg: '0103975123556', prezime: Zikic}
+  vracanjeDatum: 18.11.2021.
+- !!zad_5.Auto
+  brDana: '2'
+  cena: '707.0223597207431'
+  datum: 15.11.2021.
+  id: '3'
+  km: '230.0763684547832'
+  mesto: Zrenjanin
+  osoba: &id003 {ime: Sima, jmbg: '0505221546221', prezime: Simic}
+  vracanjeDatum: 20.11.2021.
+- !!zad_5.Auto
+  brDana: '12'
+  cena: '881.1599426829107'
+  datum: 17.11.2021.
+  id: '4'
+  km: '421.2575654182172'
+  mesto: Novi Sad
+  osoba: *id001
+  vracanjeDatum: 22.11.2021.
+- !!zad_5.Auto
+  brDana: '14'
+  cena: '805.2349638225784'
+  datum: 13.11.2021.
+  id: '5'
+  km: '421.2575654182172'
+  mesto: Novi Sad
+  osoba: *id002
+  vracanjeDatum: 22.11.2021.
+- !!zad_5.Auto
+  brDana: '1'
+  cena: '953.8560477804836'
+  datum: 17.11.2021.
+  id: '6'
+  km: '421.2575654182172'
+  mesto: Novi Sad
+  osoba: *id003
+  vracanjeDatum: 22.11.2021.
+- !!zad_5.Auto
+  brDana: '0'
+  cena: '527.552191594403'
+  datum: 19.11.2021.
+  id: '7'
+  km: '421.2575654182172'
+  mesto: Beograd
+  osoba: *id001
+  vracanjeDatum: 22.11.2021.
+- !!zad_5.Auto
+  brDana: '13'
+  cena: '861.4961661798351'
+  datum: 13.11.2021.
+  id: '8'
+  km: '883.9536231111716'
+  mesto: Beograd
+  osoba: *id002
+  vracanjeDatum: 18.11.2021.
+- !!zad_5.Auto
+  brDana: '19'
+  cena: '486.045589858395'
+  datum: 13.11.2021.
+  id: '9'
+  km: '649.4776403164194'
+  mesto: Beograd
+  osoba: *id003
+  vracanjeDatum: 18.11.2021.
+- !!zad_5.Auto
+  brDana: '10'
+  cena: '164.75294314905497'
+  datum: 17.11.2021.
+  id: '10'
+  km: '649.4776403164194'
+  mesto: Subotica
+  osoba: *id001
+  vracanjeDatum: 18.11.2021.
+- !!zad_5.Auto
+  brDana: '13'
+  cena: '742.4407725375902'
+  datum: 17.11.2021.
+  id: '11'
+  km: '649.4776403164194'
+  mesto: Subotica
+  osoba: *id002
+  vracanjeDatum: 18.11.2021.
+- !!zad_5.Auto
+  brDana: '10'
+  cena: '669.1786162728968'
+  datum: 19.11.2021.
+  id: '12'
+  km: '649.4776403164194'
+  mesto: Subotica
+  osoba: *id003
+  vracanjeDatum: 18.11.2021.
+- !!zad_5.Auto
+  brDana: '4'
+  cena: '846.3999409853805'
+  datum: 18.11.2021.
+  id: '13'
+  km: '649.4776403164194'
+  mesto: Nis
+  osoba: *id001
+  vracanjeDatum: 18.11.2021.
+- !!zad_5.Auto
+  brDana: '9'
+  cena: '734.058025978375'
+  datum: 12.11.2021.
+  id: '14'
+  km: '340.1683637876356'
+  mesto: Nis
+  osoba: *id002
+  vracanjeDatum: 17.11.2021.
+- !!zad_5.Auto
+  brDana: '13'
+  cena: '30.778449272580886'
+  datum: 12.11.2021.
+  id: '15'
+  km: '340.1683637876356'
+  mesto: Nis
+  osoba: *id003
+  vracanjeDatum: 17.11.2021.
+- !!zad_5.Auto
+  brDana: '16'
+  cena: '883.4204153942959'
+  datum: 17.11.2021.
+  id: '16'
+  km: '340.1683637876356'
+  mesto: Kragujevac
+  osoba: *id001
+  vracanjeDatum: 17.11.2021.
+- !!zad_5.Auto
+  brDana: '11'
+  cena: '335.7847796915349'
+  datum: 19.11.2021.
+  id: '17'
+  km: '184.0230322237363'
+  mesto: Kragujevac
+  osoba: *id002
+  vracanjeDatum: 24.11.2021.
+- !!zad_5.Auto
+  brDana: '2'
+  cena: '77.48118598641862'
+  datum: 16.11.2021.
+  id: '18'
+  km: '929.4682418033831'
+  mesto: Kragujevac
+  osoba: *id003
+  vracanjeDatum: 21.11.2021.
+- !!zad_5.Auto
+  brDana: '16'
+  cena: '544.0694922376119'
+  datum: 14.11.2021.
+  id: '19'
+  km: '929.4682418033831'
+  mesto: Zrenjanin
+  osoba: *id001
+  vracanjeDatum: 21.11.2021.
+- !!zad_5.Auto
+  brDana: '8'
+  cena: '378.6575316152123'
+  datum: 17.11.2021.
+  id: '20'
+  km: '471.6521140215225'
+  mesto: Zrenjanin
+  osoba: *id002
+  vracanjeDatum: 22.11.2021.
+- !!zad_5.Auto
+  brDana: '15'
+  cena: '898.3756167227884'
+  datum: 16.11.2021.
+  id: '21'
+  km: '471.6521140215225'
+  mesto: Zrenjanin
+  osoba: *id003
+  vracanjeDatum: 22.11.2021.
+- !!zad_5.Auto
+  brDana: '6'
+  cena: '504.7393010987803'
+  datum: 17.11.2021.
+  id: '22'
+  km: '240.54890448858802'
+  mesto: Novi Sad
+  osoba: *id001
+  vracanjeDatum: 22.11.2021.
+- !!zad_5.Auto
+  brDana: '12'
+  cena: '99.42446593267718'
+  datum: 12.11.2021.
+  id: '23'
+  km: '240.54890448858802'
+  mesto: Novi Sad
+  osoba: *id002
+  vracanjeDatum: 22.11.2021.
+- !!zad_5.Auto
+  brDana: '11'
+  cena: '659.2965200833511'
+  datum: 13.11.2021.
+  id: '24'
+  km: '229.3687694387998'
+  mesto: Novi Sad
+  osoba: *id003
+  vracanjeDatum: 18.11.2021.
+- !!zad_5.Auto
+  brDana: '16'
+  cena: '478.2780199447032'
+  datum: 15.11.2021.
+  id: '25'
+  km: '229.3687694387998'
+  mesto: Beograd
+  osoba: *id001
+  vracanjeDatum: 18.11.2021.
+- !!zad_5.Auto
+  brDana: '1'
+  cena: '583.480995571113'
+  datum: 14.11.2021.
+  id: '26'
+  km: '334.8608602558817'
+  mesto: Beograd
+  osoba: *id002
+  vracanjeDatum: 19.11.2021.
+- !!zad_5.Auto
+  brDana: '12'
+  cena: '312.2813494188841'
+  datum: 17.11.2021.
+  id: '27'
+  km: '636.3485177860921'
+  mesto: Beograd
+  osoba: *id003
+  vracanjeDatum: 22.11.2021.
+- !!zad_5.Auto
+  brDana: '3'
+  cena: '99.43419485709404'
+  datum: 17.11.2021.
+  id: '28'
+  km: '636.3485177860921'
+  mesto: Subotica
+  osoba: *id001
+  vracanjeDatum: 22.11.2021.
+- !!zad_5.Auto
+  brDana: '6'
+  cena: '245.5199867608897'
+  datum: 19.11.2021.
+  id: '29'
+  km: '636.3485177860921'
+  mesto: Subotica
+  osoba: *id002
+  vracanjeDatum: 22.11.2021.
+- !!zad_5.Auto
+  brDana: '15'
+  cena: '104.53664989977784'
+  datum: 15.11.2021.
+  id: '30'
+  km: '922.1743078357003'
+  mesto: Subotica
+  osoba: *id003
+  vracanjeDatum: 20.11.2021.
+- !!zad_5.Auto
+  brDana: '10'
+  cena: '969.4671930320395'
+  datum: 15.11.2021.
+  id: '31'
+  km: '922.1743078357003'
+  mesto: Nis
+  osoba: *id001
+  vracanjeDatum: 20.11.2021.
+- !!zad_5.Auto
+  brDana: '19'
+  cena: '144.73901919390798'
+  datum: 17.11.2021.
+  id: '32'
+  km: '873.7243218997526'
+  mesto: Nis
+  osoba: *id002
+  vracanjeDatum: 22.11.2021.
+- !!zad_5.Auto
+  brDana: '14'
+  cena: '82.7395097810989'
+  datum: 19.11.2021.
+  id: '33'
+  km: '873.7243218997526'
+  mesto: Nis
+  osoba: *id003
+  vracanjeDatum: 22.11.2021.
+- !!zad_5.Auto
+  brDana: '16'
+  cena: '517.7440190340051'
+  datum: 12.11.2021.
+  id: '34'
+  km: '343.92750437381045'
+  mesto: Kragujevac
+  osoba: *id001
+  vracanjeDatum: 17.11.2021.
+- !!zad_5.Auto
+  brDana: '9'
+  cena: '962.0181284211282'
+  datum: 14.11.2021.
+  id: '35'
+  km: '725.9359948366754'
+  mesto: Kragujevac
+  osoba: *id002
+  vracanjeDatum: 19.11.2021.
+- !!zad_5.Auto
+  brDana: '7'
+  cena: '262.5619641289705'
+  datum: 12.11.2021.
+  id: '36'
+  km: '176.34657089950878'
+  mesto: Kragujevac
+  osoba: *id003
+  vracanjeDatum: 17.11.2021.
+- !!zad_5.Auto
+  brDana: '4'
+  cena: '382.187977797688'
+  datum: 15.11.2021.
+  id: '37'
+  km: '176.34657089950878'
+  mesto: Zrenjanin
+  osoba: *id001
+  vracanjeDatum: 17.11.2021.
+- !!zad_5.Auto
+  brDana: '1'
+  cena: '86.50019867513936'
+  datum: 15.11.2021.
+  id: '38'
+  km: '125.232380663566'
+  mesto: Zrenjanin
+  osoba: *id002
+  vracanjeDatum: 20.11.2021.
+- !!zad_5.Auto
+  brDana: '2'
+  cena: '248.93725177111648'
+  datum: 15.11.2021.
+  id: '39'
+  km: '125.232380663566'
+  mesto: Zrenjanin
+  osoba: *id003
+  vracanjeDatum: 20.11.2021.
+- !!zad_5.Auto
+  brDana: '8'
+  cena: '674.4021119808132'
+  datum: 16.11.2021.
+  id: '40'
+  km: '246.80198605576052'
+  mesto: Novi Sad
+  osoba: *id001
+  vracanjeDatum: 21.11.2021.
+- !!zad_5.Auto
+  brDana: '14'
+  cena: '803.6724175830639'
+  datum: 16.11.2021.
+  id: '41'
+  km: '246.80198605576052'
+  mesto: Novi Sad
+  osoba: *id002
+  vracanjeDatum: 21.11.2021.
+- !!zad_5.Auto
+  brDana: '15'
+  cena: '270.671858877745'
+  datum: 16.11.2021.
+  id: '42'
+  km: '628.3264440069235'
+  mesto: Novi Sad
+  osoba: *id003
+  vracanjeDatum: 21.11.2021.
+- !!zad_5.Auto
+  brDana: '17'
+  cena: '93.52715294241776'
+  datum: 15.11.2021.
+  id: '43'
+  km: '976.1584026182517'
+  mesto: Beograd
+  osoba: *id001
+  vracanjeDatum: 20.11.2021.
+- !!zad_5.Auto
+  brDana: '19'
+  cena: '308.9543408257052'
+  datum: 13.11.2021.
+  id: '44'
+  km: '976.1584026182517'
+  mesto: Beograd
+  osoba: *id002
+  vracanjeDatum: 20.11.2021.
+- !!zad_5.Auto
+  brDana: '0'
+  cena: '344.24222233795'
+  datum: 17.11.2021.
+  id: '45'
+  km: '976.1584026182517'
+  mesto: Beograd
+  osoba: *id003
+  vracanjeDatum: 20.11.2021.
+- !!zad_5.Auto
+  brDana: '17'
+  cena: '160.36339055580473'
+  datum: 14.11.2021.
+  id: '46'
+  km: '976.1584026182517'
+  mesto: Subotica
+  osoba: *id001
+  vracanjeDatum: 20.11.2021.
+- !!zad_5.Auto
+  brDana: '17'
+  cena: '734.3971046470858'
+  datum: 12.11.2021.
+  id: '47'
+  km: '863.1057355737491'
+  mesto: Subotica
+  osoba: *id002
+  vracanjeDatum: 17.11.2021.
+- !!zad_5.Auto
+  brDana: '5'
+  cena: '202.36014881218412'
+  datum: 16.11.2021.
+  id: '48'
+  km: '882.139592487051'
+  mesto: Subotica
+  osoba: *id003
+  vracanjeDatum: 21.11.2021.
+- !!zad_5.Auto
+  brDana: '5'
+  cena: '567.8845780333537'
+  datum: 17.11.2021.
+  id: '49'
+  km: '75.81633710087088'
+  mesto: Nis
+  osoba: *id001
+  vracanjeDatum: 22.11.2021.
+- !!zad_5.Auto
+  brDana: '8'
+  cena: '784.1736147955991'
+  datum: 13.11.2021.
+  id: '50'
+  km: '352.19715454171507'
+  mesto: Nis
+  osoba: *id002
+  vracanjeDatum: 18.11.2021.
+- !!zad_5.Auto
+  brDana: '7'
+  cena: '835.2689064889004'
+  datum: 17.11.2021.
+  id: '51'
+  km: '352.19715454171507'
+  mesto: Nis
+  osoba: *id003
+  vracanjeDatum: 18.11.2021.
+- !!zad_5.Auto
+  brDana: '7'
+  cena: '685.9376675275091'
+  datum: 13.11.2021.
+  id: '52'
+  km: '352.19715454171507'
+  mesto: Kragujevac
+  osoba: *id001
+  vracanjeDatum: 18.11.2021.
+- !!zad_5.Auto
+  brDana: '19'
+  cena: '116.05128456019631'
+  datum: 12.11.2021.
+  id: '53'
+  km: '352.19715454171507'
+  mesto: Kragujevac
+  osoba: *id002
+  vracanjeDatum: 18.11.2021.
+- !!zad_5.Auto
+  brDana: '16'
+  cena: '674.017494495165'
+  datum: 12.11.2021.
+  id: '54'
+  km: '352.19715454171507'
+  mesto: Kragujevac
+  osoba: *id003
+  vracanjeDatum: 18.11.2021.
+- !!zad_5.Auto
+  brDana: '11'
+  cena: '459.0079004754156'
+  datum: 16.11.2021.
+  id: '55'
+  km: '352.19715454171507'
+  mesto: Zrenjanin
+  osoba: *id001
+  vracanjeDatum: 18.11.2021.
+- !!zad_5.Auto
+  brDana: '15'
+  cena: '619.5805971342028'
+  datum: 15.11.2021.
+  id: '56'
+  km: '983.3571803190714'
+  mesto: Zrenjanin
+  osoba: *id002
+  vracanjeDatum: 20.11.2021.
+- !!zad_5.Auto
+  brDana: '14'
+  cena: '111.99009436388951'
+  datum: 14.11.2021.
+  id: '57'
+  km: '718.2415681394938'
+  mesto: Zrenjanin
+  osoba: *id003
+  vracanjeDatum: 19.11.2021.
+- !!zad_5.Auto
+  brDana: '3'
+  cena: '458.2211713781715'
+  datum: 18.11.2021.
+  id: '58'
+  km: '718.2415681394938'
+  mesto: Novi Sad
+  osoba: *id001
+  vracanjeDatum: 19.11.2021.
+- !!zad_5.Auto
+  brDana: '6'
+  cena: '790.5070917196558'
+  datum: 17.11.2021.
+  id: '59'
+  km: '718.2415681394938'
+  mesto: Novi Sad
+  osoba: *id002
+  vracanjeDatum: 19.11.2021.
+- !!zad_5.Auto
+  brDana: '15'
+  cena: '967.6192678724223'
+  datum: 14.11.2021.
+  id: '60'
+  km: '397.6024780361642'
+  mesto: Novi Sad
+  osoba: *id003
+  vracanjeDatum: 19.11.2021.
+- !!zad_5.Auto
+  brDana: '15'
+  cena: '451.449632371821'
+  datum: 12.11.2021.
+  id: '61'
+  km: '690.8829342154496'
+  mesto: Beograd
+  osoba: *id001
+  vracanjeDatum: 17.11.2021.
+- !!zad_5.Auto
+  brDana: '15'
+  cena: '871.902103094052'
+  datum: 19.11.2021.
+  id: '62'
+  km: '481.751446918805'
+  mesto: Beograd
+  osoba: *id002
+  vracanjeDatum: 24.11.2021.
+- !!zad_5.Auto
+  brDana: '14'
+  cena: '439.8901954380774'
+  datum: 14.11.2021.
+  id: '63'
+  km: '667.2665022299691'
+  mesto: Beograd
+  osoba: *id003
+  vracanjeDatum: 19.11.2021.
+- !!zad_5.Auto
+  brDana: '13'
+  cena: '232.14803559518882'
+  datum: 17.11.2021.
+  id: '64'
+  km: '26.692348788310728'
+  mesto: Subotica
+  osoba: *id001
+  vracanjeDatum: 22.11.2021.
+- !!zad_5.Auto
+  brDana: '3'
+  cena: '369.5434506195623'
+  datum: 19.11.2021.
+  id: '65'
+  km: '26.692348788310728'
+  mesto: Subotica
+  osoba: *id002
+  vracanjeDatum: 22.11.2021.
+- !!zad_5.Auto
+  brDana: '2'
+  cena: '10.90365752482425'
+  datum: 14.11.2021.
+  id: '66'
+  km: '26.692348788310728'
+  mesto: Subotica
+  osoba: *id003
+  vracanjeDatum: 22.11.2021.
+- !!zad_5.Auto
+  brDana: '7'
+  cena: '905.5499732532718'
+  datum: 17.11.2021.
+  id: '67'
+  km: '94.90850782550065'
+  mesto: Nis
+  osoba: *id001
+  vracanjeDatum: 22.11.2021.
+- !!zad_5.Auto
+  brDana: '9'
+  cena: '202.6758345930919'
+  datum: 16.11.2021.
+  id: '68'
+  km: '94.90850782550065'
+  mesto: Nis
+  osoba: *id002
+  vracanjeDatum: 22.11.2021.
+- !!zad_5.Auto
+  brDana: '13'
+  cena: '238.4471960629435'
+  datum: 18.11.2021.
+  id: '69'
+  km: '739.2523210555793'
+  mesto: Nis
+  osoba: *id003
+  vracanjeDatum: 23.11.2021.
+- !!zad_5.Auto
+  brDana: '5'
+  cena: '398.93126932454595'
+  datum: 14.11.2021.
+  id: '70'
+  km: '739.2523210555793'
+  mesto: Kragujevac
+  osoba: *id001
+  vracanjeDatum: 23.11.2021.
+- !!zad_5.Auto
+  brDana: '7'
+  cena: '157.11791992721513'
+  datum: 17.11.2021.
+  id: '71'
+  km: '773.0801784731497'
+  mesto: Kragujevac
+  osoba: *id002
+  vracanjeDatum: 22.11.2021.
+- !!zad_5.Auto
+  brDana: '17'
+  cena: '143.24064637187527'
+  datum: 15.11.2021.
+  id: '72'
+  km: '773.0801784731497'
+  mesto: Kragujevac
+  osoba: *id003
+  vracanjeDatum: 22.11.2021.
+- !!zad_5.Auto
+  brDana: '6'
+  cena: '988.9491690247261'
+  datum: 12.11.2021.
+  id: '73'
+  km: '824.2046445578331'
+  mesto: Zrenjanin
+  osoba: *id001
+  vracanjeDatum: 17.11.2021.
+- !!zad_5.Auto
+  brDana: '8'
+  cena: '253.21131181495426'
+  datum: 13.11.2021.
+  id: '74'
+  km: '627.3459068208784'
+  mesto: Zrenjanin
+  osoba: *id002
+  vracanjeDatum: 18.11.2021.
+- !!zad_5.Auto
+  brDana: '16'
+  cena: '825.6616533354648'
+  datum: 16.11.2021.
+  id: '75'
+  km: '627.3459068208784'
+  mesto: Zrenjanin
+  osoba: *id003
+  vracanjeDatum: 18.11.2021.
+- !!zad_5.Auto
+  brDana: '11'
+  cena: '719.0302325981'
+  datum: 13.11.2021.
+  id: '76'
+  km: '569.1299100462828'
+  mesto: Novi Sad
+  osoba: *id001
+  vracanjeDatum: 18.11.2021.
+- !!zad_5.Auto
+  brDana: '20'
+  cena: '5.118904097015209'
+  datum: 15.11.2021.
+  id: '77'
+  km: '569.1299100462828'
+  mesto: Novi Sad
+  osoba: *id002
+  vracanjeDatum: 18.11.2021.
+- !!zad_5.Auto
+  brDana: '4'
+  cena: '681.6646399530047'
+  datum: 15.11.2021.
+  id: '78'
+  km: '569.1299100462828'
+  mesto: Novi Sad
+  osoba: *id003
+  vracanjeDatum: 18.11.2021.
+- !!zad_5.Auto
+  brDana: '10'
+  cena: '33.906546882244925'
+  datum: 18.11.2021.
+  id: '79'
+  km: '300.8903118054877'
+  mesto: Beograd
+  osoba: *id001
+  vracanjeDatum: 23.11.2021.
+- !!zad_5.Auto
+  brDana: '1'
+  cena: '868.8317253632458'
+  datum: 19.11.2021.
+  id: '80'
+  km: '300.8903118054877'
+  mesto: Beograd
+  osoba: *id002
+  vracanjeDatum: 23.11.2021.
+- !!zad_5.Auto
+  brDana: '2'
+  cena: '921.0349363121661'
+  datum: 17.11.2021.
+  id: '81'
+  km: '300.8903118054877'
+  mesto: Beograd
+  osoba: *id003
+  vracanjeDatum: 23.11.2021.
+- !!zad_5.Auto
+  brDana: '5'
+  cena: '695.900656512995'
+  datum: 16.11.2021.
+  id: '82'
+  km: '682.8777197032471'
+  mesto: Subotica
+  osoba: *id001
+  vracanjeDatum: 21.11.2021.
+- !!zad_5.Auto
+  brDana: '3'
+  cena: '332.5760788992379'
+  datum: 15.11.2021.
+  id: '83'
+  km: '682.8777197032471'
+  mesto: Subotica
+  osoba: *id002
+  vracanjeDatum: 21.11.2021.
+- !!zad_5.Auto
+  brDana: '3'
+  cena: '559.1035562588515'
+  datum: 18.11.2021.
+  id: '84'
+  km: '682.8777197032471'
+  mesto: Subotica
+  osoba: *id003
+  vracanjeDatum: 21.11.2021.
+- !!zad_5.Auto
+  brDana: '4'
+  cena: '206.20605653369117'
+  datum: 17.11.2021.
+  id: '85'
+  km: '710.9332884027098'
+  mesto: Nis
+  osoba: *id001
+  vracanjeDatum: 22.11.2021.
+- !!zad_5.Auto
+  brDana: '1'
+  cena: '84.91424018978955'
+  datum: 12.11.2021.
+  id: '86'
+  km: '445.08840723592044'
+  mesto: Nis
+  osoba: *id002
+  vracanjeDatum: 17.11.2021.
+- !!zad_5.Auto
+  brDana: '12'
+  cena: '748.4056803607292'
+  datum: 17.11.2021.
+  id: '87'
+  km: '419.57809765456557'
+  mesto: Nis
+  osoba: *id003
+  vracanjeDatum: 22.11.2021.
+- !!zad_5.Auto
+  brDana: '11'
+  cena: '64.32659445354494'
+  datum: 12.11.2021.
+  id: '88'
+  km: '419.57809765456557'
+  mesto: Kragujevac
+  osoba: *id001
+  vracanjeDatum: 22.11.2021.
+- !!zad_5.Auto
+  brDana: '20'
+  cena: '506.4798918812378'
+  datum: 13.11.2021.
+  id: '89'
+  km: '984.0145192925962'
+  mesto: Kragujevac
+  osoba: *id002
+  vracanjeDatum: 18.11.2021.
+- !!zad_5.Auto
+  brDana: '1'
+  cena: '645.3011384401852'
+  datum: 19.11.2021.
+  id: '90'
+  km: '288.38645121116366'
+  mesto: Kragujevac
+  osoba: *id003
+  vracanjeDatum: 24.11.2021.

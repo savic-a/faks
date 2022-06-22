@@ -1,0 +1,27 @@
+- !!zad_1.Putanja {brKarata: '35', cena: '285.29171863117654', datum: 10.11.2021.,
+  dolazak: Subotica, id: '24', peron: '18', polazak: Zrenjanin, vremeDolaska: '10:00',
+  vremePolazak: '06:00'}
+- !!zad_1.Putanja {brKarata: '33', cena: '126.7126291134184', datum: 10.11.2021.,
+  dolazak: Subotica, id: '25', peron: '4', polazak: Zrenjanin, vremeDolaska: '09:00',
+  vremePolazak: '07:00'}
+- !!zad_1.Putanja {brKarata: '2', cena: '807.9130315690071', datum: 11.11.2021., dolazak: Subotica,
+  id: '26', peron: '9', polazak: Zrenjanin, vremeDolaska: '09:00', vremePolazak: '06:00'}
+- !!zad_1.Putanja {brKarata: '22', cena: '716.0859779420898', datum: 11.11.2021.,
+  dolazak: Subotica, id: '27', peron: '12', polazak: Zrenjanin, vremeDolaska: '10:00',
+  vremePolazak: '07:00'}
+- !!zad_1.Putanja {brKarata: '39', cena: '669.8635697912584', datum: 10.11.2021.,
+  dolazak: Subotica, id: '17', peron: '12', polazak: Nis, vremeDolaska: '11:00', vremePolazak: '06:00'}
+- !!zad_1.Putanja {brKarata: '33', cena: '852.5282998741322', datum: 11.11.2021.,
+  dolazak: Subotica, id: '18', peron: '6', polazak: Nis, vremeDolaska: '11:00', vremePolazak: '06:00'}
+- !!zad_1.Putanja {brKarata: '28', cena: '947.2876075550993', datum: 11.11.2021.,
+  dolazak: Subotica, id: '19', peron: '19', polazak: Nis, vremeDolaska: '08:00', vremePolazak: '07:00'}
+- !!zad_1.Putanja {brKarata: '41', cena: '815.6810891567623', datum: 12.11.2021.,
+  dolazak: Subotica, id: '20', peron: '15', polazak: Nis, vremeDolaska: '09:00', vremePolazak: '06:00'}
+- !!zad_1.Putanja {brKarata: '39', cena: '669.8635697912584', datum: 10.11.2021.,
+  dolazak: Subotica, id: '17', peron: '12', polazak: Nis, vremeDolaska: '11:00', vremePolazak: '06:00'}
+- !!zad_1.Putanja {brKarata: '33', cena: '852.5282998741322', datum: 11.11.2021.,
+  dolazak: Subotica, id: '18', peron: '6', polazak: Nis, vremeDolaska: '11:00', vremePolazak: '06:00'}
+- !!zad_1.Putanja {brKarata: '28', cena: '947.2876075550993', datum: 11.11.2021.,
+  dolazak: Subotica, id: '19', peron: '19', polazak: Nis, vremeDolaska: '08:00', vremePolazak: '07:00'}
+- !!zad_1.Putanja {brKarata: '41', cena: '815.6810891567623', datum: 12.11.2021.,
+  dolazak: Subotica, id: '20', peron: '15', polazak: Nis, vremeDolaska: '09:00', vremePolazak: '06:00'}

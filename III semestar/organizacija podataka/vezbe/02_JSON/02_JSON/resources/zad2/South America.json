@@ -1,0 +1,92 @@
+[ {
+  "contryName" : "Argentina",
+  "capitalName" : "Buenos Aires",
+  "capitalLatitude" : "-34.583333333333336",
+  "capitalLongitude" : "-58.666667",
+  "contryCode" : "AR",
+  "continentName" : "South America"
+}, {
+  "contryName" : "Bolivia",
+  "capitalName" : "La Paz",
+  "capitalLatitude" : "-16.5",
+  "capitalLongitude" : "-68.150000",
+  "contryCode" : "BO",
+  "continentName" : "South America"
+}, {
+  "contryName" : "Brazil",
+  "capitalName" : "Brasilia",
+  "capitalLatitude" : "-15.783333333333333",
+  "capitalLongitude" : "-47.916667",
+  "contryCode" : "BR",
+  "continentName" : "South America"
+}, {
+  "contryName" : "Chile",
+  "capitalName" : "Santiago",
+  "capitalLatitude" : "-33.45",
+  "capitalLongitude" : "-70.666667",
+  "contryCode" : "CL",
+  "continentName" : "South America"
+}, {
+  "contryName" : "Colombia",
+  "capitalName" : "Bogota",
+  "capitalLatitude" : "4.6",
+  "capitalLongitude" : "-74.083333",
+  "contryCode" : "CO",
+  "continentName" : "South America"
+}, {
+  "contryName" : "Ecuador",
+  "capitalName" : "Quito",
+  "capitalLatitude" : "-0.21666666666666667",
+  "capitalLongitude" : "-78.500000",
+  "contryCode" : "EC",
+  "continentName" : "South America"
+}, {
+  "contryName" : "Falkland Islands",
+  "capitalName" : "Stanley",
+  "capitalLatitude" : "-51.7",
+  "capitalLongitude" : "-57.850000",
+  "contryCode" : "FK",
+  "continentName" : "South America"
+}, {
+  "contryName" : "Guyana",
+  "capitalName" : "Georgetown",
+  "capitalLatitude" : "6.8",
+  "capitalLongitude" : "-58.150000",
+  "contryCode" : "GY",
+  "continentName" : "South America"
+}, {
+  "contryName" : "Paraguay",
+  "capitalName" : "Asuncion",
+  "capitalLatitude" : "-25.266666666666666",
+  "capitalLongitude" : "-57.666667",
+  "contryCode" : "PY",
+  "continentName" : "South America"
+}, {
+  "contryName" : "Peru",
+  "capitalName" : "Lima",
+  "capitalLatitude" : "-12.05",
+  "capitalLongitude" : "-77.050000",
+  "contryCode" : "PE",
+  "continentName" : "South America"
+}, {
+  "contryName" : "Suriname",
+  "capitalName" : "Paramaribo",
+  "capitalLatitude" : "5.833333333333333",
+  "capitalLongitude" : "-55.166667",
+  "contryCode" : "SR",
+  "continentName" : "South America"
+}, {
+  "contryName" : "Uruguay",
+  "capitalName" : "Montevideo",
+  "capitalLatitude" : "-34.85",
+  "capitalLongitude" : "-56.166667",
+  "contryCode" : "UY",
+  "continentName" : "South America"
+}, {
+  "contryName" : "Venezuela",
+  "capitalName" : "Caracas",
+  "capitalLatitude" : "10.483333333333333",
+  "capitalLongitude" : "-66.866667",
+  "contryCode" : "VE",
+  "continentName" : "South America"
+} ]
