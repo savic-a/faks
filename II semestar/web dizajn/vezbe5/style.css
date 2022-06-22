@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url('city.jpg');
+    color: white;
+}
+
+nav {
+    width: 10%;
+    float: left;
+    background-color: rgba(255, 102, 72, 0.8);
+    height: 100%;
+    text-align: center;
+    position: fixed;
+}
+
+main {
+    width: 90%;
+    float: left;
+    padding: 15px;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px;
+    width: 100%;
+    display: inline-block;
+}
+
+nav ul li {
+    border-bottom: 1px solid white;
+}
+
+nav ul li a:hover {
+    background-color: black;
+}
+
+h1 {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+h2 {
+    color: black;
+    background-color: rgba(255, 102, 72, 0.8);
+}
+
+h2,
+h1 {
+    width: fit-content;
+    padding: 5px;
+}
+
+#images {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+img {
+    border-radius: 50%;
+    width: 10vw;
+    height: 10vw;
+    margin: 0 20px;
+    opacity: 0.6;
+}
+
+img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+p {
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: justify;
+    padding: 5px;
+}
+
+.btn {
+    text-decoration: none;
+    float: right;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-right: 5px;
+
+}
+
+.whiteBtn {
+    background-color: white;
+    color: black;
+}
+
+.blackBtn {
+    background-color: black;
+    color: white;
+}
+
+

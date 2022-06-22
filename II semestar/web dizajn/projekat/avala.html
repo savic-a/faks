@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <title>Pojedinačna tura</title>
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatibile" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="pojedinacne-ture.css"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <header>
+            <img id="logo-slika" src="slike/logo.jpg">
+            <h2>Aloha</h2>
+        </header>
+
+        <nav class="navigacija">
+            <span class="nav-dugme" id="nav"><i class="fa fa-bars"></i></span>
+            <a class="aktivno" href="glavna.html"><i class="fa fa-fw fa-home"></i>Početna</a>
+            <ul class="main-nav" id="js-meni">
+                <li>
+                    <a id="sve-ture"><i class="fa fa-fw fa-suitcase"></i> Ture</a>
+                </li>
+                <li>
+                    <a href="#kontakt"><i class="fa fa-fw fa-phone"></i> Kontakt</a>
+                </li>
+                <li>
+                    <a href="#recenzije"><i class="fa fa-fw fa-star"></i> Recenzije</a>
+                </li>
+                <li>
+                    <a href="administrator.html"><i class="fa fa-fw fa-users"></i> Korisnici</a>
+                </li>
+                <li>
+                    <a id="prijavljivanje"><i class="fa fa-fw fa-user"></i> Prijava</a>
+                </li>
+                <li>
+                    <a id="registrovanje"><i class="fa fa-fw fa-user-plus"></i> Registracija</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="form-popup" id="prijava">
+            <form id="pForm" class="form form-kontejner">
+                <p class="reg-naslov">Prijava</p>
+                <label for="username">Korisničko ime</label>
+                <input type="text" id="korisnicko-ime" placeholder="Unesite korisničko ime" name="username">
+                <label for="password">Lozinka</label>
+                <input type="password" id="lozinka" placeholder="Unesite lozinku" name="password">
+                <button type="submit" class="dugme otvori">Prijavi se</button>
+                <button id="zatvori" class="dugme">Zatvori</button>
+            </form>
+        </div>
+
+        <div class="forma" id="registracija">
+            <form id="rForm" class="form-kontejner-reg">
+                <p class="reg-naslov">Registracija</p><br>
+                <div class="clearfix">
+                    <label for="username">Korisničko ime:</label>
+                    <input type="text" id="username" placeholder="Unesi korisničko ime" name="username">
+                </div>
+                <div class="clearfix">
+                    <label for="pwd">Lozinka:</label>
+                    <input type="password" id="pwd" placeholder="Unesite lozinku" name="pwd">
+                </div>
+                <div class="clearfix">
+                    <label for="fName">Ime:</label>
+                    <input type="text" id="fName" placeholder="Unesite ime" name="fName">
+                </div>
+                <div class="clearfix">
+                    <label for="lName">Prezime:</label>
+                    <input type="text" id="lName" placeholder="Unesite prezime" name="lName">
+                </div>
+                <div class="clearfix">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Unesite email" name="email">
+                </div>
+                <div class="clearfix">
+                    <label for="date">Datum rođenja:</label>
+                    <input type="date" id="date" name="date">
+                </div>
+                <div class="clearfix">
+                    <label for="adress">Adresa:</label>
+                    <input type="text" id="adress" placeholder="Unesite adresu" name="adress">
+                </div>
+                <div class="clearfix">
+                    <label for="mobile">Telefon:</label>
+                    <input type="text" id="mobile" placeholder="Unesite desno telefona" name="mobile"><br>
+                </div>
+                <div class="otv-zat">
+                    <button type="submit" class="dugmici reg">Registruj se</button>
+                    <button id="zat" class="dugmici">Zatvori</button>
+                </div>
+            </form>
+        </div>
+        
+        <div id="avala" class="naslovna">
+            <a href="glavna.html"><img id="logo" src="slike/logo.jpg"></a>
+            <a href="glavna.html"><h1>Aloha</h1></a>
+            <p id="naslov"></p>
+        </div>
+
+        <main class="kontejner">
+
+            <div class="desna-strana">
+                <p id="podnaslov"></p>
+                <p class="tekst"></p>
+                <div id="opis">
+                    <b>Tip ture:</b> <span id="tip"></span><br>
+                    <b>Mesto polaska:</b> <span class="polazak"></span><br>
+                    <b>Trajanje ture:</b> <span id="trajanje"></span><br>
+                    <b>Cena ture:</b> <span id="cena"></span><br>
+                    <b>Maksimalan broj osoba:</b> <span id="broj"></span>
+                </div>
+                <hr>
+            </div>
+            
+            <table class="leva-strana">
+                <caption id="kontakt" class="kontakt">Kontakt</caption>
+                <tbody>
+                    <tr>
+                        <td class="border">
+                            <i class="fa fa-fw fa-phone"></i>
+                            <span>+38160132231</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="border">
+                            <i class="fa fa-fw fa-phone"></i>
+                            <span>+381661478985</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="border">
+                            <i class="fa fa-fw fa-map-marker"></i>
+                            <span class="polazak"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a id='dugme' class="dugme">Izmenite turu</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="desna-strana">
+                <p id="recenzije" class="podnaslov">Recenzije</p>
+                <span id="ocene-naslov">Ocene korisnika&nbsp;&nbsp;&nbsp;</span>
+                <span id="zvezde"></span>
+                <div id='prosek'></div><hr>
+
+                <div class="red">
+                    <div class="strane">
+                      <div>5 zvezdica</div>
+                    </div>
+                    <div class="sredina">
+                      <div class="bar">
+                        <div id="bar-5"></div>
+                      </div>
+                    </div>
+                    <div class="strane desno"></div>
+                    <div class="strane">
+                      <div>4 zvezdice</div>
+                    </div>
+                    <div class="sredina">
+                      <div class="bar">
+                        <div id="bar-4"></div>
+                      </div>
+                    </div>
+                    <div class="strane desno"></div>
+                    <div class="strane">
+                      <div>3 zvezdice</div>
+                    </div>
+                    <div class="sredina">
+                      <div class="bar">
+                        <div id="bar-3"></div>
+                      </div>
+                    </div>
+                    <div class="strane desno"></div>
+                    <div class="strane">
+                      <div>2 zvezdice</div>
+                    </div>
+                    <div class="sredina">
+                      <div class="bar">
+                        <div id="bar-2"></div>
+                      </div>
+                    </div>
+                    <div class="strane desno"></div>
+                    <div class="strane">
+                      <div>1 zvezdica</div>
+                    </div>
+                    <div class="sredina">
+                      <div class="bar">
+                        <div id="bar-1"></div>
+                      </div>
+                    </div>
+                    <div class="strane desno"></div>
+                  </div>
+            </div>
+            <script src="avala.js"></script>
+            <script src="za-sve.js"></script>
+        </main>
+    </body>
+</html>

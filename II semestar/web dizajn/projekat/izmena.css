@@ -1,0 +1,369 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f3e5f5;
+}
+
+header {
+    display: none;
+    background-color: orange;
+}
+
+#logo-slika {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 10px 0 0 10px;
+}
+
+h2 {
+    font-family: "Dancing Script", cursive;
+    display: inline-block;
+    font-size: 70px;
+    color: white;
+}
+
+#logo{
+    height: 50px;
+    width: 50px;
+    margin: 20px 0 0 20px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-family: "Dancing Script", cursive;
+    display: inline-block;
+    font-size: 50px;
+    color: orange;
+    padding: 5px;
+}
+
+.navigacija{
+    display: flex;
+    padding-bottom: 0;
+    height: 40px;
+    align-items: center;
+
+    font-size: 18px;
+    padding-bottom: 5px;
+    background-color: rgb(59, 26, 247);
+    color: white;
+}
+
+.main-nav{
+    list-style-type: none;
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.main-nav li{
+    margin: 0;
+}
+
+li a {
+    margin-left: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.aktivno{
+    margin-top: 0;
+    color: white;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.nav-dugme{
+    display: none;
+}
+
+.aktivno:hover, li a:hover{
+    color: #eeeeee;
+}
+
+.form-popup {
+    display: none;
+    border: 3px solid #f1f1f1;
+    position: fixed;
+    margin-left: 35%;
+}
+
+.form-kontejner {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+.form-kontejner input {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.form .dugme {
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 17px;
+    background-color: orange;
+}
+
+.form #zatvori {
+    opacity: 0.7;
+}
+
+.forma {
+    display: none;
+    border: 3px solid #f1f1f1;
+    position: fixed;
+    width: 400px;
+    margin-left: 35%;
+}
+
+.form-kontejner-reg {
+    background-color: white;
+}
+
+.form-kontejner-reg label {
+    margin-left: 15px;
+}
+
+.form-kontejner-reg input{
+    padding: 10px;
+    margin: 5px 10px 15px 0;
+    border: none;
+    background: #f1f1f1;
+    width: 15em;
+    float: right;
+}
+
+.form-kontejner-reg .dugmici {
+    padding: 10px 30px;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+    opacity: 1;
+    font-size: 17px;
+    margin-left: 15px;
+    background-color: orange;
+}
+
+.form-kontejner-reg #zat {
+    opacity: 0.7;
+}
+
+.otv-zat{
+    margin-left: 2.5em;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#naslov {
+    margin: 15px;
+    color: rgb(133, 133, 133);
+}
+
+.unos input, .unos select, .unos textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+ 
+#izmena{
+    background-color: rgb(59, 26, 247);
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 4px;
+    float: right;
+    opacity: 0.8;
+    margin-top: 10px;
+    cursor: pointer;
+}
+  
+#izmena:hover {
+    opacity: 1;
+}
+  
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.labela {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+  
+.unos {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+ 
+.red:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+button a {
+    color: white;
+}
+
+.dialog {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+#tekst{
+    font-size: 20px;
+}
+
+.ispis {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    height: 30%;
+}
+
+.dialog-dgm{
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.dgm{
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        display: block;
+    }
+
+    .naslovna {
+        display: none;
+    }
+
+    .navigacija {
+        display: block;
+        height: unset;
+        background-image: linear-gradient(260deg, #64b5f6 0%, orange  100%);
+    }
+    
+    .main-nav li{
+        text-align: center;
+        margin: 15px auto;    
+    }
+    
+    .aktivno{
+        margin-top: 10px;
+        font-size: 22px;
+    }
+    
+    .nav-dugme{
+        display: inline;
+        position: absolute;
+        top: 107px;
+        right: 20px;
+        cursor: pointer;
+        font-size: 24px;
+    }
+    
+    .main-nav{
+        display: none;
+    }
+
+    .container, .labela, #izmena {
+        width: 100%;
+    }
+    
+    #izmena, #izmena a{
+        opacity: 1;
+    }
+
+    .forma, .form-popup {
+        position: sticky;
+        top: 60px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .form-kontejner {
+        max-width: none;
+    }
+
+    .labela{
+        text-align: center;
+    }
+
+    .unos{
+        width: 100%;
+    }
+
+    .otv-zat{
+        margin-left: 2em;
+    }
+
+    .ispis{
+        width: 100%;
+    }
+
+    .dialog-dgm{
+        margin-left: 15%;
+        margin-top: 10%;
+    }
+
+}
+

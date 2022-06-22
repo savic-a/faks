@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head leng="en">
+        <title>HTML Forms - Reservation</title>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <h1>Courts Reervation Page</h1>
+        <form>
+            <fieldset>
+                <legend>Client Date</legend>
+                <p>
+                    <label for="fName">Full Name:</label>
+                    <input type="text" name="fName" id="fName" pattern="^((\p{L})+(\s(\p{L})+)+)$" required />
+                </p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email"/>
+                </p>
+                <p>
+                    <label>Are you a Member?</label>
+                    <input type="radio" name="memebership" id="membership" value="member" />
+                    <label for="member">Yes</label>
+                    <input type="radio" name="memebership" id="non-membership" value="non-memeber" checked/>
+                    <label for="non-member">No</label>
+                </p>
+            </fieldset>
+            </br>
+            <fieldset>
+                <legend>Reservation Data</legend>
+                <p>
+                    <label for="court">Court:</label>
+                    <select name="court" id="court">
+                        <option value="basketball">Basketball</option>
+                        <option value="tennis">Tennis</option>
+                        <option value="rugby">Rugby</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Select a reservation date and time:</label>
+                    </br>
+                    <input type="date" name="date" id="date" required/>
+                    <input type="time" name="time" id="time" required/>
+                </p>
+                <p>
+                    <label for='playersNum'>Num. of Players:</label>
+                    <input type="number" name="playersNum" id="playersNum" min="1" max="12" />
+                </p>
+                <p>
+                    <label for="note">Note:</label>
+                    <br/>
+                    <textarea cols="30" rows="4"></textarea>
+                </p>
+            </fieldset>
+            <p>
+                <input type="checkbox" name="policy" id="policy" value="agree" required/>
+                <label for="policy">I agree to the club's reservation policy</label>
+            </p>
+            <!-- <input type="submit" value="SUBMIT"/>
+            <input type="reset" value="RESET"/> -->
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <title>Turistička agencija Aloha</title>
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatibile" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="style.css">  
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <header>
+            <img id="logo-slika" src="slike/logo.jpg">
+            <h2>Aloha</h2>
+        </header>
+
+        <nav class="navigacija">
+            <span class="nav-dugme" id="nav"><i class="fa fa-bars"></i></span>
+            <a class="aktivno" href="glavna.html"><i class="fa fa-fw fa-home"></i>Početna</a>
+            <ul class="main-nav" id="js-meni">
+                <li>
+                    <a href="#gradovi"><i class="fa fa-fw fa-suitcase"></i> Gradovi</a>
+                </li>
+                <li>
+                    <a href="administrator.html"><i class="fa fa-fw fa-users"></i> Korisnici</a>
+                </li>
+                <li>
+                    <a id="prijavljivanje"><i class="fa fa-fw fa-user"></i> Prijava</a>
+                </li>
+                <li>
+                    <a id="registrovanje"><i class="fa fa-fw fa-user-plus"></i> Registracija</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="form-popup" id="prijava">
+            <form id="pForm" class="form form-kontejner">
+                <p>Prijava</p>
+                <label for="username">Korisničko ime</label>
+                <input type="text" id="korisnicko-ime" placeholder="Unesite korisničko ime" name="username">
+                <label for="password">Lozinka</label>
+                <input type="password" id="lozinka" placeholder="Unesite lozinku" name="password">
+                <button type="submit" class="dugme otvori">Prijavi se</button>
+                <button class="dugme" id="zatvori">Zatvori</button>
+            </form>
+        </div>
+
+        <div class="forma" id="registracija">
+            <form id="rForm" class="form-kontejner-reg">
+                <p>Registracija</p><br>
+                <div class="clearfix">
+                    <label for="username">Korisničko ime:</label>
+                    <input type="username" id="username" placeholder="Unesite korisničko ime" name="username">
+                </div>
+                <div class="clearfix">
+                    <label for="pwd">Lozinka:</label>
+                    <input type="password" id="pwd" placeholder="Unesite lozinku" name="pwd">
+                </div>
+                <div class="clearfix">
+                    <label for="fName">Ime:</label>
+                    <input type="text" id="fName" placeholder="Unesite ime" name="fName">
+                </div>
+                <div class="clearfix">
+                    <label for="lName">Prezime:</label>
+                    <input type="text" id="lName" placeholder="Unesite prezime" name="lName">
+                </div>
+                <div class="clearfix">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Unesite email" name="email">
+                </div>
+                <div class="clearfix">
+                    <label for="date">Datum rođenja:</label>
+                    <input type="date" id="date" name="date">
+                </div>
+                <div class="clearfix">
+                    <label for="adress">Adresa:</label>
+                    <input type="text" id="adress" placeholder="Unesite adresu" name="adress">
+                </div>
+                <div class="clearfix">
+                    <label for="mobile">Telefon:</label>
+                    <input type="tel" id="mobile" placeholder="Unesite broj telefona" name="mobile" pattern="[0-9]{8,12}">
+                </div>
+                <div class="otv-zat">
+                    <button type="submit" class="dugmici reg">Registruj se</button>
+                    <button class="dugmici" id="zat">Zatvori</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="naslovna">
+            <img id="logo" src="slike/logo.jpg">
+            <h1>Aloha</h1>
+            <p id="slogan">Proputuj svet!</p>
+        </div>
+
+        <main id="gradovi" class="red clearfix">
+
+            <script src='glavna.js'></script>
+        </main>
+
+        <footer>  
+            <div class="zaglavlje">
+              <i class="fa fa-facebook-official fa-lg ikonica"></i>
+              <i class="fa fa-instagram fa-lg ikonica"></i>
+              <i class="fa fa-snapchat fa-lg ikonica"></i>
+              <i class="fa fa-pinterest-p fa-lg ikonica"></i>
+              <i class="fa fa-twitter fa-lg ikonica"></i>
+              <i class="fa fa-linkedin fa-lg ikonica"></i>
+           </div>
+           <p class="copy">Copyright &copy; 2021 A Web Design Company</p>
+          </footer>
+          <script src='za-sve.js'></script>
+    </body>
+</html>

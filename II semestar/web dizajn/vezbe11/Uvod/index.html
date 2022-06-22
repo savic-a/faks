@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap - Uvodni primer</title>
+    <!-- Neophodna povezivanja sa Bootstrap fajlovima -->
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+    <!-- 
+        Div sa klasom "container" ili "conatiner-fluid" je osnovni element Bootstrap stranice. 
+        U njega se dodaju svi ostali elementi.
+    -->
+    <div class="container">
+        <!-- Dodavanjem div elementa sa klasom "row" definise se red u Bootstrap Grid sistemu -->
+        <div class="row">
+            <!-- 
+                Dodavanjem div elementa sa klasom "col" definise se kolona okviru jednog reda Bootstrap 
+                Grid sistema. Za svaku kolonu u redu velicina se definise kao udeo dvanaestina.                
+            -->
+            <div class="col-md-12">
+                <header>
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <a class="navbar-brand" href="#">Moja stranica</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Pocetna <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">O nama</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Blog
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">O meni</a>
+                                        <a class="dropdown-item" href="#">Putovanja</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pretraga</button>
+                            </form>
+                        </div>
+                    </nav>
+                    <h1 class="mt-2 mb-4">Bootstrap - Uvodni primer</h1>
+                </header>
+            </div>
+        </div>
+        <div class="row">
+            <!-- 
+                Pri pravljenju responsive dizajna, udeo kolone u redu se moze definisati 
+                za razlicite breakpoint-e, odnosno velicine uredjaja. Postoje 4 ugradjena 
+                breakpoint-a (sm, md, lg, xl), koji se ne moraju svi upotrebiti, ali se 
+                jedan bira za podrazumevani.
+             -->
+            <div class="col-md-3 col-sm-6">
+                <aside>
+                    <div class="dropdown mb-3">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Izaberite jezik
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Srpski</a>
+                            <a class="dropdown-item" href="#">English</a>
+                        </div>
+                    </div>
+                    <ul>
+                        <li><a href="#">Pocetna</a></li>
+                        <li><a href="#">O nama</a></li>
+                        <li><a href="#">Kontakt</a></li>
+                    </ul>
+                </aside>
+            </div>
+            <div class="col-md-9 col-sm-6">
+                <main>
+                    <h2>Dobrodosli!</h2>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis exercitationem quasi cumque blanditiis tempora odit harum minima enim voluptate et architecto necessitatibus, minus perferendis sit provident pariatur, deleniti velit! Dolores. Lorem
+                        ipsum dolor sit amet consectetur, adipisicing elit. Illum ducimus a omnis dicta tenetur et, laudantium, corporis itaque perferendis magnam dolore? Sapiente voluptas ducimus a impedit vero expedita laudantium similique!
+                    </p>
+                </main>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <footer>
+                    Copyright 2020 &copy; Fakultet tehnickih nauka, Novi Sad
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

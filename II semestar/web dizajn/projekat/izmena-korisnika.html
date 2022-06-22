@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <title>Izmena detalja korisnika</title>
+        <link rel="stylesheet" type="text/css" href="izmena.css">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatibile" content="ie=edge"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <header>
+            <img id="logo-slika" src="slike/logo.jpg">
+            <h2>Aloha</h2>
+        </header>
+
+        <nav class="navigacija">
+            <span class="nav-dugme" id="nav"><i class="fa fa-bars"></i></span>
+            <a class="aktivno" href="glavna.html"><i class="fa fa-fw fa-home"></i>Početna</a>
+            <ul class="main-nav" id="js-meni">
+                <li>
+                    <a href="administrator.html"><i class="fa fa-fw fa-users"></i> Korisnici</a>
+                </li>
+                <li>
+                    <a id="prijavljivanje"><i class="fa fa-fw fa-user"></i> Prijava</a>
+                </li>
+                <li>
+                    <a id="registrovanje"><i class="fa fa-fw fa-user-plus"></i> Registracija</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="form-popup" id="prijava">
+            <form id="pForm" class="form form-kontejner">
+                <p>Prijava</p>
+                <label for="username">Korisničko ime</label>
+                <input type="text" id="korisnicko-ime" placeholder="Unesite korisničko ime" name="username" >
+                <label for="password">Lozinka</label>
+                <input type="password" id="loz" placeholder="Unesite lozinku" name="password" >
+                <button type="submit" class="dugme otvori">Prijavi se</button>
+                <button class="dugme" id="zatvori">Zatvori</button>
+            </form>
+        </div>
+
+        <div class="forma" id="registracija">
+            <form id="rForm" class="form-kontejner-reg">
+                <p>Registracija</p><br>
+                <div class="clearfix">
+                    <label for="username">Korisničko ime:</label>
+                    <input type="text" id="username" placeholder="Unesite korisničko ime" name="username" >
+                </div>
+                <div class="clearfix">
+                    <label for="pwd">Lozinka:</label>
+                    <input type="password" id="pwd" placeholder="Unesite lozinku" name="pwd" >
+                </div>
+                <div class="clearfix">
+                    <label for="fName">Ime:</label>
+                    <input type="text" id="fName" placeholder="Unesite ime" name="fName" pattern="^((\p{L})+)$" >
+                </div>
+                <div class="clearfix">
+                    <label for="lName">Prezime:</label>
+                    <input type="text" id="lName" placeholder="Unesite prezime" name="lName" pattern="^((\p{L})+)$" >
+                </div>
+                <div class="clearfix">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Unesite email" name="email" >
+                </div>
+                <div class="clearfix">
+                    <label for="date">Datum rođenja:</label>
+                    <input type="date" id="date" name="date" >
+                </div>
+                <div class="clearfix">
+                    <label for="adress">Adresa:</label>
+                    <input type="text" id="adress" placeholder="Unesite adresu" name="adress" >
+                </div>
+                <div class="clearfix">
+                    <label for="mobile">Telefon:</label>
+                    <input type="tel" id="mobile" placeholder="Unesite broj telefona" name="mobile" pattern="[0-9]{8,12}" ><br>
+                </div>
+                <div class="otv-zat">
+                    <button type="submit" class="dugmici reg">Registruj se</button>
+                    <button class="dugmici" id="zat">Zatvori</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="naslovna">
+            <a href="glavna.html"><img id="logo" src="slike/logo.jpg"></a>
+            <a href="glavna.html"><h1>Aloha</h1></a>
+        </div>
+
+        <p id="naslov">Izmena podataka korisnika</p>
+
+        <main class="container">
+            <form id="izmeniForma">
+                <div class="red">
+                    <div class="labela">
+                        <label for="username">Korisničko ime:</label>
+                    </div>
+                    <div class="unos">
+                        <input type="text" id="korisnik" name="username">
+                    </div>
+                </div>
+
+                <div class="red">
+                    <div class="labela">
+                        <label for="lozinka">Lozinka:</label>
+                    </div>
+                    <div class="unos">
+                        <input type="password" id="lozinka" name="lozinka" >
+                    </div>
+                </div>
+
+                <div class="red">
+                    <div class="labela">
+                        <label for="email">E-mail:</label>
+                    </div>
+                    <div class="unos">
+                        <input type="email" name="email" id="mejl" >
+                    </div>
+                </div>
+
+                <div class="red">
+                    <div class="labela">
+                        <label for="ime">Ime:</label>
+                    </div>
+                    <div class="unos">
+                        <input type="text" id="ime" name="ime" pattern="^((\p{L})+)$" >
+                    </div>
+                </div>
+
+                <div class="red">
+                    <div class="labela">
+                        <label for="prezime">Prezime:</label>
+                    </div>
+                    <div class="unos">
+                        <input type="text" name="prezime" id="prezime" pattern="^((\p{L})+)$" >
+                    </div>
+                </div>
+
+                <div class="red">
+                    <div class="labela">
+                        <label for="datum">Datum rođenja:</label>
+                    </div>
+                    <div class="unos">
+                        <input type="date" id="datum" name="datum" >
+                    </div>
+                </div>
+
+               <div class="red">
+                   <div class="labela">
+                        <label for="adresa">Adresa:</label>
+                    </div>
+                    <div class="unos">
+                        <input type="text" name="adresa" id="adresa" >
+                    </div>
+                </div>
+
+            <div class="red">
+                <div class="labela">
+                    <label for="tel">Broj telefona:</label>
+                </div>
+                <div class="unos">
+                    <input type="tel" id="tel" name="tel">
+                </div>
+            </div>
+
+            <div class="red">
+                <button type="submit" id="izmena">Izmeni</button>
+            </div>
+          </form>
+        </main>
+
+        <div id="dialog" class="dialog">
+            <div class="ispis">
+              <p id="tekst">Da li ste sigurni da želite da izmenite podatke?</p>
+              <div class="dialog-dgm">
+                <button class="dgm" id="potvrdi">Potvrdi</button>
+                <button class="dgm" id="odustani">Odustani</button>
+            </div>
+            </div>
+        </div>
+
+    </body>
+    <script src="izmena-korisnika.js"></script>
+    <script src="za-sve.js"></script>
+</html>

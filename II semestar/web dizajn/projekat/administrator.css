@@ -1,0 +1,313 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background-color: lavender;
+}
+
+header {
+    display: none;
+    background-color: orange;
+}
+
+#logo-slika {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 10px 0 0 10px;
+}
+
+h2 {
+    font-family: "Dancing Script", cursive;
+    display: inline-block;
+    font-size: 70px;
+    color: white;
+}
+
+.form-popup {
+    display: none;
+    border: 3px solid #f1f1f1;
+    position: fixed;
+    margin-left: 25%;
+}
+
+.form-kontejner {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+.form-kontejner input {
+    width: 100%;
+    padding: 15px 0 15px 5px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.form .dugme {
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 17px;
+    background-color: orange;
+}
+
+.form #zatvori {
+    opacity: 0.7;
+}
+
+.forma {
+    display: none;
+    border: 3px solid #f1f1f1;
+    position: fixed;
+    width: 400px;
+    margin-left: 20%;
+}
+
+.form-kontejner-reg {
+    background-color: white;
+}
+
+.form-kontejner-reg label {
+    margin-left: 15px;
+}
+
+.form-kontejner-reg input{
+    padding: 10px;
+    margin: 5px 10px 15px 0;
+    border: none;
+    background: #f1f1f1;
+    width: 15em;
+    float: right;
+}
+
+.form-kontejner-reg .dugmici {
+    padding: 10px 30px;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+    opacity: 1;
+    font-size: 17px;
+    margin-left: 15px;
+    background-color: orange;
+}
+
+.form-kontejner-reg #zat {
+    opacity: 0.7;
+}
+
+.otvori-zatvori{
+    margin-left: 2.5em;
+}
+
+.reg-naslov {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#logo{
+    height: 50px;
+    width: 50px;
+    margin: 20px 0 0 20px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-family: "Dancing Script", cursive;
+    display: inline-block;
+    font-size: 50px;
+    color: orange;
+    padding: 5px;
+}
+
+.navigacija{
+    display: flex;
+    padding-bottom: 0;
+    height: 40px;
+    align-items: center;
+
+    font-size: 18px;
+    padding-bottom: 5px;
+    background-color: rgb(59, 26, 247);
+    color: white;
+}
+
+.main-nav{
+    list-style-type: none;
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.main-nav li{
+    margin: 0;
+}
+
+li a {
+    margin-left: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.aktivno{
+    margin-top: 0;
+    color: white;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.nav-dugme{
+    display: none;
+}
+
+.aktivno:hover, li a:hover{
+    color: #eeeeee;
+}
+
+.naslov {
+    text-align: center;
+    font-size: 40px;
+    color: gray;
+    margin: 5px;
+    padding: 5px;
+}
+
+hr {
+   border: 0.5px solid #C4CDD6;
+   width: 50%;
+   margin: auto;
+}
+
+table tbody tr td a{
+    cursor: pointer;
+}
+
+.kontejner {
+    margin: 0;
+}
+
+table { 
+    margin-top: 30px;
+    width: 60%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+tr:nth-of-type(odd) { 
+    background: rgb(204, 203, 203); 
+}
+
+th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+}
+
+td, th { 
+    padding: 6px; 
+    border: 1px solid #ccc; 
+}
+  
+@media screen and (max-width: 800px)  {
+    .navigacija {
+        display: block;
+        height: unset;
+        background-image: linear-gradient(260deg, #64b5f6 0%, orange   100%);
+    }
+    
+    .main-nav li{
+        text-align: center;
+        margin: 15px auto;    
+    }
+    
+    .aktivno{
+        margin-top: 10px;
+        font-size: 22px;
+    }
+    
+    .nav-dugme{
+        display: inline;
+        position: absolute;
+        top: 107px;
+        right: 20px;
+        cursor: pointer;
+        font-size: 24px;
+    }
+    
+    .main-nav{
+        display: none;
+    }
+
+    .forma, .form-popup {
+        position: sticky;
+        top: 60px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .form-kontejner {
+        max-width: none ;
+    }
+
+    .naslovna, thead tr {
+        display: none;
+    }
+
+    .kontejner {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    table {
+        width: 100%;
+        text-align: left;
+    }
+
+    header, table, thead, tbody, th, td, tr { 
+        display: block; 
+    }
+    
+    tr { 
+        border: 1px solid #ccc; 
+    }
+    
+    td {
+        border: none;
+        border-bottom: 1px solid #eee; 
+        position: relative;
+        padding-left: 50%; 
+    }
+    
+    td:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%; 
+        padding-right: 10px; 
+    }
+   
+    td:nth-of-type(1):before { content: "Ime"; }
+    td:nth-of-type(2):before { content: "Prezime"; }
+    td:nth-of-type(3):before { content: "E-mail"; }
+    td:nth-of-type(4):before { content: "Posetite profil"; }
+    td:nth-of-type(5):before { content: "Izmenite profil"; }
+    td:nth-of-type(6):before { content: "Obrišite profil"; }
+}

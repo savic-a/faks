@@ -1,0 +1,414 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    display: none;
+    background-color: orange;
+}
+
+#logo-slika {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 10px 0 0 10px;
+}
+
+h2 {
+    font-family: "Dancing Script", cursive;
+    display: inline-block;
+    font-size: 70px;
+    color: white;
+}
+
+.form-popup {
+    display: none;
+    border: 3px solid #f1f1f1;
+    position: fixed;
+    margin-left: 70%;
+}
+
+.form-kontejner {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+.form-kontejner input {
+    width: 100%;
+    padding: 15px 0 15px 5px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.form .dugme {
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 17px;
+    background-color: orange;
+}
+
+.form #zatvori {
+    opacity: 0.8;
+}
+
+.forma {
+    display: none;
+    border: 3px solid #f1f1f1;
+    position: fixed;
+    width: 400px;
+    margin-left: 70%;
+}
+
+.form-kontejner-reg {
+    background-color: white;
+}
+
+.form-kontejner-reg label {
+    margin-left: 15px;
+}
+
+.form-kontejner-reg input{
+    padding: 10px;
+    margin: 5px 10px 15px 0;
+    border: none;
+    background: #f1f1f1;
+    width: 15em;
+    float: right;
+}
+
+.form-kontejner-reg .dugmici {
+    padding: 10px 30px;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+    opacity: 1;
+    font-size: 17px;
+    margin-left: 15px;
+    background-color: orange;
+}
+
+.form-kontejner-reg #zat {
+    opacity: 0.8;
+}
+
+.otv-zat{
+    margin-left: 2.5em;
+}
+
+.reg-naslov {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#logo {
+    height: 50px;
+    width: 50px;
+    margin: 20px 0 0 20px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-family: "Dancing Script", cursive;
+    display: inline-block;
+    font-size: 50px;
+    color: orange;
+    padding: 5px;
+}
+
+.naslovna {
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+#naslov {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.kontejner {
+    margin: 0 auto;
+    width: 950px;
+}
+
+.leva-strana {
+    float: left;
+    width: 25%;
+}
+
+.desna-strana {
+    width: 65%;
+    float: right;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.tekst {
+    margin: 0 auto 20px auto;
+    line-height: 1.5;
+}
+
+.kontakt {
+    margin: 25px 0;
+    font-size: 25px;
+}
+
+.border {
+    padding: 5px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #615f5f;
+    border-top: none;
+}
+
+#podnaslov, #recenzije  {
+    font-size: 40px;
+    color: rgb(59, 26, 247);
+    margin: 25px 0;
+}
+
+hr {
+    margin-top: 10px;
+}
+
+.dugme {
+    background-color: rgb(59, 26, 247);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.navigacija{
+    display: flex;
+    padding-bottom: 0;
+    height: 40px;
+    align-items: center;
+
+    font-size: 18px;
+    padding-bottom: 5px;
+    background-color: rgb(59, 26, 247);
+    color: white;
+}
+
+.main-nav{
+    list-style-type: none;
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.main-nav li{
+    margin: 0;
+}
+
+li a {
+    margin-left: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.aktivno{
+    margin-top: 0;
+    color: white;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.nav-dugme{
+    display: none;
+}
+
+.aktivno:hover, li a:hover{
+    color: #eeeeee;
+}
+
+#opis {
+    line-height: 1.8;
+}
+
+.strane {
+    float: left;
+    width: 15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .naslovna{
+        display: none;
+    }
+
+    header {
+        display: block;
+    }
+
+    .navigacija {
+        display: block;
+        height: unset;
+        background-image: linear-gradient(260deg, #64b5f6 0%, orange   100%);
+    }
+    
+    .main-nav li{
+        text-align: center;
+        margin: 15px auto;    
+    }
+    
+    .aktivno{
+        margin-top: 10px;
+        font-size: 22px;
+    }
+    
+    .nav-dugme{
+        display: inline;
+        position: absolute;
+        top: 107px;
+        right: 20px;
+        cursor: pointer;
+        font-size: 24px;
+    }
+    
+    .main-nav{
+        display: none;
+    }
+
+    .forma, .form-popup {
+        position: sticky;
+        top: 60px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .form-kontejner {
+        max-width: none ;
+    }
+
+    .leva-strana {
+        width: 100%;
+        float: unset;
+    }
+
+    .desna-strana, .dugme{
+        width: 100%;
+    }
+
+    .kontejner{
+        margin: 0;
+        width: 100%;
+    }
+
+    #podnaslov {
+        text-align: center;
+    }
+
+    .tekst, #opis, #ocene-naslov, .zvezde, #prosek {
+        margin: 0 20px 20px 20px;
+    }
+
+    #recenzije {
+        margin: 0 20px 20px 20px;
+        text-align: center;
+    }
+
+    .strane{
+        width: unset;
+        margin-left: 2px;
+    }
+    
+    .sredina{
+        margin: 0 5px;
+    }
+
+    .otv-zat{
+        margin-left: 2em;
+    }
+}
+
+.red::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bar {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+}
+
+#bar-5 {
+    height: 18px; 
+    background-color: #04AA6D;
+}
+
+#bar-4 {
+    height: 18px; 
+    background-color: #2196F3;
+}
+
+#bar-3 {
+    height: 18px;
+    background-color: #00bcd4;
+}
+
+#bar-2 {
+    height: 18px;
+    background-color: #ff9800;
+}
+
+#bar-1 {
+    height: 18px;
+    background-color: #f44336;
+}
+
+.desno{
+    text-align: right;
+}
+
+.sredina {
+    margin-top: 10px;
+    float: left;
+    width: 70%;
+}
+
+.zvezda{
+    color: yellow;
+}
+
+#ocene-naslov{
+    font-size: 25px;
+}
+
+#prosek{
+    margin-top: 10px;
+    font-style: italic;
+}
