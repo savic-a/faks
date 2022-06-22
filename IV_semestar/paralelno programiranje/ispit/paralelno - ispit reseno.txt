@@ -1,0 +1,74 @@
+1. Odredi asimptotski usko ogranicenje f-je
+f(n) = a*n^2 + b*n + c. g(n)=?
+--------------------------------------------
+2. T(n) = 3*T(n/4) + n*lgn - master teorema
+--------------------------------------------
+3. Kolicina posla je 24, kriticna putanja
+duzine 8. Odredi malsimalno vrijeme
+izvrsavanja Tp na procesoru sa 4 jezgra.
+
+Tp <= T1/P + Tbesk
+--------------------------------------------
+5. Navedi dva sablona paralelnog programi.
+organizovanih dekompozicijom podataka.
+
+-Geometrijska dekompozicija
+-Rekurzivni podaci
+--------------------------------------------
+6. Sta je serijalizacija paralelnog programa
+
+Uklanjanje kljucnih reci: parallel, spawn i sync iz pseudo koda paralelnog algoritma.
+--------------------------------------------
+7. Kako se definise tbb graf zadataka?
+
+TBB graf se definise kao DAG u kom svaki cvor predstavlja zadatak. Svaki cvor predstavlja zadatak i pokazuje na naslednika koji ga ceka. Svaki od zadataka ima refcount, broj zadataka ciji je on naslednik, dodaje se 1 za eksplicitno cekanje (wait).
+
+--------------------------------------------
+8. Unutar kojih arhitektura se koristi
+OpenCL okvir?
+
+Unutar heterogenih - sa mesovitom komponentama (CPU, GPU, FPGA)
+--------------------------------------------
+9. Definisi openCL radnu stavku
+
+Jedinica konkurentnog izvrsenja.
+--------------------------------------------
+10. Nabroj sablone paralelnog pristupa
+podacima
+
+Pakovanje, Geometrijska dekompozicija, Protocna obrada, Razbacivanje, Skupljanje
+--------------------------------------------
+
+
+
+
+PROBLEMI SABLONA:
+
+-Ugnjezdavanje
+	-Fizicki resursi su konacni, pojava oversubscription
+
+-Iteracija
+	-Zadatak tela petlje f moze zavisiti od svojih prethodnih poziva
+
+-Slucajno citanje i pisanje ==> Problem ALIASA
+	-Otezava vektorizaciju i paralelizaciju programa
+	-Dodatne kopije podataka – ponekad je preskupo
+	-Aliasi se zabranjuju – odgovornost na programeru
+
+-Objekti
+	-Trka do podataka
+
+-Protocna obrada
+	-Relativno mala skalabilnost
+
+-Geometrijska dekompozicija
+	-Granicni uslovi, plocice iste velicine
+		+Koriscenje asocijativnih operatora za kombinovanje elemenata
+		+Nedeterministicko biranje jednog od vise elemenata
+		+Pridruzivanje prioriteta pojedinim elementima
+
+-Razbacivanje
+	-Moguca trka do podataka = KOLIZIJA
+
+-Transakcije
+	-Dodati dva elementa sa istim kljucima
