@@ -1,0 +1,2 @@
+bogi|123|Bogdan|Dedić|4|060/5500110|bogdan@gmail.com|muško
+dana|000|Danica|Delić|4|063/3335555|danica@gmail.com|žensko

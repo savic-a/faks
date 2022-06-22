@@ -1,0 +1,12 @@
+nevena|123|Nevena|Bubalo|2|062/2000165|bubalo.n@gmail.com|žensko|tretman lica
+zzoran|987654|Zoran|Zoric|2|065/5111322|zoranzoric@gmail.com|muško|tretman lica
+cica|123|Smiljana|Babic|2|061/2333333|cica@gmail.rs|žensko|tretman lica
+m.pavic|789|Milovan|Pavic|2|066/5536210|pavicmil@gmail.com|muško|masaza
+anjaj|11111|Anja|Jugovic|2|063/1234567|jugovicanja@gmail.com|žensko|masaza
+dragan|123|Dragan|Vasic|2|060/222555|drag@drag.rs|muško|masaza
+aisakov|0000|Ana|Isakov|2|061/982554|isakoov11@gmail.com|žensko|manikir
+jeca|aaa|Jelena|Djokovic|2|061/343512|jelena@gmail.com|žensko|manikir
+nata123|1234|Natasa|Guljas|2|064/31122512|guljasn@gmail.com|žensko|manikir
+n.nedovic|654321|Nela|Nedovic|2|062/532431|nnela@gmail.com|žensko|pedikir
+mica123|666|Milica|Gajin|2|060/2238814|gajinm@hotmail.com|žensko|pedikir
+gagi|000|Dragan|Ilin|2|060/1232211|dragan@gmail.com|muško|pedikir

@@ -1,0 +1,4 @@
+peca|123|Petar|Peric|3|062118250|petar@gmail.com|muško
+misa|456|Miloš|Mišic|3|060522522|misa@hotmail.com|muško
+goca|789|Gordana|Gagic|3|064444412|goca@goca.com|žensko
+pedja|pedjolino|Predrag|Radic|3|0628527413|pedja@yahoo.com|musko

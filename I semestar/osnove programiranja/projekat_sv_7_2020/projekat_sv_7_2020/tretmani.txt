@@ -1,0 +1,10 @@
+AAA00|relax masaza|Prijatna ručna masaža kojom postižemo opuštanje organizma.|60|Pre masaže se istuširanje.|2000
+AAA01|masaza bambusom|Ova masaža će znatno poboljšati Vašu cirkulaciju.|60|Izbegavajte upotrebu parfema.|2500
+AAA02|coko masaza|Čoko masaža je sjajna za opuštanje nakon stresnog dana.|60|Pre masaže se obavezno istuširajte.|3100
+MBB12|podmladjivanje lica|Tretman omogućava minimalizaciju bora, pri čemu izgledate mlađe.|45|Pre tretmana očistite lice.|4000
+MBC23|polutretman lica|Ovaj tretman osvežava Vašu kožu lica i vraća joj sjaj.|30|Na tretman je doći očišćenog lica.|1700
+MBL26|detox lica|Dubinski detox kože osvažava Vašu kožu i štiti je od UV zraka.|45|Na tretman doći očišćenog lica.|3500
+TTY57|estetski pedikir|Nakon ovog tretmana stopala Vas neće svrbeti, a pete pucati.|45|Na tretman doći čistih nogu.|3000
+TNT22|klasicni pedikir|Tretman obuhvata obrađivanje pete i masažu stopala.|45|Izbegavati korišćenje krema.|2700
+KRR33|gel akril|Gel u kombinaciji sa akrilom daje trajnost i dodatnu lepotu.|60|Operite ruke.|1500
+KRP07|titan nokti|Nakon ovog tretmani nokti će Vam ojačati i izgledaće lepo.|30|Uklonite nečistoće ispod noktiju!|1200
