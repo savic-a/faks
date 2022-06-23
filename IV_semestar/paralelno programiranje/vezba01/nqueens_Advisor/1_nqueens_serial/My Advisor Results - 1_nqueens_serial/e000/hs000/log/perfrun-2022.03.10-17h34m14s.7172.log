@@ -1,0 +1,106 @@
+105 [17000] INFO perfrun.launcher <> - Launcher main begin
+115 [17000] INFO perfrun.launcher <> - MessageCatalogInit finished
+115 [17000] INFO perfrun.launcher <> - Launcher instance created
+115 [17000] INFO perfrun.launcher <> - argc = 7; cmdline = C:\Program Files (x86)\Intel\oneAPI\advisor\2022.0.1\bin64\advixe-runss.exe --ui-output-format xml --ui-output-fd 3744 --option-file C:\Users\anast\source\repos\paralelno programiranje\vezba01_0\nqueens_Advisor\1_nqueens_serial\My Advisor Results - 1_nqueens_serial\e000\hs000\config\runss.options 
+137 [17000] INFO perfrun.launcher <> - New signal handler callback was added
+212 [17000] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+213 [17000] INFO perfrun.launcher <> - create file finder object
+213 [17000] INFO perfrun.launcher <> - create a result directory: pattern = C:\Users\anast\source\repos\paralelno programiranje\vezba01_0\nqueens_Advisor\1_nqueens_serial\My Advisor Results - 1_nqueens_serial\e000\hs000 pid = 4294967295
+219 [17000] INFO perfrun.launcher <> - create data directory = C:\Users\anast\source\repos\paralelno programiranje\vezba01_0\nqueens_Advisor\1_nqueens_serial\My Advisor Results - 1_nqueens_serial\e000\hs000\data.0
+221 [17000] INFO perfrun.launcher <> - Creating the master collection flag
+233 [17000] INFO perfrun.launcher <> - Done creating the master collection flag
+234 [13752] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+235 [13752] INFO perfrun.sdk <> - Allocating TMU :C:\Users\anast\source\repos\paralelno programiranje\vezba01_0\nqueens_Advisor\1_nqueens_serial\My Advisor Results - 1_nqueens_serial\e000\hs000\data.0\systemcollector-7172-LAPTOP-5JD1HLHS.sc
+236 [13752] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+243 [13752] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+243 [13752] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+243 [13752] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+243 [13752] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+243 [13752] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+243 [13752] INFO perfrun.mrte <> - system-wide mode is 0
+244 [13752] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+428 [13752] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=C:\Users\anast\source\repos\paralelno programiranje\vezba01_0\nqueens_Advisor\1_nqueens_serial\My Advisor Results - 1_nqueens_serial\e000\hs000\data.0
+428 [13752] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=LAPTOP-5JD1HLHS
+428 [13752] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:advixe_tpssmrte_javaprof_1.0
+428 [13752] INFO perfrun.mrte <> - PATH=C:\Program Files (x86)\Intel\oneAPI\advisor\2022.0.1\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\advisor\2022.0.1\bin64\runtime;;C:\Program Files (x86)\Intel\oneAPI\tbb\2021.5.2\redist\intel64\vc_mt;;;C:\Program Files (x86)\Intel\oneAPI\tbb\2021.5.2\redist\intel64\vc_mt;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Go\bin;C:\Program Files\Git\cmd;C:\Users\anast\AppData\Local\Microsoft\WindowsApps;C:\Users\anast\go\bin;C:\Users\anast\AppData\Local\GitHubDesktop\bin
+428 [13752] INFO perfrun.mrte <> - COR_ENABLE_PROFILING=1
+428 [13752] INFO perfrun.mrte <> - COR_PROFILER={2603158F-60BC-4915-9795-D85FC7A9A2C8}
+428 [13752] INFO perfrun.mrte <> - COMPLUS_ProfAPI_ProfilerCompatibilitySetting=EnableV2Profiler
+428 [13752] INFO perfrun.mrte <> - CORECLR_ENABLE_PROFILING=1
+428 [13752] INFO perfrun.mrte <> - CORECLR_PROFILER=
+428 [13752] INFO perfrun.mrte <> - CORECLR_PROFILER_PATH=C:\Program Files (x86)\Intel\oneAPI\advisor\2022.0.1\bin64/
+428 [13752] INFO perfrun.mrte <> - INTEL_MRTE_PROFILER_MODE=mixed
+428 [13752] INFO perfrun.mrte <> - Data directory: C:\Users\anast\source\repos\paralelno programiranje\vezba01_0\nqueens_Advisor\1_nqueens_serial\My Advisor Results - 1_nqueens_serial\e000\hs000\data.0
+428 [13752] INFO perfrun.mrte <> - Mrte plugin is initialized
+428 [13752] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+428 [13752] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+428 [13752] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+428 [13752] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+428 [13752] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+428 [13752] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+428 [13752] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+428 [13752] INFO perfrun.tpss <> - initialize tpss controller
+428 [13752] INFO perfrun.tpss <> - configure collection mode: value = cpu:stack
+428 [13752] INFO perfrun.tpss <> - default obj-size-min=1024
+428 [13752] INFO perfrun.tpss <> - default hash-table-size=0
+429 [13752] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+429 [13752] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+429 [13752] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+429 [13752] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+429 [13752] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+429 [13752] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+429 [13752] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+429 [13752] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+429 [13752] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+429 [17000] INFO perfrun.launcher <> - set environment variable: PATH = C:\Program Files (x86)\Intel\oneAPI\advisor\2022.0.1\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\advisor\2022.0.1\bin64\runtime;;C:\Program Files (x86)\Intel\oneAPI\tbb\2021.5.2\redist\intel64\vc_mt;;;C:\Program Files (x86)\Intel\oneAPI\tbb\2021.5.2\redist\intel64\vc_mt;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Go\bin;C:\Program Files\Git\cmd;C:\Users\anast\AppData\Local\Microsoft\WindowsApps;C:\Users\anast\go\bin;C:\Users\anast\AppData\Local\GitHubDesktop\bin
+429 [17000] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = C:\Program Files (x86)\Intel\oneAPI\advisor\2022.0.1\bin32\runtime\ittnotify_collector.dll
+429 [17000] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = C:\Program Files (x86)\Intel\oneAPI\advisor\2022.0.1\bin64\runtime\ittnotify_collector.dll
+429 [17000] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+429 [17000] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = C:\Program Files (x86)\Intel\oneAPI\advisor\2022.0.1\bin32\runtime\ittnotify_collector.dll
+429 [17000] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = C:\Program Files (x86)\Intel\oneAPI\advisor\2022.0.1\bin64\runtime\ittnotify_collector.dll
+429 [17000] INFO perfrun.launcher <> - set environment variable: VS_PROFILER = ittnotify_collector.dll
+430 [17000] INFO perfrun.launcher <> - set environment variable: OMP_TOOL_LIBRARIES = C:\Program Files (x86)\Intel\oneAPI\advisor\2022.0.1\bin32\runtime\ittnotify_collector.dll;C:\Program Files (x86)\Intel\oneAPI\advisor\2022.0.1\bin64\runtime\ittnotify_collector.dll
+430 [17000] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+430 [17000] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+430 [17000] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES = 0
+430 [17000] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES_MODE = 0
+430 [17000] INFO perfrun.launcher <> - set environment variable: OMP_TOOL = disabled
+430 [17000] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = C:\Users\anast\source\repos\paralelno programiranje\vezba01_0\nqueens_Advisor\1_nqueens_serial\My Advisor Results - 1_nqueens_serial\e000\hs000\data.0
+430 [17000] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = LAPTOP-5JD1HLHS
+430 [17000] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:advixe_tpssmrte_javaprof_1.0
+430 [17000] INFO perfrun.launcher <> - set environment variable: PATH = C:\Program Files (x86)\Intel\oneAPI\advisor\2022.0.1\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\advisor\2022.0.1\bin64\runtime;;C:\Program Files (x86)\Intel\oneAPI\tbb\2021.5.2\redist\intel64\vc_mt;;;C:\Program Files (x86)\Intel\oneAPI\tbb\2021.5.2\redist\intel64\vc_mt;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Go\bin;C:\Program Files\Git\cmd;C:\Users\anast\AppData\Local\Microsoft\WindowsApps;C:\Users\anast\go\bin;C:\Users\anast\AppData\Local\GitHubDesktop\bin
+430 [17000] INFO perfrun.launcher <> - set environment variable: COR_ENABLE_PROFILING = 1
+430 [17000] INFO perfrun.launcher <> - set environment variable: COR_PROFILER = {2603158F-60BC-4915-9795-D85FC7A9A2C8}
+431 [17000] INFO perfrun.launcher <> - set environment variable: COMPLUS_ProfAPI_ProfilerCompatibilitySetting = EnableV2Profiler
+431 [17000] INFO perfrun.launcher <> - set environment variable: CORECLR_ENABLE_PROFILING = 1
+431 [17000] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER = 
+431 [17000] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER_PATH = C:\Program Files (x86)\Intel\oneAPI\advisor\2022.0.1\bin64/
+431 [17000] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_PROFILER_MODE = mixed
+433 [17000] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+472 [17000] INFO perfrun.sdk <> - IProcessUtil: the given executable 'C:\Users\anast\source\repos\paralelno programiranje\vezba01_0\nqueens_Advisor\x64\Release\1_nqueens_serial.exe' is valid.
+472 [17000] INFO perfrun.launcher <> - Launcher: command line to start before modification = C:\Users\anast\source\repos\paralelno programiranje\vezba01_0\nqueens_Advisor\x64\Release\1_nqueens_serial.exe
+479 [17000] INFO perfrun.launcher <> - Launcher: command line to start after modification = C:\Program Files (x86)\Intel\oneAPI\advisor\2022.0.1\bin64\pin.exe -error_file C:\Users\anast\source\repos\paralelno programiranje\vezba01_0\nqueens_Advisor\1_nqueens_serial\My Advisor Results - 1_nqueens_serial\e000\hs000\data.0\pinerr.tpsslog -detach_reattach -probe -follow_execv -p32 C:\Program Files (x86)\Intel\oneAPI\advisor\2022.0.1\bin32\pin.exe -p64 C:\Program Files (x86)\Intel\oneAPI\advisor\2022.0.1\bin64\pin.exe -t64 C:\Program Files (x86)\Intel\oneAPI\advisor\2022.0.1\bin64\tpsstool.dll -t C:\Program Files (x86)\Intel\oneAPI\advisor\2022.0.1\bin32\tpsstool.dll -server_name tpss_ipc.7172 -prd_dir C:\Program Files (x86)\Intel\oneAPI\advisor\2022.0.1 -- C:\Users\anast\source\repos\paralelno programiranje\vezba01_0\nqueens_Advisor\x64\Release\1_nqueens_serial.exe
+479 [17000] INFO perfrun.launcher <> - ProcessCreator object was created
+526 [17000] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+527 [13752] INFO perfrun.itt <> - start itt controller for pid #10564
+528 [13752] INFO perfrun.tpss <> - start tpss controller for pid #10564
+586 [17000] INFO perfrun.launcher <> - Launcher: all plugins were started
+586 [17000] INFO perfrun.launcher <> - DirectoryMonitor object was created
+586 [17000] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+586 [17000] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+586 [17000] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+587 [17000] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+596 [17000] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+2003 [17000] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+2019 [13752] INFO perfrun.itt <> - detach itt controller
+2019 [13752] INFO perfrun.itt <> - detach itt controller done
+2019 [13752] INFO perfrun.tpss <> - stop tpss controller
+2022 [13752] INFO perfrun.sdk <> - De-allocating TMU: C:\Users\anast\source\repos\paralelno programiranje\vezba01_0\nqueens_Advisor\1_nqueens_serial\My Advisor Results - 1_nqueens_serial\e000\hs000\data.0\systemcollector-7172-LAPTOP-5JD1HLHS.sc
+2044 [13752] INFO perfrun.system <> - closed the system trace file: C:\Users\anast\source\repos\paralelno programiranje\vezba01_0\nqueens_Advisor\1_nqueens_serial\My Advisor Results - 1_nqueens_serial\e000\hs000\data.0\systemcollector-7172-LAPTOP-5JD1HLHS.sc
+2044 [17000] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+2044 [17000] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+2045 [17000] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+2045 [17000] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+2045 [17000] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: vcs\perfrun1\launcher\src\command_handler.cpp:212
+2047 [17000] INFO perfrun.launcher <> - Application exit code: 0
+2047 [17000] INFO perfrun.launcher <> - Exit code: 0
