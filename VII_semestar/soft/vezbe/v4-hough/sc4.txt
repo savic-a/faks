@@ -1,0 +1,4 @@
+video je skup slika
+obradjivanje videa == obradjivanje slika
+problem podeli na vise manjih
+najjaci klasifikator svm

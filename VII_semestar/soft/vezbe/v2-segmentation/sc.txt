@@ -1,0 +1,5 @@
+slika u binarnu, eventualno odstranimo sum
+pojacah piksele koje predstavljaju objekat
+i onda samo propustimo kroz alg
+
+watershell radi gde granice objekta nisu vidljive, gde ne mozemo sami da prepoznamo
