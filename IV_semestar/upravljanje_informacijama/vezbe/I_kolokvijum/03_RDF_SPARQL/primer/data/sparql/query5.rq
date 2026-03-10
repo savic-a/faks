@@ -1,0 +1,9 @@
+select ?fudbaler where
+{
+    ?fudbaler <http://www.ftn.uns.ac.rs/rdf/examples/predicate/rodjenU> ?mesto .
+    optional {
+        ?fudbaler <http://www.ftn.uns.ac.rs/rdf/examples/predicate/nadimak> ?nadimak .
+    }
+}
+
+order by desc (?nadimak)

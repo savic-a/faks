@@ -1,0 +1,7 @@
+select count(?klub) count(?fudbaler) where
+{
+    ?klub <http://www.ftn.uns.ac.rs/rdf/examples/predicate/iz> ?mesto .
+    ?fudbaler <http://www.ftn.uns.ac.rs/rdf/examples/predicate/rodjenU> ?mesto .
+    filter (?mesto = ?mesto)
+}
+group by ?mesto

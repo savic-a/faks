@@ -1,0 +1,6 @@
+C:\Users\User\Documents\ftn\paralelno\vjezbe\vjezbe8\vezba08\zadatak\MatrixAddition\x64\Debug\MatrixAddition.vcxproj.CopyComplete
+C:\Users\User\Documents\ftn\paralelno\vjezbe\vjezbe8\vezba08\zadatak\MatrixAddition\x64\Debug\MatrixAddition.exe
+C:\Users\User\Documents\ftn\paralelno\vjezbe\vjezbe8\vezba08\zadatak\MatrixAddition\x64\Debug\OpenCL.dll
+C:\Users\User\Desktop\zadatak\MatrixAddition\x64\Debug\MatrixAddition.vcxproj.CopyComplete
+C:\Users\User\Desktop\zadatak\MatrixAddition\x64\Debug\MatrixAddition.exe
+C:\Users\User\Desktop\zadatak\MatrixAddition\x64\Debug\OpenCL.dll

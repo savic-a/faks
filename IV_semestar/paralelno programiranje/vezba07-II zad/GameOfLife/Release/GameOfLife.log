@@ -1,0 +1,15 @@
+﻿  In file included from main.cpp:1:
+./GameOfLife.h(5,1): : warning : typedef requires a name [-Wmissing-declarations]
+  typedef enum InitModel{
+  ^~~~~~~
+main.cpp(43,21): : warning : unused variable 'startTicks' [-Wunused-variable]
+          unsigned long long startTicks, endTicks;
+                             ^
+main.cpp(43,33): : warning : unused variable 'endTicks' [-Wunused-variable]
+          unsigned long long startTicks, endTicks;
+                                         ^
+main.cpp(79,13): : warning : unused function 'printTable' [-Wunused-function]
+  static void printTable(GameOfLife* game, int iterNum) {
+              ^
+  4 warnings generated.
+  GameOfLife.vcxproj -> C:\Users\anast\Downloads\Zadatak2\Zadatak2\GameOfLifeWindows\Release\GameOfLife.exe

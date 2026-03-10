@@ -1,0 +1,3 @@
+SELECT ?klub WHERE {
+    ?klub <http://www.ftn.uns.ac.rs/rdf/examples/predicate/iz> "Engleska" .
+}

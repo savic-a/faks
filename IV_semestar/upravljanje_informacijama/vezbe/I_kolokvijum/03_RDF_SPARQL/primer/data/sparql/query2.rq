@@ -1,0 +1,7 @@
+SELECT DISTINCT ?igrac
+WHERE {
+    {?igrac <http://www.ftn.uns.ac.rs/rdf/examples/predicate/rodjenU> "Spanija". }
+    UNION
+    {?igrac <http://www.ftn.uns.ac.rs/rdf/examples/predicate/godine> ?age.
+        FILTER(?age > "31")}
+}

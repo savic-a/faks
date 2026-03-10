@@ -1,0 +1,3 @@
+﻿  Integral.cpp
+C:\Users\anast\source\repos\paralelno programiranje\vezba06\primer 1\Integral\Integral.cpp(16,20): warning C4244: 'initializing': conversion from 'double' to 'long', possible loss of data
+  Integral.vcxproj -> C:\Users\anast\source\repos\paralelno programiranje\vezba06\primer 1\Integral\x64\Debug\Integral.exe

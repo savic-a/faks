@@ -1,0 +1,5 @@
+﻿  main.cpp
+  cl_version.h: CL_TARGET_OPENCL_VERSION is not defined. Defaulting to 220 (OpenCL 2.2)
+C:\Users\anast\source\repos\paralelno programiranje\vezba08\zadatak\MatrixAddition\main.cpp(416,3): warning C4267: 'argument': conversion from 'size_t' to 'cl_uint', possible loss of data
+C:\Users\anast\source\repos\paralelno programiranje\vezba08\zadatak\MatrixAddition\main.cpp(253,14): warning C4996: 'clCreateCommandQueue': was declared deprecated
+  MatrixAddition.vcxproj -> C:\Users\anast\source\repos\paralelno programiranje\vezba08\zadatak\MatrixAddition\x64\Debug\MatrixAddition.exe

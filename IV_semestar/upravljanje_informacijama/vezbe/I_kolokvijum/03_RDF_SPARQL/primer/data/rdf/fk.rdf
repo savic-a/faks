@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:pred="http://www.ftn.uns.ac.rs/rdf/examples/predicate/">
+
+  <rdf:Description rdf:about="http://www.ftn.uns.ac.rs/rdf/examples/fudbalski_klub/Chelsea">
+    <pred:je>fudbalski klub</pred:je>
+    <pred:iz>Engleska</pred:iz>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.ftn.uns.ac.rs/rdf/examples/fudbalski_klub/NewCastle">
+    <pred:je>fudbalski klub</pred:je>
+    <pred:iz>Engleska</pred:iz>
+  </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.ftn.uns.ac.rs/rdf/examples/fudbalski_klub/Malaga">
+    <pred:je>fudbalski klub</pred:je>
+    <pred:iz>Spanija</pred:iz>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.ftn.uns.ac.rs/rdf/examples/igrac/Morata">
+    <pred:igraZa rdf:resource="http://www.ftn.uns.ac.rs/rdf/examples/fudbalski_klub/Chelsea"/>
+    <pred:godine>32</pred:godine>
+    <pred:nadimak>Gouijan</pred:nadimak>
+    <pred:rodjenU>Spanija</pred:rodjenU>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.ftn.uns.ac.rs/rdf/examples/igrac/Darlow">
+    <pred:igraZa rdf:resource="http://www.ftn.uns.ac.rs/rdf/examples/fudbalski_klub/NewCastle"/>
+    <pred:godine>35</pred:godine>
+    <pred:nadimak>Alf</pred:nadimak>
+    <pred:rodjenU>Engleska</pred:rodjenU>
+  </rdf:Description>
+
+<rdf:Description rdf:about="http://www.ftn.uns.ac.rs/rdf/examples/igrac/Thomas">
+    <pred:igraZa rdf:resource="http://www.ftn.uns.ac.rs/rdf/examples/fudbalski_klub/Malaga"/>
+    <pred:godine>27</pred:godine>
+    <pred:rodjenU>Spanija</pred:rodjenU>
+  </rdf:Description>
+
+</rdf:RDF>

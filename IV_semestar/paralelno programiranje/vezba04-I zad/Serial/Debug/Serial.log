@@ -1,0 +1,5 @@
+﻿  HighPassFilter.cpp
+  main.cpp
+  Generating Code...
+Clip.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  Serial.vcxproj -> C:\Users\anast\source\repos\paralelno programiranje\zad\Debug\Serial.exe

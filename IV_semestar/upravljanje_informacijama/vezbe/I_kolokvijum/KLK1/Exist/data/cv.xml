@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cv>
+	<licni_podaci>
+		<ime>Jane Franklin</ime>
+		<zanimanje>Douglas-Kelly Professor of English</zanimanje>
+		<univerzitet>
+			<grad>Philadephia</grad>
+			<broj>PA 19104</broj>
+			<drzava>USA</drzava>
+		</univerzitet>
+		<kuca>
+			<ulica>713 N 4th St</ulica>
+			<grad>Philadephia</grad>
+			<broj>PA 19123</broj>
+			<drzava>USA</drzava>
+		</kuca>
+		<telefon>267-861-5317</telefon>
+                <email>jane_franklin@gmail.com</email>
+		<drustvene_mreze>
+			<linkedIn>linkedin.com/in/JaneFranklin</linkedIn>
+			<twitter>twitter.com//jane-marie-franklin</twitter>
+		</drustvene_mreze>
+	</licni_podaci>
+
+	<edukacija>
+		<skola>
+			<naziv>University of Chicago, IL, PhD in Comparative in Literature</naziv>
+			<od>2000</od>
+			<do>2008</do>	
+		</skola>
+		<skola>
+			<naziv>City University of New York, New York, NJ, MA in English</naziv>
+			<od>1999</od>
+			<do>2000</do>	
+		</skola>
+		<skola>
+			<naziv>University of Oxford, Oxford, UK, BA in American Studies</naziv>
+			<od>1996</od>
+			<do>1999</do>	
+		</skola>
+	</edukacija>
+
+	<zaposlenje>
+		<posao>
+			<ime>Douglas-Kelly Professor of English</ime>
+			<od>2014</od>
+			<do>2022</do>
+		</posao>
+		<posao>
+			<ime>Professor Assistant of English</ime>
+			<od>2008</od>
+			<do>2013</do>
+		</posao>
+	</zaposlenje>
+
+	<knjige>
+		<knjiga>
+			<naziv>The Rustle of Language</naziv>
+			<izdavacka_kuca>
+				<grad>New York</grad>
+				<ime>Hill and Wang</ime>
+			</izdavacka_kuca>
+			<godina>2017</godina>
+			<mesec>05</mesec>
+		</knjiga>
+		<knjiga>
+			<naziv>Sexual Politics in Post-2000 American Drama</naziv>
+			<izdavacka_kuca>
+				<grad>Woodstock</grad>
+				<grad>New York</grad> 
+				<ime>The Overlook Press</ime>
+			</izdavacka_kuca>
+			<godina>2013</godina>
+			<mesec>07</mesec>
+		</knjiga>
+		<knjiga>
+			<naziv>The Man Who Fell Asleep: Structural Analysis of Narrative</naziv>
+			<izdavacka_kuca>
+				<grad>New York</grad>
+				<ime>W. W. Norton Co</ime>
+			</izdavacka_kuca>
+			<godina>2011</godina>
+			<mesec>01</mesec>
+		</knjiga>
+	</knjige>
+</cv>

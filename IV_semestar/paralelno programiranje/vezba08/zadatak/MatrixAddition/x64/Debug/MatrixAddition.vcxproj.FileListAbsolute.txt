@@ -1,0 +1,3 @@
+C:\Users\anast\source\repos\paralelno programiranje\vezba08\zadatak\MatrixAddition\x64\Debug\MatrixAddition.vcxproj.CopyComplete
+C:\Users\anast\source\repos\paralelno programiranje\vezba08\zadatak\MatrixAddition\x64\Debug\MatrixAddition.exe
+C:\Users\anast\source\repos\paralelno programiranje\vezba08\zadatak\MatrixAddition\x64\Debug\OpenCL.dll

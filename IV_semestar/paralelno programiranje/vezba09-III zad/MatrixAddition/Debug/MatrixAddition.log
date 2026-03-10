@@ -1,0 +1,6 @@
+﻿  main.cpp
+  cl_version.h: CL_TARGET_OPENCL_VERSION is not defined. Defaulting to 220 (OpenCL 2.2)
+C:\Users\anast\source\repos\paralelno programiranje\vezba09-III zad\MatrixAddition\main.cpp(263,14): warning C4996: 'clCreateCommandQueue': was declared deprecated
+  utils.cpp
+  Generating Code...
+  MatrixAddition.vcxproj -> C:\Users\anast\source\repos\paralelno programiranje\vezba09-III zad\MatrixAddition\Debug\MatrixAddition.exe

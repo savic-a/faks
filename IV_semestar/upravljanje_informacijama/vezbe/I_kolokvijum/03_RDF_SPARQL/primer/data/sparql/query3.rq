@@ -1,0 +1,7 @@
+select ?fudbaler where
+{
+    ?fudbaler <http://www.ftn.uns.ac.rs/rdf/examples/predicate/rodjenU> ?mesto .
+    ?fudbaler <http://www.ftn.uns.ac.rs/rdf/examples/predicate/igraZa> ?klub .
+    ?klub <http://www.ftn.uns.ac.rs/rdf/examples/predicate/iz> ?drzava .
+    filter (?mesto = ?drzava)
+}

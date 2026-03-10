@@ -1,0 +1,6 @@
+C:\Users\anast\Downloads\vezba08_1\vezba08\primeri\VectorAddition\x64\Debug\VectorAddition.vcxproj.AssemblyReference.cache
+C:\Users\anast\Downloads\vezba08_1\vezba08\primeri\VectorAddition\x64\Debug\VectorAddition.vcxproj.CopyComplete
+C:\Users\anast\Downloads\vezba08_1\vezba08\primeri\VectorAddition\x64\Debug\VectorAddition.exe
+C:\Users\anast\Downloads\vezba08_1\vezba08\primeri\VectorAddition\x64\Debug\OpenCL.dll
+C:\Users\anast\source\repos\paralelno programiranje\vezba08\primeri\VectorAddition\x64\Debug\VectorAddition.vcxproj.AssemblyReference.cache
+C:\Users\anast\source\repos\paralelno programiranje\vezba08\primeri\VectorAddition\x64\Debug\VectorAddition.exe

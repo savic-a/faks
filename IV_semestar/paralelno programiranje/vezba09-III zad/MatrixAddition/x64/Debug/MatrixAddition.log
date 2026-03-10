@@ -1,0 +1,5 @@
+﻿  main.cpp
+  cl_version.h: CL_TARGET_OPENCL_VERSION is not defined. Defaulting to 220 (OpenCL 2.2)
+C:\Users\User\Desktop\zadatak\MatrixAddition\main.cpp(441,2): warning C4267: 'argument': conversion from 'size_t' to 'cl_uint', possible loss of data
+C:\Users\User\Desktop\zadatak\MatrixAddition\main.cpp(264,14): warning C4996: 'clCreateCommandQueue': was declared deprecated
+  MatrixAddition.vcxproj -> C:\Users\User\Desktop\zadatak\MatrixAddition\x64\Debug\MatrixAddition.exe

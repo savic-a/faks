@@ -1,0 +1,12 @@
+.vs/
+.idea/
+__pycache__/
+*.ipch
+*.zip
+*.rar
+*.7z
+*.iso
+*.tar
+*.gz
+node_modules/
+docker-data/

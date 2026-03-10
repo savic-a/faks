@@ -1,0 +1,4 @@
+﻿  Counter.cpp
+C:\Users\anast\source\repos\paralelno programiranje\zad\Parallel\Counter.cpp(10,33): warning C4018: '<': signed/unsigned mismatch
+Clip.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  Parallel.vcxproj -> C:\Users\anast\source\repos\paralelno programiranje\zad\Debug\Parallel.exe
