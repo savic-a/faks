@@ -1,0 +1,5 @@
+nessus
+username: savic-a
+password: JAsamdebil123
+
+https://localhost:8834/#/scans/folders/my-scans

@@ -1,0 +1,14 @@
+- Pokrenuti Eclipse kao Administrator
+- Dodati verziju jave 8 u Eclipse (neka od 11+ verzija bi trebalo da je već tu)
+	- Window -> Preferences -> Java -> Installed JREs
+	- Odabrati Javu 8  
+- Uvući plugin projekat u Eclipse
+- Namestiti korištenu verziju jave da bude compliant sa 1.7 i reference
+	- Desni klik na projekat -> Properties -> Java Compiler -> Enable Project Specific Settings -> Compiler compliance level 1.7
+- Dodati zavisnosti iz MagicDraw/lib
+	- Desni klik na projekat -> Properties -> Java Build Path -> Libraries -> Add External Jars (odabrati sve zavisnosti iz lib foldera i podfoldera)
+- Podesiti putanju do MagicDraw u build.properties
+- Pokrenuti Ant build sa verzijom jave 11+
+	- Desni klik na build.xml -> Run As... -> JRE Tab -> Separate JRE Java 11+ -> Run
+- Pokrenuti debug
+	- Desni klik na projekat -> Debug As -> Debug Configuration -> Main Class -> Naći i odabrati com.nomagic.magicdraw.Main -> Debug

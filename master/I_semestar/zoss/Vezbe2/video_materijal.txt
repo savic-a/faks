@@ -1,0 +1,33 @@
+https://www.youtube.com/watch?v=yG1PuNkYbuk
+
+5:45 - kako pronaci eksploit
+
+6:23
+
+3:47 - ms17-010
+
+treba da se postavi target host
+
+reverse shell se uglavnom koristi kao payload 11:35 - reverse tcp
+
+kada podesimo rhost i lhost moze da se radi eksploit
+
+od 14:8 - 17:8 nije bitno
+
+od 20:08 krece nova masina - nov
+
+hackTricks - drupal - mozda ima nesto korisno da se nadje
+==========================================================================
+
+1. preko vagrant metasploitable
+2. 
+3. 
+
+na wasuh serveru mozemo da menjamo sta god treba :)
+
+
+ogranizacija (auto treba da se stavi)-> 2 usera -> sve permisije -> na oko -> tu ce biti api key koji treba da se doda na wasuh
+
+spasic.co.rs kod ahenta ip adresa
+
+192.168.1.107

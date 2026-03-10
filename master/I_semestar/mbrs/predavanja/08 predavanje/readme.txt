@@ -1,0 +1,1 @@
+Na predavanjima je bio gost Marko Vještica koji je prezentovao DSL i razvojno okruženje za upravljanje proizvodnim procesima. DSL je kreiran korišćenjem Eclipse GMF okruženja i Sirius alata za automatizaciju razvoja grafičkih editora. Detalje možete pogledati u ostavljenoj prezentaciji i tekstu doktorske disertacije Marka Vještice. 

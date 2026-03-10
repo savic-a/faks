@@ -1,0 +1,18 @@
+entity
+- zahtev (smestaj, start date, end date, guestNum, user (koji je kreirao taj zahtev), state - pending, accepted, rejected, isAuto, isDeleted (0, 1))
+- rezervacija (zahtev, isRejected)
+
+
+1. guest kreira zahteva
+2. guest moze da obrise kreiran zahtev
+3. vlasniku se prikazuju svi zahtevi i on moze da jedan da odobri (prilikom odobravanja kreira se rezervacija za odobreni zahtev i svi drugi zahtevi koji su u preklapajucem datumu se rejectuju - state = rejected)
+4. vlasnik moze i da odbije neki zahtev
+5. guest moze da otkaze rezervaciju (isRejected = true)
+6. vlasniku se za svaki zahtev prikazuje koliko puta je otkazao rezervaciju (prolazimo kroz sve rezervacije i za usera brojim isRejected) 
+
+
+BAZA
+=============
+postgres, ftn
+
+feat: add endpoint to toggle auto reservation mode

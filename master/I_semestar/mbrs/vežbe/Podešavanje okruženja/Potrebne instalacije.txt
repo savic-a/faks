@@ -1,0 +1,13 @@
+- Eclipse - https://www.eclipse.org/downloads/
+
+- MagicDraw 17.0.3 - https://www.magicdraw.com/main.php 
+	- napravite profil
+	- Download by product (sa leve strane) -> MagicDraw 
+	- Odaberete verziju 17.0.3 Standard
+	- Skinete instalaciju koja odgovara Vašem sistemu
+	- Prilikom instaliranja odaberete "Use the Java VM installed with the application"
+	- Iskoristite licencu okačenu na Canvasu
+
+- JDK 8 - https://adoptium.net/temurin/archive/?version=8
+- JDK 11+ - https://adoptium.net/temurin/archive/?version=17 (ako već nemate...)
+

@@ -1,0 +1,58 @@
+import org.bonitasoft.engine.api.APIClient
+import org.bonitasoft.engine.api.IdentityAPI
+import org.bonitasoft.engine.identity.ContactDataCreator
+import org.bonitasoft.engine.identity.Group
+import org.bonitasoft.engine.identity.Role
+import org.bonitasoft.engine.identity.User
+import org.bonitasoft.engine.identity.UserCreator
+import org.bonitasoft.engine.identity.UserMembership
+import org.bonitasoft.engine.identity.UserSearchDescriptor
+import org.bonitasoft.engine.profile.Profile
+import org.bonitasoft.engine.profile.ProfileMemberCreator
+import org.bonitasoft.engine.profile.ProfileSearchDescriptor
+import org.bonitasoft.engine.search.SearchOptionsBuilder
+import org.bonitasoft.engine.search.SearchResult
+import org.slf4j.Logger
+import org.slf4j.LoggerFactory
+
+
+def logger = LoggerFactory.getLogger("custom.groovy.script")
+
+logger.info("USLOOOOOOOOOOOOOOOOOO")
+
+// First of all, let's log in on the engine:
+org.bonitasoft.engine.api.APIClient apiClient = new APIClient()
+apiClient.login("install", "install")
+
+// create new user
+IdentityAPI identityAPI = apiClient.getIdentityAPI()
+UserCreator creator = new UserCreator(username, password)
+creator.setFirstName(firstName).setLastName(lastName)
+
+ContactDataCreator proContactDataCreator = new ContactDataCreator().setEmail(email)
+creator.setProfessionalContactData(proContactDataCreator)
+
+logger.info("DODAT KORISNIK")
+logger.info(email)
+
+final User user = identityAPI.createUser(creator)
+
+// The user must now be registered in a profile. Let's choose the existing "User" profile:
+org.bonitasoft.engine.api.ProfileAPI orgProfileAPI = apiClient.getProfileAPI()
+SearchOptionsBuilder searchOptionsBuilder =  new SearchOptionsBuilder(0, 10)
+searchOptionsBuilder.filter(ProfileSearchDescriptor.NAME, "User")
+SearchResult<Profile> searchResultProfile = orgProfileAPI.searchProfiles(searchOptionsBuilder.done())
+
+// we should find one result now
+if (searchResultProfile.getResult().size() != 1) {
+	return
+}
+
+// now register the user in the profile
+Profile profile = searchResultProfile.getResult().get(0)
+ProfileMemberCreator profileMemberCreator = new ProfileMemberCreator( profile.getId() )
+profileMemberCreator.setUserId( user.getId() )
+orgProfileAPI.createProfileMember(profileMemberCreator)
+
+// Add a user to a group
+UserMembership membership = identityAPI.addUserMembership(user.getId(), 15, 2)

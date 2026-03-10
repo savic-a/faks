@@ -1,0 +1,58 @@
+INSERT INTO RegisteredUser (persistenceid, name, username, email, password, address, place, postalCode, userType, persistenceversion) 
+VALUES 
+(1,  'John Doe', 'johndoe', 'john.doe@example.com', 'securepassword', '123 Main St', 'New York', '10001', 'client', 0),
+(296,  'John Doe', 'mihajlo', 'johsdn.doe@example.com', 'securepassword', '123 Main St', 'New York', '10001', 'client', 0),
+(293,  'John Doe', 'pera', 'john.dosaddase@example.com', 'securepassword', '123 Main St', 'New York', '10001', 'client', 0),
+(275,  'John Doe', 'walter.bates', 'sd.doe@example.com', 'securepassword', '123 Main St', 'New York', '10001', 'client', 0),
+(301,  'John Doe', 'zika', 'john.dsddoe@example.com', 'securepassword', '123 Main St', 'New York', '10001', 'client', 0),
+(294,  'John Doe', 'mika', 'johsdan.doe@example.com', 'securepassword', '123 Main St', 'New York', '10001', 'client', 0);
+
+INSERT INTO Category (persistenceid, name, description, persistenceversion) 
+VALUES 
+(1, 'Electronics', 'Devices and gadgets', 0),
+(2, 'Furniture', 'Home and office furniture', 0);
+
+INSERT INTO Company (persistenceid, name, distance, agent_pid, persistenceversion) 
+VALUES
+(296, 'TechCorp', 50.5, 296, 0),
+(293, 'TechCorp2', 50.5, 293, 0),
+(2, 'TechCorp4', 32.5, 275, 0),
+(1, 'TechCorp3', 50.5, 272, 0);
+
+INSERT INTO Company_Categories (company_pid, category_pid, categories_order) 
+VALUES 
+(1, 1, 1), 
+(1, 2, 2),
+(2, 1, 1), 
+(293, 1, 1), 
+(296, 2, 1);
+
+INSERT INTO Request (persistenceid, maxValue, maxBidCount, bidDeadline, deliveryDeadline, description, client_pid) 
+VALUES 
+(1, 10000, 5, '2024-12-01T00:00:00.000000Z', '2024-12-15T00:00:00.000000Z', 'Need high-quality laptops', 301);
+
+INSERT INTO Request_Category (request_pid, category_pid, category_order) 
+VALUES 
+(1, 1, 1),
+(1, 2, 2);
+
+INSERT INTO Bid (persistenceid, price, deliveryDeadline, status, company_pid, request_pid, persistenceversion) 
+VALUES 
+(1, 9500, '2024-12-10T00:00:00+02:00', 'PENDING', 1, 1, 0),
+(2, 9500, '2024-12-10T00:00:00+02:00', 'PENDING', 296, 1, 0),
+(3, 9500, '2024-12-10T00:00:00+02:00', 'WAIT', 293, 1, 0),
+(4, 9500, '2024-12-10T00:00:00+02:00', 'WAIT', 2, 1, 0),
+(5, 9500, '2024-12-10T00:00:00+02:00', 'WAIT', 1, 1, 0);
+
+INSERT INTO Bill (persistenceid, amount, regUser_pid, persistenceversion) 
+VALUES 
+(1, 9500, 1, 1);
+
+INSERT INTO Notification (persistenceid, persistenceversion, message, type) 
+VALUES 
+(1, 0, 'Bid has been submitted', 'INFO'),
+(2, 0, 'Bid has been accepted', 'SUCCESS');
+
+INSERT INTO Rating (persistenceid, persistenceversion, rate, ratingFrom_pid, ratingFor_pid) 
+VALUES 
+(1, 0, 5, 1, 1);

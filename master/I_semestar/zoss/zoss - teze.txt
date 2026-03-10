@@ -1,0 +1,48 @@
+cesti tipovi napada - 39 strana
+
+Arhitektura sistema:
+IoT sistem je mreža fizičkih uređaja, senzora, aktuatora, softvera i drugih komponenata povezanih putem interneta, koje zajedno rade na prikupljanju, prenosu, analizi i delovanju na osnovu podataka iz okruženja. 
+IoT uređaji dolaze u različitim oblicima i veličinama, ali svi dele dve ključne osobine:
+Sposobnost komunikacije – direktno putem interneta ili posredno preko drugih mreža.
+Interakcija s fizičkim svetom – praćenjem ili upravljanjem fizičkim procesima, bilo unutar samog uređaja ili u njegovom okruženju, omogućavajući vezu sa konkretnim fizičkim "stvarima".
+
+
+1. Napad sa "wildcard" pretplatom (Wildcard Subscription Attack)
+Opis: MQTT omogućava pretplatu na više teme koristeći wildcard karaktere (npr. # i +), koji omogućavaju korisnicima ili uređajima da se pretplate na širok opseg poruka.
+Napad: Napadač može koristiti wildcard pretplatu (# za sve teme ili + za specifične podteme) kako bi presreo sve poruke koje šalje MQTT broker. Ovaj napad može omogućiti napadaču da prikupi osetljive podatke ili čak da menja ponašanje uređaja.
+Posledica: Napadač može presluškivati poruke od drugih uređaja u mreži, što može dovesti do krađe podataka, manipulacije uređajem ili neovlašćenog pristupa.
+2. Napad sa preplavom (Flooding Attack)
+Opis: Napadač šalje previše poruka u kratkom vremenskom periodu, izazivajući zagušenje u mreži ili resursima MQTT brokera.
+Napad: Napadač može koristiti uređaj ili servis da šalje neprestane poruke brokera, što može uzrokovati usporavanje, gubitak poruka, ili čak pad sistema.
+Posledica: Ovaj napad može uzrokovati zastoje u komunikaciji između IoT uređaja, slabljenje performansi sistema, a u ekstremnim slučajevima može onemogućiti rad sistema.
+3. Napad na neautorizovane objave (Unauthorized Publish Attack)
+Opis: MQTT broker može dozvoliti neautorizovane uređaje ili korisnike da šalju poruke na određene teme bez validacije.
+Napad: Napadač može iskoristiti ovu ranjivost kako bi slao poruke na određene teme, što može uticati na kontrolu uređaja ili funkcionalnost sistema. Na primer, napadač može poslati komandu uređaju da izvrši neželjenu radnju (uključi grejanje, otvori vrata, itd.).
+Posledica: Uređaji mogu izvršiti neovlašćene radnje koje mogu ugroziti bezbednost korisnika, fizičku imovinu ili ugroziti operacije sistema.
+4. Napad sa preslikavanjem poruka (Message Replay Attack)
+Opis: Napadač može presresti legitimne poruke između IoT uređaja i MQTT brokera, a zatim ih ponovo proslediti (ponovno poslati).
+Napad: Napadač može ponovo poslati poruke kako bi naterao uređaj da ponovo izvrši akciju koja je već bila izvršena. Na primer, napadač može ponovo poslati komandu za otvaranje vrata ili uključivanje uređaja.
+Posledica: Ovaj napad može izazvati ponavljanje ranijih komandi, što može dovesti do neželjenih fizičkih efekata, poput ponovnog otvaranja vrata ili aktiviranja sigurnosnih sistema.
+5. Napad sa ubrzanom autentifikacijom (Fast Authentication Attack)
+Opis: Napadači mogu pokušati da ubrzaju proces autentifikacije kako bi se prevarili i neautorizovano pristupili MQTT brokeru.
+Napad: Napadači mogu koristiti metode kao što su brute-force napadi kako bi pogodili korisničko ime i lozinku ili mogu pokušati da zaobiđu autentifikaciju pomoću nezaštićenih pristupnih akreditiva.
+Posledica: Uređaji koji se povezuju sa brokerom mogu biti podložni napadu ako su lozinke ili autentifikacija slabi. Ovo omogućava napadačima da preuzmu kontrolu nad uređajem ili izvrše neautorizovane akcije.
+6. Napad sa otkrivanjem osetljivih podataka (Sensitive Data Exposure Attack)
+Opis: IoT uređaji mogu slati osetljive podatke, kao što su lozinke, lokacija, podaci o korisnicima, ili status uređaja.
+Napad: Napadači mogu presluškivati ili presretati MQTT poruke koje nisu adekvatno šifrovane, čime otkrivaju osetljive informacije koje se prenose.
+Posledica: Ovaj napad može dovesti do krađe identiteta, fizičkih pretnji korisnicima, ili kompromitacije drugih IoT uređaja u mreži.
+7. Napad sa malicioznim porukama (Malicious Message Injection Attack)
+Opis: Napadač može ubaciti maliciozne poruke u komunikaciju između uređaja i MQTT brokera.
+Napad: Napadač može poslati maliciozne poruke koje uzrokuju da IoT uređaj izvrši neželjene akcije ili instalira zlonamerni softver (malver).
+Posledica: Uređaj može biti zaražen zlonamernim kodom, što može omogućiti napadaču da preuzme kontrolu nad uređajem ili izvrši dalji napad na širem IoT sistemu.
+8. Napad sa zlonamernim uređajem (Malicious Device Attack)
+Opis: Napadač može postaviti svoj vlastiti uređaj u IoT mrežu, koji se ponaša kao regularni uređaj, ali može slati ili primati maliciozne poruke.
+Napad: Zlonamerni uređaj može slati poruke ili komande koje će manipulirati drugim uređajima u mreži.
+Posledica: Ovaj uređaj može biti korišćen za prikupljanje podataka, sabotažu ili kao most za napad na druge uređaje u mreži.
+Preventivne mere za zaštitu od napada na MQTT u IoT sistemima:
+Upotreba TLS/SSL šifrovanja – Zaštita komunikacije između uređaja i MQTT brokera.
+Implementacija autentifikacije i autorizacije – Korišćenje jakih lozinki, sertifikata ili autentifikacije zasnovane na tokenima.
+Upotreba pravila za pristup (Access Control Lists) – Ograničavanje pristupa MQTT brokeru na autorizovane uređaje i korisnike.
+Praćenje i detekcija anomalija – Korišćenje alata za praćenje prometa i detekciju neobičnih aktivnosti.
+Enkripcija poruka i HMAC (Hash-based Message Authentication Code) – Validacija integriteta poruka.
+Uvođenje "Rate-limiting" za autentifikaciju – Ograničavanje broja pokušaja autentifikacije kako bi se sprečili brute-force napadi.
