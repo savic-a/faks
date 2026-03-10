@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9596611c-820b-4665-b025-745e625a06e9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/grafovi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tic_tac_toe_demo/.idea/tic_tac_toe_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../III semestar/nelinearno/NPiEA - Projektni zadatak 11/.idea/NPiEA - Projektni zadatak 11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../III semestar/organizacija podataka/Z2_G3_SV72020_AnastasijaSavic/.idea/Z2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../III semestar/organizacija podataka/Z3_G3_SV72020_AnastasijaSavic/.idea/Z3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IV_semestar/upravljanje_informacijama/vezbe/II_kolokvijum/08_Hadoop_MapReduce_2/.idea/08_Hadoop_MapReduce_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IV_semestar/upravljanje_informacijama/vezbe/II_kolokvijum/10_Kafka_Streaming/.idea/10_Kafka_Streaming.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IV_semestar/upravljanje_informacijama/vezbe/II_kolokvijum/KLK2Grupa3/KafkaStreaming/Lako/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IV_semestar/upravljanje_informacijama/vezbe/II_kolokvijum/KLK2Grupa3/KafkaStreaming/Lako/.idea/Lako.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IV_semestar/upravljanje_informacijama/vezbe/II_kolokvijum/KLK2Grupa3/KafkaStreaming/Lako/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IV_semestar/upravljanje_informacijama/vezbe/II_kolokvijum/KLK2Grupa3/KafkaStreaming/Lako/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IV_semestar/upravljanje_informacijama/vezbe/II_kolokvijum/KLK2Grupa3/KafkaStreaming/Lako/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IV_semestar/upravljanje_informacijama/vezbe/II_kolokvijum/KLK2Grupa3/KafkaStreaming/Lako/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IV_semestar/upravljanje_informacijama/vezbe/II_kolokvijum/KLK2Grupa3/KafkaStreaming/Lako/filter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IV_semestar/upravljanje_informacijama/vezbe/II_kolokvijum/KLK2Grupa3/KafkaStreaming/Srednje/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IV_semestar/upravljanje_informacijama/vezbe/II_kolokvijum/KLK2Grupa3/KafkaStreaming/Srednje/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IV_semestar/upravljanje_informacijama/vezbe/II_kolokvijum/KLK2Grupa3/KafkaStreaming/Srednje/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IV_semestar/upravljanje_informacijama/vezbe/II_kolokvijum/KLK2Grupa3/KafkaStreaming/Srednje/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IV_semestar/upravljanje_informacijama/vezbe/II_kolokvijum/KLK2Grupa3/KafkaStreaming/Srednje/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IV_semestar/upravljanje_informacijama/vezbe/II_kolokvijum/KLK2Grupa3/KafkaStreaming/Srednje/filter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IV_semestar/upravljanje_informacijama/vezbe/II_kolokvijum/KLK2Grupa3/hadoop_setup/jobs/jars/.idea/jars.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IV_semestar/upravljanje_informacijama/vezbe/II_kolokvijum/resenja/08_Hadoop_MapReduce_resenje/docker-hadoop/zadaci/.idea/zadaci.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IV_semestar/upravljanje_informacijama/vezbe/II_kolokvijum/resenja/10_Kafka_Streaming/.idea/10_Kafka_Streaming.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="2JVEBHqMimnhFo4xaXM7bWk7Vmm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9596611c-820b-4665-b025-745e625a06e9" name="Changes" comment="" />
+      <created>1672154719248</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672154719248</updated>
+      <workItem from="1672154722481" duration="598000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
