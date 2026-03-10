@@ -1,0 +1,9 @@
+1. nizovi - mutable
+2. objekti (referencirani tipovi) - primitivne vrednosti
+referenca ka heap-u
+const friend = ["pera", "zika"]; - niz
+nizovi su objekti jer su povezani za prototype
+
+abstrakcija je sakrivanje informacija od korisnika, sakrivanje primitivnih metoda
+
+friends.__proto__ -> Array.prototype, Array.__proto__ -> Object.prototype, Object__proto__ -> null
