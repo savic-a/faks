@@ -1,0 +1,4 @@
+sam test treba a sadrzi asertacije, page objekti ne sme da sadrze asertacije !!!!!
+ne koristi thread.sleep()!
+
+nekoristi spy, koristi mockup

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Embedded i LOB funkcionalnost</title>
+<link href="css/main.css" rel="stylesheet" />
+<link href="css/toast.css" rel="stylesheet" />
+<script src="js/jquery.min.js"></script>
+<script src="js/toast.js"></script>
+<script>
+function createClient() {
+	var client = {name:'Pera'};
+	axios
+	.post("api/v2/client", client)
+	.then(response => {alert('Client id: ' + response.data.id + ', ' + response.data.name + ' inserted.'); window.location.reload(true); });
+}
+
+function deleteAll() {
+	if (confirm('This will delete all clients. Are you sure?'))
+	{
+		axios
+		.delete("api/v2/client")
+		.then(response => {alert('All clients deleted.'); window.location.reload(true);});
+	}
+}
+
+</script>
+</head>
+<body>
+	<h1>Embedded i LOB funkcionalnost</h1>
+	<a href="JavaScript:deleteAll()">Delete All</a> <br />
+	<a href="JavaScript:createClient()">Insert client</a> <br />
+	
+	<div id = "clients">
+	<table class="data">
+	<tr bgcolor="lightgrey">
+		<th>Id</th>
+		<th>Ime</th>
+		<th>Adresa</th>
+		<th>Slika</th>
+		<th>Dimenzije</th>
+	</tr>
+	
+	<tr v-for="c in clients">
+		<td>{{c.id }}</td>
+		<td>{{c.name }}</td>
+		<td>{{c.info.address}}</td>
+		<td><img v-bind:src="getImage(c)" /></td>
+		<td>{{c.info.w}} x {{c.info.h}}</td> 
+	</tr>
+	</table>
+	</div>
+	
+	<a href="index.html">Nazad</a> <br />
+	
+	<script src="js/vue.js"></script>
+	<script src="js/axios.js"></script>
+	<script src="app/clientApp.js"></script>	
+</body>
+</html>

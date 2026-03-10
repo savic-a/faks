@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Relacije</title>
+<link href="/css/main.css" rel="stylesheet" />
+<link href="/css/toast.css" rel="stylesheet" />
+<script src="/js/jquery.min.js"></script>
+<script src="/js/toast.js"></script>
+<script>
+function createPersons() {
+	axios
+	.post("/api/v2/person")
+	.then(response => {alert('Persons created.'); window.location.reload(true); });
+}
+
+function deleteAll() {
+	if (confirm('This will delete all persons. Are you sure?'))
+	{
+		axios
+		.delete("/api/v2/person")
+		.then(response => {alert('All persons deleted.'); window.location.reload(true);});
+	}
+}
+
+</script>
+</head>
+<body>
+	<h1>One to many veza</h1>
+	<a href="JavaScript:deleteAll()">Delete All</a> <br />
+	<a href="JavaScript:createPersons()">Create persons</a> <br />
+	
+	<div id = "persons">
+	<table class="data">
+	<tr bgcolor="lightgrey">
+		<th>Id</th>
+		<th>Ime</th>
+		<th>Starost</th>
+	</tr>
+	
+	<tr v-for="p in persons" v-on:click="getAccountsFor(p)">
+		<td>{{p.id }}</td>
+		<td>{{p.name }}</td>
+		<td>{{p.age}}</td>
+	</tr>
+	</table>
+
+	<table class="data">
+	<caption>Bank accounts for: {{personName}}</caption>
+	<tr bgcolor="lightgrey">
+		<th>Id</th>
+		<th>Naziv</th>
+		<th>Iznos</th>
+	</tr>
+	
+	<tr v-for="a in personAccounts">
+		<td>{{a.id}}</td>
+		<td>{{a.name}}</td>
+		<td>{{a.amount}}</td>
+	</tr>
+	</table>
+		
+	</div>
+	
+	<a href="index.html">Nazad</a> <br />
+	
+	<script src="/js/vue.js"></script>
+	<script src="/js/axios.js"></script>
+	<script src="/app/personApp.js"></script>	
+</body>
+</html>

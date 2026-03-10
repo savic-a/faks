@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Static pages</title>
+<script src="js/axios.js"></script>
+<script>
+function insertStudent() {
+	var student = {firstName:'Pera', lastName:'Peric', birthCity: {id: 1}};
+	axios
+	.post("api/v2/student", student)
+	.then(response => alert('Student id: ' + response.data.id + ', ' + response.data.firstName  + ' ' + response.data.lastName + ' inserted.'));
+	// 
+}
+
+function updateStudent() {
+	var student = {id: document.getElementById("id").value, firstName:'Đura', lastName:'Đurić', birthCity: {id: 1}};
+	axios
+	.put("api/v2/student", student)
+	.then(response => alert('Student id: ' + response.data.id + ', ' + response.data.firstName  + ' ' + response.data.lastName + ' updated.'))
+	.catch(error => alert(error.response.data.message));
+}
+
+function deleteStudent() {
+	if (confirm('This will delete the student with id ' + document.getElementById("id").value + '. Are you sure?'))
+	{
+		axios
+		.delete("api/v2/student/" + document.getElementById("id").value)
+		.then(response2 => alert('Student id: ' + response2.data.id + ', ' + response2.data.firstName  + ' ' + response2.data.lastName + ' deleted.'))
+		.catch(error => alert(error.response.data.message));
+	}
+}
+
+function deleteAll() {
+	if (confirm('This will delete all the students. Are you sure?'))
+	{
+		axios
+		.delete("api/v2/student")
+		.then(response => alert('All students deleted.'));
+	}
+}
+
+function findStudent() {
+	axios
+	.get("/api/v2/student/" + document.getElementById("id").value)
+	.then(response => alert('Found student: ' + response.data.firstName + ' ' + response.data.lastName))
+	.catch(error => alert(error.response.data.message));
+}
+
+
+</script>
+</head>
+<body>
+	<h1>Spring Boot REST endpoint</h1>
+
+	<a href="/api/v1/test">test</a>
+	<br />
+	Student Id to be found/updated/deleted: <input type="text" id="id" value="1" />
+	<br />
+	<a href="/api/v2/student">List all students (GET request)</a>
+	<br />
+	<a href="javascript:insertStudent()">Insert student (POST request)</a>
+	<br />
+	<a href="javascript:updateStudent()">Update the student with a given id (PUT request)</a>
+	<br />
+	<a href="javascript:deleteStudent()">Delete the student with a given id (DELETE request)</a>
+	<br />
+	<a href="javascript:deleteAll()">Delete all students (DELETE request)</a>
+	<br />
+	<a href="javascript:findStudent()">Find student with a given id (GET request)</a>
+	<br />
+	<a href="/api/v2/student/Pera/Novi Sad">Find student with a given first name and birth city name (GET request)</a>
+	<br />
+	<a href="crud.html">Nazad</a>
+</body>
+</html>

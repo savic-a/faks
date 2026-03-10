@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Nasleđivanje</title>
+<link href="css/main.css" rel="stylesheet" />
+<link href="css/toast.css" rel="stylesheet" />
+<script src="js/jquery.min.js"></script>
+<script src="js/toast.js"></script>
+<script>
+function createInstruments() {
+	var client = {name:'Pera'};
+	axios
+	.post("api/v2/instrument", client)
+	.then(response => {alert('Instruments created.'); window.location.reload(true); });
+}
+
+function deleteAll() {
+	if (confirm('This will delete all clients. Are you sure?'))
+	{
+		axios
+		.delete("api/v2/instrument")
+		.then(response => {alert('All instruments deleted.'); window.location.reload(true);});
+	}
+}
+
+</script>
+</head>
+<body>
+	<h1>Embedded i LOB funkcionalnost</h1>
+	<a href="JavaScript:deleteAll()">Delete All</a> <br />
+	<a href="JavaScript:createInstruments()">Insert instruments</a> <br />
+	
+	<div id = "instruments">
+	<table class="data">
+	<tr bgcolor="lightgrey">
+		<th>Id</th>
+		<th>Naziv</th>
+		<th>Broj žica</th>
+		<th>Broj dirki</th>
+	</tr>
+	
+	<tr v-for="i in instruments">
+		<td>{{i.id }}</td>
+		<td>{{i.name }}</td>
+		<td>{{i.noOfStrings }}</td>
+		<td>{{i.noOfKeys }}</td>
+	</tr>
+	</table>
+	</div>
+	
+	<a href="index.html">Nazad</a> <br />
+	
+	<script src="js/vue.js"></script>
+	<script src="js/axios.js"></script>
+	<script src="app/instrumentApp.js"></script>	
+</body>
+</html>

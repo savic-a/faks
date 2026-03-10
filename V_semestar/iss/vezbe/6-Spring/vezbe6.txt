@@ -1,0 +1,14 @@
+domain kod nas model
+servisi i kontroleri su bean klase
+servisi imaju biznis logiku
+repozitorijumi pomazu sa radjenjem sa bazom
+koristiti restcontoller anotaciju jer ona radi sa http zahtevima
+insomnia aplikacija za pisanje http zahteva
+get za dobavljanje
+put za menjanje
+dto-data transfer object
+
+za web nesto
+lombok
+spring adta jpa
+h2 database 

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Relacije</title>
+<link href="/css/main.css" rel="stylesheet" />
+<link href="/css/toast.css" rel="stylesheet" />
+<script src="/js/jquery.min.js"></script>
+<script src="/js/toast.js"></script>
+<script>
+function createAll() {
+	axios
+	.post("/api/v2/student2")
+	.then(response => {alert('Students and courses created.'); window.location.reload(true); });
+}
+
+function deleteAll() {
+	if (confirm('This will delete all students and courses. Are you sure?'))
+	{
+		axios
+		.delete("/api/v2/student2")
+		.then(response => {alert('All students and courses deleted.'); window.location.reload(true);});
+	}
+}
+
+</script>
+</head>
+<body>
+	<h1>Many to many veza</h1>
+	<a href="JavaScript:deleteAll()">Delete All</a> <br />
+	<a href="JavaScript:createAll()">Create students and courses</a> <br />
+	
+	<div id = "students">
+	<table class="data">
+	<tr bgcolor="lightgrey">
+		<th>Id</th>
+		<th>Ime</th>
+	</tr>
+	
+	<tr v-for="s in students" v-on:click="getCoursesFor(s)">
+		<td>{{s.id }}</td>
+		<td>{{s.name }}</td>
+	</tr>
+	</table>
+
+	<table class="data">
+	<caption>Courses for: {{studentName}}</caption>
+	<tr bgcolor="lightgrey">
+		<th>Id</th>
+		<th>Naziv</th>
+	</tr>
+	
+	<tr v-for="c in studentCourses" v-on:click="getStudentsFor(c)">
+		<td>{{c.id}}</td>
+		<td>{{c.name}}</td>
+	</tr>
+	</table>
+	
+	<table class="data">
+	<caption>Students attending the course: {{courseName}}</caption>
+	<tr bgcolor="lightgrey">
+		<th>Id</th>
+		<th>Naziv</th>
+	</tr>
+	
+	<tr v-for="s in courseStudents">
+		<td>{{s.id}}</td>
+		<td>{{s.name}}</td>
+	</tr>
+	</table>
+		
+	</div>
+	
+	<a href="index.html">Nazad</a> <br />
+	
+	<script src="/js/vue.js"></script>
+	<script src="/js/axios.js"></script>
+	<script src="/app/studentCourseApp.js"></script>	
+</body>
+</html>

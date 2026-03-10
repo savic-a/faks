@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Relacije</title>
+<link href="/css/main.css" rel="stylesheet" />
+<link href="/css/toast.css" rel="stylesheet" />
+<script src="/js/jquery.min.js"></script>
+<script src="/js/toast.js"></script>
+<script>
+function createWorkers() {
+	axios
+	.post("/api/v2/workerworkingplace")
+	.then(response => {alert('Workers created.'); window.location.reload(true); });
+}
+
+function deleteAll() {
+	if (confirm('This will delete all workers. Are you sure?'))
+	{
+		axios
+		.delete("/api/v2/workerworkingplace")
+		.then(response => {alert('All workers deleted.'); window.location.reload(true);});
+	}
+}
+
+</script>
+</head>
+<body>
+	<h1>One to one veza</h1>
+	<a href="JavaScript:deleteAll()">Delete All</a> <br />
+	<a href="JavaScript:createWorkers()">Create workers</a> <br />
+	
+	<div id = "workers">
+	<table class="data">
+	<tr bgcolor="lightgrey">
+		<th>Id</th>
+		<th>Ime</th>
+		<th>Radno mesto</th>
+	</tr>
+	
+	<tr v-for="w in workers" v-on:click="getWorkersFor(w.workingPlace.name)">
+		<td>{{w.id }}</td>
+		<td>{{w.name }}</td>
+		<td>{{w.workingPlace.name}}</td>
+	</tr>
+	</table>
+
+	<table class="data">
+	<caption>Workers working at: {{workingPlaceName}}</caption>
+	<tr bgcolor="lightgrey">
+		<th>Id</th>
+		<th>Ime</th>
+	</tr>
+	
+	<tr v-for="w in magacinWorkers">
+		<td>{{w.id }}</td>
+		<td>{{w.name }}</td>
+	</tr>
+	</table>
+		
+	</div>
+	
+	<a href="index.html">Nazad</a> <br />
+	
+	<script src="/js/vue.js"></script>
+	<script src="/js/axios.js"></script>
+	<script src="/app/workerWorkingPlaceApp.js"></script>	
+</body>
+</html>

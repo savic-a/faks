@@ -1,0 +1,4 @@
+koristi regularan date objekat
+putanja A-B-C je zapravo putanja A-B + putanja B-C
+
+@Scheduled koristi za notifikacije, pogledaj application.properties u primeru

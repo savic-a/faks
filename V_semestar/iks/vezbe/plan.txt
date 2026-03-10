@@ -1,0 +1,34 @@
+V6:
+-> Struktura Angular projekta.
+-> Moduli.
+-> Komponente.
+-> Lifecycle hook.
+-> Rutiranje.
+-> ngIf, ngFor direktive.
+-> Angular materials.
+
+
+V7:
+-> Karatak uvod u back aplikaciju + bazu.
+-> Komunikacija front i back strane.
+-> Observable, subscribe.
+-> Servisi.
+-> Reactive i template driven forme (validacija i slanje podataka).
+-> Bind podataka.
+-> Pajpovi i direktive.
+-> Komunikacija child to parent, parent to child.
+-> Komunikacija bilo koje dve komponente preko servisa.
+-> Slanje parametara kroz rute.
+
+
+V8:
+-> Jwt. (šifra za oba korisnika u primeru sa vežbi pera i pera2 je test)
+-> Interceptor.
+-> Guard.
+-> Popups (SnackBar).
+-> Feature modules (Lazy loading)
+-> Validatori.
+
+
+V9:
+-> integrisanje Leaflet (OpenStreet) mape

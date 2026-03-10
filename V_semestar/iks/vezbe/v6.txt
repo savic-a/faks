@@ -1,0 +1,35 @@
+node.js 18.12.1 zajedno sa njim se instalira npm
+angular cli vsc terminal ono prvo 
+
+ng version - proveri da li se instaliralo
+
+ng new - za kreiranje projekta
+yes za rutiranje
+
+ediconfig - svi iz tima da imao isti editconfig
+src - styles.css - globalni stilovi
+
+ng serve - za pokretanje aplikacije
+
+MODUL-@NgModule; sadrzi svoje komponente; samo ona moze da ima bootstrep; postoji glavni modul
+Za pocetak prvo sve u glavni modul; ng g m module
+
+KOMPONENTA-svaka se sastoji od ts, html, css; komponente se ugradjuju u module
+Jedna komp ne moze da pripada u 2 modula
+
+cd components => ng g c first - kreiranje nove komponente u folderu components 
+
+RUTIRANJE
+renderuje, bindovanje, plaginacija
+
+eslintrc - proverava da li se postuju pravila koja smo konfigurisali;
+instalira se sa npm eslintrc - PROVERITI
+
+U servisima komnuciramo sa back-om; ng g s ... - za kreiranje servisa
+
+material.modeule - sve buttone i sve sto treba importovati
+angular material dokumentaciju citati!!!!!
+
+nikad ne cuvati podatke na frontu, svakim refresh-om se gube podaci
+
+treba da se instalira angular material valjda 

@@ -1,0 +1,27 @@
+package primer06binarno;
+
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class SlanjeDatotekeServer {
+
+	public SlanjeDatotekeServer() {
+		try {
+			@SuppressWarnings("resource")
+			ServerSocket ss = new ServerSocket(9000);
+			System.out.println("Čekam klijente...");
+			while (true) {
+				Socket s = ss.accept();
+				System.out.println("Spojio se klijent sa: " + s.getInetAddress());
+				SlanjeDatotekeServerThread t = new SlanjeDatotekeServerThread(s);
+				t.start();
+			}
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
+	}
+
+	public static void main(String[] args) {
+		new SlanjeDatotekeServer();
+	}
+}

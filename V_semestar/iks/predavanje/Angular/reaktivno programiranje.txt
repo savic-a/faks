@@ -1,0 +1,20 @@
+Reaktivno programiranje u Angularu se odnosi na pristup programiranju u kojem se koristi asinkrono programiranje pomoću Observables i 
+operatora koje nudi Reactive Extensions for JavaScript (RxJS). Reaktivno programiranje se fokusira na obradu događaja, 
+promjena i tokova podataka, te na to kako se aplikacija ponaša u različitim situacijama.
+
+Ključni koncepti reaktivnog programiranja u Angularu uključuju:
+
+Observables - Objekti koji predstavljaju tok podataka koji se može pratiti, obrađivati i manipulirati.
+
+Operators - Funkcije koje se koriste za obradu Observables, filtriranje, transformaciju i manipulaciju podataka.
+
+Subjects - Objekti koji omogućuju emitiranje i praćenje vrijednosti u Observables.
+
+Streams - Kombinacija Observables, operators i Subjects koji čine tok podataka koji se može pratiti i manipulirati.
+
+Async/Await - Mehanizam koji omogućuje čekanje na asinkroni proces i rješavanje Promise-a.
+
+Reaktivno programiranje u Angularu pruža mogućnost brže i fleksibilnije obrade podataka, 
+izbjegavanje callback "hell"-a i bolju kontrolu nad asinhronim procesima u aplikaciji. 
+RxJS biblioteka koja se koristi za implementaciju reaktivnog programiranja u Angularu, 
+također omogućuje lakše testiranje i modularizaciju koda.
