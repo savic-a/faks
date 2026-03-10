@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\sbnz-io-app"
+		},
+		{
+			"path": "..\\sbnz-io-core"
+		},
+		{
+			"path": "..\\sbnz-io-kjar"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic"
+	}
+}

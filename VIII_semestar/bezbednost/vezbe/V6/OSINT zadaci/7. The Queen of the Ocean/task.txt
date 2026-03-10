@@ -1,0 +1,3 @@
+7. The Queen of the Ocean
+	- Flag format : RC15{Jan 15, 2021, 10:01:55 AM}
+	- In 2020 the Queen of the Ocean was captured and tagged. Today, we're wondering when she was last pinged.

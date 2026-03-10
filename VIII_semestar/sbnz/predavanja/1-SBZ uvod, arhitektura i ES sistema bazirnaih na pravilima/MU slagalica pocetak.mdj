@@ -1,0 +1,236 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "UMLStateMachine",
+			"_id": "AAAAAAF4iVdpf40l5Lo=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "MU slagalica",
+			"ownedElements": [
+				{
+					"_type": "UMLStatechartDiagram",
+					"_id": "AAAAAAF4iVdpgI0nlHs=",
+					"_parent": {
+						"$ref": "AAAAAAF4iVdpf40l5Lo="
+					},
+					"name": "StatechartDiagram1",
+					"ownedViews": [
+						{
+							"_type": "UMLStateView",
+							"_id": "AAAAAAF4iVfIhI1Jujg=",
+							"_parent": {
+								"$ref": "AAAAAAF4iVdpgI0nlHs="
+							},
+							"model": {
+								"$ref": "AAAAAAF4iVfIhI1IpS0="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAF4iVfIhY1KyDQ=",
+									"_parent": {
+										"$ref": "AAAAAAF4iVfIhI1Jujg="
+									},
+									"model": {
+										"$ref": "AAAAAAF4iVfIhI1IpS0="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF4iVfIhY1LUZI=",
+											"_parent": {
+												"$ref": "AAAAAAF4iVfIhY1KyDQ="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -176,
+											"top": 32,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF4iVfIhY1MNz0=",
+											"_parent": {
+												"$ref": "AAAAAAF4iVfIhY1KyDQ="
+											},
+											"font": "Arial;13;1",
+											"left": 293,
+											"top": 79,
+											"width": 50,
+											"height": 13,
+											"text": "MI"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF4iVfIhY1NQLg=",
+											"_parent": {
+												"$ref": "AAAAAAF4iVfIhY1KyDQ="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -176,
+											"top": 32,
+											"width": 38.27001953125,
+											"height": 13,
+											"text": "(from )"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF4iVfIhY1OsnI=",
+											"_parent": {
+												"$ref": "AAAAAAF4iVfIhY1KyDQ="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -176,
+											"top": 32,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 288,
+									"top": 72,
+									"width": 60,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAF4iVfIhY1LUZI="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAF4iVfIhY1MNz0="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAF4iVfIhY1NQLg="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAF4iVfIhY1OsnI="
+									}
+								},
+								{
+									"_type": "UMLInternalActivityCompartmentView",
+									"_id": "AAAAAAF4iVfIhY1PEuE=",
+									"_parent": {
+										"$ref": "AAAAAAF4iVfIhI1Jujg="
+									},
+									"model": {
+										"$ref": "AAAAAAF4iVfIhI1IpS0="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -88,
+									"top": 16,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLInternalTransitionCompartmentView",
+									"_id": "AAAAAAF4iVfIhY1QSiw=",
+									"_parent": {
+										"$ref": "AAAAAAF4iVfIhI1Jujg="
+									},
+									"model": {
+										"$ref": "AAAAAAF4iVfIhI1IpS0="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -88,
+									"top": 16,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLDecompositionCompartmentView",
+									"_id": "AAAAAAF4iVfIhY1Rw1s=",
+									"_parent": {
+										"$ref": "AAAAAAF4iVfIhI1Jujg="
+									},
+									"model": {
+										"$ref": "AAAAAAF4iVfIhI1IpS0="
+									},
+									"font": "Arial;13;0",
+									"left": 288,
+									"top": 97,
+									"width": 60
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 288,
+							"top": 72,
+							"width": 60,
+							"height": 40,
+							"showProperty": false,
+							"nameCompartment": {
+								"$ref": "AAAAAAF4iVfIhY1KyDQ="
+							},
+							"internalActivityCompartment": {
+								"$ref": "AAAAAAF4iVfIhY1PEuE="
+							},
+							"internalTransitionCompartment": {
+								"$ref": "AAAAAAF4iVfIhY1QSiw="
+							},
+							"decompositionCompartment": {
+								"$ref": "AAAAAAF4iVfIhY1Rw1s="
+							}
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF4iVlzHI1ulvQ=",
+							"_parent": {
+								"$ref": "AAAAAAF4iVdpgI0nlHs="
+							},
+							"font": "Arial;20;0",
+							"left": 712,
+							"top": 80,
+							"width": 521,
+							"height": 264,
+							"text": "1. xI -> xIU (dodajemo U na kraj svakog stringa koji se završava sa I)\n2. Mx -> Mxx (uduplamo string koji sledi posle M)\n3. xIIIy -> xUy (tri pojave I se zamene sa U)\n4. xUUy -> xy (dve vezane pojave U se brišu)\n\n\n\nCilj je MU\n"
+						}
+					]
+				}
+			],
+			"regions": [
+				{
+					"_type": "UMLRegion",
+					"_id": "AAAAAAF4iVdpgI0m9GE=",
+					"_parent": {
+						"$ref": "AAAAAAF4iVdpf40l5Lo="
+					},
+					"vertices": [
+						{
+							"_type": "UMLState",
+							"_id": "AAAAAAF4iVfIhI1IpS0=",
+							"_parent": {
+								"$ref": "AAAAAAF4iVdpgI0m9GE="
+							},
+							"name": "MI"
+						}
+					]
+				}
+			]
+		}
+	]
+}

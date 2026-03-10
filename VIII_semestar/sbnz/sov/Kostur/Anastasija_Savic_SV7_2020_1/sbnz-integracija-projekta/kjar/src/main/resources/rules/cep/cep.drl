@@ -1,0 +1,25 @@
+package cep;
+
+declare Termin
+    @role(event)
+    AutoId: String
+    Razlog: String
+end
+
+rule "3 ili vise dogadjaja za isto vozilo"
+when
+    $auto: Auto($id: id)
+    Number(intValue > 2) from accumulate(
+        $auto2: Auto(
+            this != $auto,
+            id == $id,
+            this after [0s, 3m] $auto
+        ),
+        count($auto2)
+    )
+then
+    // obavesti vozaca
+    System.out.println("Prooooblem");
+    // zakazi termin
+    insert(new Termin($id, "Upss"));
+end

@@ -1,0 +1,16 @@
+package backward;
+
+query isContainedIn( String x, String y )
+  Plant( x, y; )
+  or
+  ( Plant( z, y; ) and isContainedIn( x, z; ) )
+end
+
+
+rule "nema pupoljke"
+when
+    // String( this == "go4" )
+    isContainedIn(name, "Bez pupoljka"; )
+then
+    System.out.println(this.toString());
+end

@@ -1,0 +1,23 @@
+package backward;
+import  com.ftn.sbnz.model.models.User;
+
+query "findAllChildren" (String potomak)
+    user : User(potomak == predak)
+end
+
+query pronadjiPotomka( String x, String y )
+    // ( User( x, y; ) and x != "David")
+    // or
+    // ( User( z, y; ) and pronadjiPotomka( x, z; ) and x != "David" )
+
+    ( User( x, y; ))
+    or
+    ( User( z, y; ) and pronadjiPotomka( x, z; ) )
+end
+
+rule "nadji Jovice bez Davida"
+when
+    pronadjiPotomka(x, "Jovic"; )
+then
+    System.out.println( "On je potomak Jovica: " + x );
+end

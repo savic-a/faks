@@ -1,0 +1,12 @@
+package cep;
+
+declare SuspiciousCustomerEvent
+    @role(event)
+    customerId: Long
+    reason: String
+end
+
+declare AlarmTriggered
+    customerId: Long
+end
+
