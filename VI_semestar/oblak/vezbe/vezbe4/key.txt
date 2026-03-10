@@ -1,0 +1,6 @@
+tXjcYGo49vYzMtyjmIbL9PL6lN7hE+22NTsmZkfM - secret key
+AKIAXRC7SALIANVLBHUQ - access key
+
+
+aws cost explorer
+bulling managment

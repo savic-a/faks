@@ -1,0 +1,48 @@
+﻿<Window x:Class="NapredneKontrole.Stil.StilPrimer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="StilPrimer" Height="300" Width="492">
+    <Window.Resources>
+        <Style x:Key="fancyButtonStyle" TargetType="Button">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Padding" Value="25"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="OpacityMask">
+                <Setter.Value>
+                    <RadialGradientBrush GradientOrigin="0.5, 0.5" Center="0.5,0.5" RadiusX="0.5" RadiusY="0.5">
+                        <RadialGradientBrush.GradientStops>
+                            <GradientStop Offset="0.2" Color="Black"></GradientStop>
+                            <GradientStop Offset="0.75" Color="Transparent"></GradientStop>
+                        </RadialGradientBrush.GradientStops>
+                    </RadialGradientBrush>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="fancyButtonHoverStyle" TargetType="Button"  BasedOn="{StaticResource ResourceKey=fancyButtonStyle}">
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Effect">
+                        <Setter.Value>
+                            <DropShadowEffect Color="Lavender" Opacity="80" Direction="270" ShadowDepth="10"/>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Button Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center">Test1</Button>
+        <Button Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" Style="{StaticResource ResourceKey=fancyButtonStyle}">Test2</Button>
+        <Button Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" Style="{StaticResource ResourceKey=fancyButtonHoverStyle}">Hover</Button>
+    </Grid>
+</Window>

@@ -1,0 +1,37 @@
+# Service name
+service: python-demo   # TODO ime naseg projekta
+# Serverless framework version
+frameworkVersion: '3'
+
+# Global configuration
+provider:
+  # Cloud provider name
+  name: aws
+  # Lambda function runtime enviroment
+  runtime: python3.8
+  # Deployment stage
+  stage: dev
+  # Deplotment region
+  region: eu-central-1 #ovo treba da ostane
+  # Global memory configuration (default 1024MB)
+  memorySize: 128 #ovo je najmanja vrednost koju mozemo da dodelimo
+  # Function timeout in seconds (default 6s)
+  timeout: 10
+
+# Lambda functions
+functions:
+  # Function name
+  getDogs:
+    runtime: python3.8 # ako ne pisemo sve u pythonu, moramo onda ovo da promenimo
+    # Lambda handler method (fileName.methodName)
+    handler: dogs.get_all #ove je url
+    # Public URL
+    url:
+      # CORS configuration
+      cors:
+        allowedOrigins:
+          - '*'
+        allowedHeaders:
+          - Authorization
+        allowedMethods:
+          - GET

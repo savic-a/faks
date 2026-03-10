@@ -1,0 +1,211 @@
+[
+  {
+    "Id": 1,
+    "SerialNumber": "009CE3087D7227AE30",
+    "SignatureAlgorithm": "sha256RSA",
+    "Issuer": null,
+    "ValidFrom": "2023-03-26T17:21:59+02:00",
+    "ValidTo": "2025-01-01T00:00:00+01:00",
+    "Status": 0,
+    "CertificateType": 0,
+    "Username": "nikola"
+  },
+  {
+    "Id": 2,
+    "SerialNumber": "7A663F5DC6B50A4CBF7B6122BAB29988",
+    "SignatureAlgorithm": "sha256RSA",
+    "Issuer": "009CE3087D7227AE30",
+    "ValidFrom": "2023-03-26T17:23:55+02:00",
+    "ValidTo": "2024-12-12T00:00:00+01:00",
+    "Status": 0,
+    "CertificateType": 1,
+    "Username": "nikola"
+  },
+  {
+    "Id": 3,
+    "SerialNumber": "7A6B838AA3692247BE8FD3AFEE6A894D",
+    "SignatureAlgorithm": "sha256RSA",
+    "Issuer": "009CE3087D7227AE30",
+    "ValidFrom": "2023-03-26T17:24:43+02:00",
+    "ValidTo": "2024-12-12T00:00:00+01:00",
+    "Status": 0,
+    "CertificateType": 2,
+    "Username": "nikola"
+  },
+  {
+    "Id": 4,
+    "SerialNumber": "4B1ACA2B9E68364C9EEB102AA0508359",
+    "SignatureAlgorithm": "sha256RSA",
+    "Issuer": "7A663F5DC6B50A4CBF7B6122BAB29988",
+    "ValidFrom": "2023-03-26T17:25:32+02:00",
+    "ValidTo": "2024-12-02T00:00:00+01:00",
+    "Status": 0,
+    "CertificateType": 2,
+    "Username": "nikola"
+  },
+  {
+    "Id": 5,
+    "SerialNumber": "2D89AF85AF92E94A93667E8F916639D9",
+    "SignatureAlgorithm": "sha256RSA",
+    "Issuer": "009CE3087D7227AE30",
+    "ValidFrom": "2023-03-27T13:35:51+02:00",
+    "ValidTo": "2024-06-01T01:00:00+02:00",
+    "Status": 0,
+    "CertificateType": 1,
+    "Username": "nikola"
+  },
+  {
+    "Id": 6,
+    "SerialNumber": "74B214D82E946243BA1E97020B572551",
+    "SignatureAlgorithm": "sha256RSA",
+    "Issuer": "009CE3087D7227AE30",
+    "ValidFrom": "2023-03-27T14:48:30+02:00",
+    "ValidTo": "2024-06-01T01:00:00+02:00",
+    "Status": 0,
+    "CertificateType": 1,
+    "Username": "nikola"
+  },
+  {
+    "Id": 7,
+    "SerialNumber": "03686865C9E3C39A",
+    "SignatureAlgorithm": "sha256RSA",
+    "Issuer": null,
+    "ValidFrom": "2023-03-27T14:50:25+02:00",
+    "ValidTo": "2024-06-01T01:00:00+02:00",
+    "Status": 0,
+    "CertificateType": 0,
+    "Username": "nikola"
+  },
+  {
+    "Id": 8,
+    "SerialNumber": "244553682431F22E",
+    "SignatureAlgorithm": "sha256RSA",
+    "Issuer": null,
+    "ValidFrom": "2023-03-27T14:59:40+02:00",
+    "ValidTo": "2024-06-01T01:00:00+02:00",
+    "Status": 0,
+    "CertificateType": 0,
+    "Username": "nikola"
+  },
+  {
+    "Id": 9,
+    "SerialNumber": "00B14AEB26AD24AC44856012EAE8853A02",
+    "SignatureAlgorithm": "sha256RSA",
+    "Issuer": "244553682431F22E",
+    "ValidFrom": "2023-03-27T15:02:18+02:00",
+    "ValidTo": "2024-04-01T01:00:00+02:00",
+    "Status": 0,
+    "CertificateType": 1,
+    "Username": "nikola"
+  },
+  {
+    "Id": 10,
+    "SerialNumber": "00E186BA2D82FCC84E90460D248AF416A7",
+    "SignatureAlgorithm": "sha256RSA",
+    "Issuer": "244553682431F22E",
+    "ValidFrom": "2023-03-27T16:07:10+02:00",
+    "ValidTo": "2024-04-01T01:00:00+02:00",
+    "Status": 0,
+    "CertificateType": 1,
+    "Username": "nikola"
+  },
+  {
+    "Id": 11,
+    "SerialNumber": "408F11BAE4E879F3",
+    "SignatureAlgorithm": "sha256RSA",
+    "Issuer": null,
+    "ValidFrom": "2023-03-28T11:46:48+02:00",
+    "ValidTo": "2024-04-01T01:00:00+02:00",
+    "Status": 0,
+    "CertificateType": 0,
+    "Username": "nikola"
+  },
+  {
+    "Id": 12,
+    "SerialNumber": "00C023BE314B66E2428CB697DA251A7B0A",
+    "SignatureAlgorithm": "sha256RSA",
+    "Issuer": "408F11BAE4E879F3",
+    "ValidFrom": "2023-03-28T11:47:24+02:00",
+    "ValidTo": "2024-03-01T00:00:00+01:00",
+    "Status": 0,
+    "CertificateType": 1,
+    "Username": "nikola"
+  },
+  {
+    "Id": 13,
+    "SerialNumber": "30B079155292D046819A8E493DAD836C",
+    "SignatureAlgorithm": "sha256RSA",
+    "Issuer": "408F11BAE4E879F3",
+    "ValidFrom": "2023-03-28T11:48:03+02:00",
+    "ValidTo": "2024-03-01T00:00:00+01:00",
+    "Status": 0,
+    "CertificateType": 2,
+    "Username": "nikola"
+  },
+  {
+    "Id": 14,
+    "SerialNumber": "00E23275DCE9D3294483AC20A0264911A1",
+    "SignatureAlgorithm": "sha256RSA",
+    "Issuer": "408F11BAE4E879F3",
+    "ValidFrom": "2023-03-29T09:56:02+02:00",
+    "ValidTo": "2024-03-01T00:00:00+01:00",
+    "Status": 0,
+    "CertificateType": 2,
+    "Username": "nikola"
+  },
+  {
+    "Id": 15,
+    "SerialNumber": "00A53E70D01E7A474C85960F5110AB5AE5",
+    "SignatureAlgorithm": "sha256RSA",
+    "Issuer": "408F11BAE4E879F3",
+    "ValidFrom": "2023-03-29T09:56:29+02:00",
+    "ValidTo": "2024-03-01T00:00:00+01:00",
+    "Status": 0,
+    "CertificateType": 1,
+    "Username": "nikola"
+  },
+  {
+    "Id": 16,
+    "SerialNumber": "00E90F579725C21193",
+    "SignatureAlgorithm": "sha256RSA",
+    "Issuer": null,
+    "ValidFrom": "2023-03-29T09:56:40+02:00",
+    "ValidTo": "2024-03-01T00:00:00+01:00",
+    "Status": 0,
+    "CertificateType": 0,
+    "Username": "nikola"
+  },
+  {
+    "Id": 17,
+    "SerialNumber": "00DBD916C3632FBE56",
+    "SignatureAlgorithm": "sha256RSA",
+    "Issuer": null,
+    "ValidFrom": "2023-03-29T11:29:13+02:00",
+    "ValidTo": "2024-03-01T00:00:00+01:00",
+    "Status": 0,
+    "CertificateType": 0,
+    "Username": "nikola"
+  },
+  {
+    "Id": 18,
+    "SerialNumber": "403F2A5C69803D4491FECCD80D3EB197",
+    "SignatureAlgorithm": "sha256RSA",
+    "Issuer": "00DBD916C3632FBE56",
+    "ValidFrom": "2023-03-29T11:30:31+02:00",
+    "ValidTo": "2024-02-01T00:00:00+01:00",
+    "Status": 0,
+    "CertificateType": 1,
+    "Username": "nikola"
+  },
+  {
+    "Id": 19,
+    "SerialNumber": "6223180DC8A2F544B41D839BD538615A",
+    "SignatureAlgorithm": "sha256RSA",
+    "Issuer": "00DBD916C3632FBE56",
+    "ValidFrom": "2023-03-29T11:30:49+02:00",
+    "ValidTo": "2024-02-01T00:00:00+01:00",
+    "Status": 0,
+    "CertificateType": 2,
+    "Username": "nikola"
+  }
+]

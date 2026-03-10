@@ -1,0 +1,19 @@
+<div class="container">
+    <div>
+      <h1>Dogs API</h1>
+      <p>Try out the dogs API, see all available dog breeds</p>
+      <h2>Get all Dog Breeds</h2>
+      <input type="button" (click)="showDogs()" value="Show Dogs" />
+      <h2>Add new Dog Breed</h2>
+      <input type="button" (click)="addDog()" value="Add Dog" />
+      <h2>Get one Dog Breed</h2>
+      <input type="button" (click)="getDog()" value="Get Dog" />
+      <h2>Remove Dog Breed</h2>
+      <input type="button" (click)="removeDog()" value="Remove Dog" />
+    </div>
+    <div>
+      <h1>Response</h1>
+      <pre>{{response}}</pre>
+    </div>
+  </div>
+<div id="doggo"><img src="../assets/doggo.png"/></div>

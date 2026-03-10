@@ -1,0 +1,77 @@
+service: python-step-food-delivery
+frameworkVersion: '3'
+
+plugins:
+  - serverless-step-functions
+
+provider:
+  name: aws
+  runtime: python3.9
+  stage: dev
+  region: eu-central-1
+
+functions:
+  checkRestaurantAvailability:
+    handler: restaurant.check_available
+
+stepFunctions:
+  stateMachines:
+    delivery:
+      name: 'foodDelivery'
+      definition:
+        Comment: "A food delivery example"
+        StartAt: CheckRestaurantAvailability
+        States:
+          CheckRestaurantAvailability:
+            Type: Task
+            Resource: "arn:aws:lambda:${aws:region}:${aws:accountId}:function:${self:service}-${self:provider.stage}-checkRestaurantAvailability"
+            # Retry logic - if task failed for any reason, retry after 1 second first time, then after 2*1 seconds once more, total of 2 times
+            Retry:
+            - ErrorEquals: 
+              - States.TaskFailed
+              IntervalSeconds: 1
+              MaxAttempts: 2
+              BackoffRate: 2
+            Next: IsAvailable
+
+          IsAvailable:
+            # Choice state - branch according to condition
+            Type: Choice
+            Choices:
+            # If input object has field 'isAvailable' and the value is true, go to "PlaceOrder" state; else, go to "Wait10Sec" state
+            - Variable: "$.isAvailable"
+              BooleanEquals: true
+              Next: PlaceOrder
+            Default: Wait10Sec
+
+          Wait10Sec:
+            # Wait state - waits for specific amount of seconds or until a specific time
+            # Can be dynamically configured based on input
+            Type: Wait
+            Seconds: 10
+            Next: CheckRestaurantAvailability
+            
+          PlaceOrder:
+            # Pass state - placeholder state, can be used to modify inputs
+            Type: Pass
+            Next: FoodPreparation
+
+          FoodPreparation:
+            # Parallel state - executes all branches (substates) in parallel
+            Type: Parallel
+            Next: DeliverOrder
+            Branches:
+            - StartAt: PrepareFood
+              States:
+                PrepareFood:
+                  Type: Pass
+                  End: true
+            - StartAt: GoToRestaurant
+              States:
+                GoToRestaurant:
+                  Type: Pass
+                  End: true
+
+          DeliverOrder:
+            Type: Pass
+            End: true

@@ -1,0 +1,53 @@
+service: python-step-seq
+frameworkVersion: '3'
+
+# Plugin for working with StepFunctions
+plugins:
+  - serverless-step-functions
+
+provider:
+  name: aws
+  runtime: python3.9
+  stage: dev
+  region: eu-central-1
+
+# Two simple Lambdas
+functions:
+  hello:
+    handler: helloWorld.hello
+  world:
+    handler: helloWorld.world
+
+# AWS StepFunctions
+stepFunctions:
+  # State machine defines one proccess
+  stateMachines:
+    # Invokation name
+    firstStepFunction:
+      name: 'helloWorld'
+      # Triggers step function by API Gateway endpoint
+      events: 
+        # Defaults to async invocation
+        - http:
+            path: hello
+            method: get
+      # Holds all information about a stepFunction
+      definition:
+        Comment: "A Hello World example"
+        # Point of entry state
+        StartAt: Hello
+        # All states
+        States:
+          # State key
+          Hello:
+            # State type
+            Type: Task
+            # AWS Resource that executes the state (Lambda, SNS, SQS, DynamoDB,...)
+            Resource: "arn:aws:lambda:${aws:region}:${aws:accountId}:function:${self:service}-${self:provider.stage}-hello"
+            # Next state to go to when finished
+            Next: World
+          World:
+            Type: Task
+            Resource: "arn:aws:lambda:${aws:region}:${aws:accountId}:function:${self:service}-${self:provider.stage}-world"
+            # Is end state
+            End: true

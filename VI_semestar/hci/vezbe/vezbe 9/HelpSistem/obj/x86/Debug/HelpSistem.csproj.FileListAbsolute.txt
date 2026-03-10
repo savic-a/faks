@@ -1,0 +1,72 @@
+H:\ftn\nastava\HCI-LOZ\blok4\HelpSistem\bin\Debug\HelpSistem.exe
+H:\ftn\nastava\HCI-LOZ\blok4\HelpSistem\bin\Debug\HelpSistem.pdb
+H:\ftn\nastava\HCI-LOZ\blok4\HelpSistem\obj\x86\Debug\MainWindow.g.cs
+H:\ftn\nastava\HCI-LOZ\blok4\HelpSistem\obj\x86\Debug\App.g.cs
+H:\ftn\nastava\HCI-LOZ\blok4\HelpSistem\obj\x86\Debug\HelpSistem_MarkupCompile.cache
+H:\ftn\nastava\HCI-LOZ\blok4\HelpSistem\obj\x86\Debug\HelpSistem_MarkupCompile.lref
+H:\ftn\nastava\HCI-LOZ\blok4\HelpSistem\obj\x86\Debug\MainWindow.baml
+H:\ftn\nastava\HCI-LOZ\blok4\HelpSistem\obj\x86\Debug\HelpSistem.g.resources
+H:\ftn\nastava\HCI-LOZ\blok4\HelpSistem\obj\x86\Debug\HelpSistem.Properties.Resources.resources
+H:\ftn\nastava\HCI-LOZ\blok4\HelpSistem\obj\x86\Debug\HelpSistem.csproj.GenerateResource.Cache
+H:\ftn\nastava\HCI-LOZ\blok4\HelpSistem\obj\x86\Debug\HelpSistem.exe
+H:\ftn\nastava\HCI-LOZ\blok4\HelpSistem\obj\x86\Debug\HelpSistem.pdb
+H:\ftn\nastava\HCI-LOZ\blok4\HelpSistem\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+H:\ftn\nastava\HCI-LOZ\blok4\HelpSistem\obj\x86\Debug\HelpViewer.baml
+H:\ftn\nastava\HCI-LOZ\blok4\HelpSistem\obj\x86\Debug\HelpViewer.g.cs
+H:\ftn\nastava\HCI-LOZ\blok4\HelpSistem\obj\x86\Debug\HelpSistem_Content.g.cs
+H:\ftn\nastava\HCI-LOZ\blok4\HelpSistem\bin\Debug\Help\error.htm
+H:\ftn\nastava\HCI-LOZ\blok4\HelpSistem\bin\Debug\Help\graph2.png
+H:\ftn\nastava\HCI-LOZ\blok4\HelpSistem\bin\Debug\Help\Ime.htm
+H:\ftn\nastava\HCI-LOZ\blok4\HelpSistem\bin\Debug\Help\Indeks.htm
+H:\ftn\nastava\HCI-LOZ\blok4\HelpSistem\bin\Debug\Help\index.htm
+H:\ftn\nastava\HCI-LOZ\blok4\HelpSistem\bin\Debug\Help\Prezime.htm
+C:\Users\Jovana Jovanovic\Downloads\HelpSistemi\Primer C\HelpSistem\bin\Debug\Help\error.htm
+C:\Users\Jovana Jovanovic\Downloads\HelpSistemi\Primer C\HelpSistem\bin\Debug\Help\graph2.png
+C:\Users\Jovana Jovanovic\Downloads\HelpSistemi\Primer C\HelpSistem\bin\Debug\Help\Ime.htm
+C:\Users\Jovana Jovanovic\Downloads\HelpSistemi\Primer C\HelpSistem\bin\Debug\Help\Indeks.htm
+C:\Users\Jovana Jovanovic\Downloads\HelpSistemi\Primer C\HelpSistem\bin\Debug\Help\index.htm
+C:\Users\Jovana Jovanovic\Downloads\HelpSistemi\Primer C\HelpSistem\bin\Debug\Help\Prezime.htm
+C:\Users\Jovana Jovanovic\Downloads\HelpSistemi\Primer C\HelpSistem\bin\Debug\HelpSistem.exe
+C:\Users\Jovana Jovanovic\Downloads\HelpSistemi\Primer C\HelpSistem\bin\Debug\HelpSistem.pdb
+C:\Users\Jovana Jovanovic\Downloads\HelpSistemi\Primer C\HelpSistem\obj\x86\Debug\HelpSistem.csproj.AssemblyReference.cache
+C:\Users\Jovana Jovanovic\Downloads\HelpSistemi\Primer C\HelpSistem\obj\x86\Debug\HelpViewer.baml
+C:\Users\Jovana Jovanovic\Downloads\HelpSistemi\Primer C\HelpSistem\obj\x86\Debug\HelpViewer.g.cs
+C:\Users\Jovana Jovanovic\Downloads\HelpSistemi\Primer C\HelpSistem\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Jovana Jovanovic\Downloads\HelpSistemi\Primer C\HelpSistem\obj\x86\Debug\App.g.cs
+C:\Users\Jovana Jovanovic\Downloads\HelpSistemi\Primer C\HelpSistem\obj\x86\Debug\HelpSistem_Content.g.cs
+C:\Users\Jovana Jovanovic\Downloads\HelpSistemi\Primer C\HelpSistem\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Jovana Jovanovic\Downloads\HelpSistemi\Primer C\HelpSistem\obj\x86\Debug\HelpSistem_MarkupCompile.cache
+C:\Users\Jovana Jovanovic\Downloads\HelpSistemi\Primer C\HelpSistem\obj\x86\Debug\HelpSistem_MarkupCompile.lref
+C:\Users\Jovana Jovanovic\Downloads\HelpSistemi\Primer C\HelpSistem\obj\x86\Debug\MainWindow.baml
+C:\Users\Jovana Jovanovic\Downloads\HelpSistemi\Primer C\HelpSistem\obj\x86\Debug\HelpSistem.g.resources
+C:\Users\Jovana Jovanovic\Downloads\HelpSistemi\Primer C\HelpSistem\obj\x86\Debug\HelpSistem.Properties.Resources.resources
+C:\Users\Jovana Jovanovic\Downloads\HelpSistemi\Primer C\HelpSistem\obj\x86\Debug\HelpSistem.csproj.GenerateResource.cache
+C:\Users\Jovana Jovanovic\Downloads\HelpSistemi\Primer C\HelpSistem\obj\x86\Debug\HelpSistem.csproj.CoreCompileInputs.cache
+C:\Users\Jovana Jovanovic\Downloads\HelpSistemi\Primer C\HelpSistem\obj\x86\Debug\HelpSistem.exe
+C:\Users\Jovana Jovanovic\Downloads\HelpSistemi\Primer C\HelpSistem\obj\x86\Debug\HelpSistem.pdb
+C:\Users\anast\Desktop\faks\VI_semestar\hci\vezbe\vezbe 9\HelpSistem\bin\Debug\Help\error.htm
+C:\Users\anast\Desktop\faks\VI_semestar\hci\vezbe\vezbe 9\HelpSistem\bin\Debug\Help\graph2.png
+C:\Users\anast\Desktop\faks\VI_semestar\hci\vezbe\vezbe 9\HelpSistem\bin\Debug\Help\Ime.htm
+C:\Users\anast\Desktop\faks\VI_semestar\hci\vezbe\vezbe 9\HelpSistem\bin\Debug\Help\Indeks.htm
+C:\Users\anast\Desktop\faks\VI_semestar\hci\vezbe\vezbe 9\HelpSistem\bin\Debug\Help\index.htm
+C:\Users\anast\Desktop\faks\VI_semestar\hci\vezbe\vezbe 9\HelpSistem\bin\Debug\Help\Prezime.htm
+C:\Users\anast\Desktop\faks\VI_semestar\hci\vezbe\vezbe 9\HelpSistem\bin\Debug\HelpSistem.exe.config
+C:\Users\anast\Desktop\faks\VI_semestar\hci\vezbe\vezbe 9\HelpSistem\bin\Debug\HelpSistem.exe
+C:\Users\anast\Desktop\faks\VI_semestar\hci\vezbe\vezbe 9\HelpSistem\bin\Debug\HelpSistem.pdb
+C:\Users\anast\Desktop\faks\VI_semestar\hci\vezbe\vezbe 9\HelpSistem\obj\x86\Debug\HelpSistem.csproj.AssemblyReference.cache
+C:\Users\anast\Desktop\faks\VI_semestar\hci\vezbe\vezbe 9\HelpSistem\obj\x86\Debug\HelpSistem.csproj.SuggestedBindingRedirects.cache
+C:\Users\anast\Desktop\faks\VI_semestar\hci\vezbe\vezbe 9\HelpSistem\obj\x86\Debug\HelpViewer.baml
+C:\Users\anast\Desktop\faks\VI_semestar\hci\vezbe\vezbe 9\HelpSistem\obj\x86\Debug\HelpViewer.g.cs
+C:\Users\anast\Desktop\faks\VI_semestar\hci\vezbe\vezbe 9\HelpSistem\obj\x86\Debug\MainWindow.g.cs
+C:\Users\anast\Desktop\faks\VI_semestar\hci\vezbe\vezbe 9\HelpSistem\obj\x86\Debug\App.g.cs
+C:\Users\anast\Desktop\faks\VI_semestar\hci\vezbe\vezbe 9\HelpSistem\obj\x86\Debug\HelpSistem_Content.g.cs
+C:\Users\anast\Desktop\faks\VI_semestar\hci\vezbe\vezbe 9\HelpSistem\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\anast\Desktop\faks\VI_semestar\hci\vezbe\vezbe 9\HelpSistem\obj\x86\Debug\HelpSistem_MarkupCompile.cache
+C:\Users\anast\Desktop\faks\VI_semestar\hci\vezbe\vezbe 9\HelpSistem\obj\x86\Debug\HelpSistem_MarkupCompile.lref
+C:\Users\anast\Desktop\faks\VI_semestar\hci\vezbe\vezbe 9\HelpSistem\obj\x86\Debug\MainWindow.baml
+C:\Users\anast\Desktop\faks\VI_semestar\hci\vezbe\vezbe 9\HelpSistem\obj\x86\Debug\HelpSistem.g.resources
+C:\Users\anast\Desktop\faks\VI_semestar\hci\vezbe\vezbe 9\HelpSistem\obj\x86\Debug\HelpSistem.Properties.Resources.resources
+C:\Users\anast\Desktop\faks\VI_semestar\hci\vezbe\vezbe 9\HelpSistem\obj\x86\Debug\HelpSistem.csproj.GenerateResource.cache
+C:\Users\anast\Desktop\faks\VI_semestar\hci\vezbe\vezbe 9\HelpSistem\obj\x86\Debug\HelpSistem.csproj.CoreCompileInputs.cache
+C:\Users\anast\Desktop\faks\VI_semestar\hci\vezbe\vezbe 9\HelpSistem\obj\x86\Debug\HelpSistem.exe
+C:\Users\anast\Desktop\faks\VI_semestar\hci\vezbe\vezbe 9\HelpSistem\obj\x86\Debug\HelpSistem.pdb

@@ -1,0 +1,71 @@
+﻿<Window x:Class="NapredneKontrole.Table.TableExample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="TableExample" Height="363" Width="636" Name="winTable">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="dgrMain" ItemsSource="{Binding Path=Studenti}" IsReadOnly="True" AutoGenerateColumns="False" IsSynchronizedWithCurrentItem="True">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Header="Indeks" Width="SizeToCells">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Indeks:"/>
+                                <TextBlock Text="{Binding Indeks}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="Ime" Width="SizeToCells" Binding="{Binding Ime}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Prezime" Width="SizeToCells" Binding="{Binding Prezime}"></DataGridTextColumn>
+            </DataGrid.Columns>
+
+            <DataGrid.GroupStyle>
+                <GroupStyle>
+                    <GroupStyle.HeaderTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Upisan: "></TextBlock>
+                                <TextBlock Text="{Binding Name}" FontWeight="Bold"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </GroupStyle.HeaderTemplate>
+                </GroupStyle>
+            </DataGrid.GroupStyle>
+        </DataGrid>
+        <Grid Grid.Column="0" Grid.Row="1" DataContext="{Binding ElementName=dgrMain,Path=SelectedItem}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" Grid.Row="0">Indeks:</TextBlock>
+            <TextBlock Grid.Column="0" Grid.Row="1">Ime:</TextBlock>
+            <TextBlock Grid.Column="0" Grid.Row="2">Prezime:</TextBlock>
+            <TextBlock Grid.Column="0" Grid.Row="3">Mail:</TextBlock>
+            <TextBlock Grid.Column="0" Grid.Row="4">Upisan/a:</TextBlock>
+
+            <TextBox Grid.Column="1" Grid.Row="0" Text="{Binding Path=Indeks}"></TextBox>
+            <TextBox Grid.Column="1" Grid.Row="1" Text="{Binding Path=Ime}"></TextBox>
+            <TextBox Grid.Column="1" Grid.Row="2" Text="{Binding Path=Prezime}"></TextBox>
+            <TextBox Grid.Column="1" Grid.Row="3" Text="{Binding Path=Email}"></TextBox>
+            <CheckBox Grid.Column="1" Grid.Row="4" IsChecked="{Binding Path=Upisan}"/>
+            
+            <CheckBox DataContext="{Binding ElementName=winTable, Path=DataContext}" Grid.Column="1" Grid.Row="5" 
+                      Name="cbGrupisanje" HorizontalAlignment="Right" IsChecked="{Binding Path=GroupView}">Grupisanje</CheckBox>
+        </Grid>
+    </Grid>
+</Window>

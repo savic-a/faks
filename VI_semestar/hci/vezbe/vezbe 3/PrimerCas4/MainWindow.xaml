@@ -1,0 +1,49 @@
+﻿<Window x:Class="PrimerCas4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Primeri upotrebe WPF" Height="350" Width="525">
+    <DockPanel>
+        <Menu DockPanel.Dock ="Top">
+            <Menu.ItemsPanel> <!--Podkontrola koja određuje kako se item-i prikazuju.-->
+                <ItemsPanelTemplate> <!-- Specificiramo ne šta je u kontroli nego template koji je formira-->
+                    <DockPanel HorizontalAlignment="Stretch"></DockPanel> <!-- Prikazujemo preko Dock Panela koji preuzme sav prostor -->
+                </ItemsPanelTemplate>
+            </Menu.ItemsPanel>
+            <MenuItem Header="_Izgled">
+                <MenuItem Header="_Stack Panel" Click="MenuItem_Click"></MenuItem>
+                <MenuItem Header="_Grid" Click="MenuItem_Click_1"></MenuItem>
+                <MenuItem Header="_Dock Panel" Click="MenuItem_Click_2"></MenuItem>
+                <MenuItem Header="_Wrap Panel" Click="MenuItem_Click_3"></MenuItem>
+                <Separator></Separator>
+                <MenuItem Header="_Kompleksni Layout" Click="MenuItem_Click_4"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="_Binding">
+                <MenuItem Header="_Prost primer" Click="MenuItem_Click_5"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="_Validacija">
+                <MenuItem Header="_Prosta Validacija" Click="MenuItem_Click_6"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="_Tabelarni">
+                <MenuItem Header="_Tabelarni prikaz" Click="MenuItem_Click_7"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="2_D Grafika">
+                <MenuItem Header="_Prost Prikaz" Click="MenuItem_Click_8"></MenuItem>
+                <MenuItem Header="_Ručni prikaz" Click="MenuItem_Click_9"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="_Meni Primeri" HorizontalAlignment="Right"> <!-- Poravnano udesno -->
+                <MenuItem InputGestureText="F2">
+                    <MenuItem.Header>
+                        <DockPanel HorizontalAlignment="Stretch">
+                            <TextBlock>Nekakav tekst: </TextBlock>
+                            <TextBlock Width="10"/>
+                            <TextBox>Sve se da staviti u meni</TextBox>
+                        </DockPanel>
+                    </MenuItem.Header>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <Grid DockPanel.Dock="Bottom" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+
+        </Grid>
+    </DockPanel>
+</Window>
